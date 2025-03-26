@@ -1,4 +1,4 @@
-# 🌟 莫建华 (Jianhua Mo)
+## 🌟 莫建华 (Jianhua Mo)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=mojianhua01&color=blue)  
 ![IEEE Senior Member](https://img.shields.io/badge/IEEE-Senior%20Member-blue)  
