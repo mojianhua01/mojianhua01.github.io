@@ -1,89 +1,53 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# 🌟 莫建华 (Jianhua Mo)
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
-
-# Getting Started
-
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
-
-See more info at https://academicpages.github.io/
-
-## Running locally
-
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
-
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
-
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and open `.gitignore` then add `vendor` inside it.
-
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
-
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
-
-```bash
-docker compose up
-```
-
-You should now be able to access the website from `localhost:4000`.
-
-# Maintenance
-
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
-
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
-
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+![Profile Views](https://komarev.com/ghpvc/?username=mojianhua01&color=blue)  
+![IEEE Senior Member](https://img.shields.io/badge/IEEE-Senior%20Member-blue)  
+![Samsung Research America](https://img.shields.io/badge/Company-Samsung%20Research%20America-lightgrey)  
 
 ---
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+## 📖 内容目录
+- [👨‍🏫 个人简介](#-个人简介)
+- [🎓 教育背景](#-教育背景)
+- [🔍 研究兴趣](#-研究兴趣)
+- [🏆 荣誉与奖项](#-荣誉与奖项)
+- [📚 研究成果](#-研究成果)
+- [📬 联系方式](#-联系方式)
+
+---
+
+## 👨‍🏫 个人简介  
+**职位**：三星美国研究院高级工程师 (Senior Staff Engineer, Samsung Research America)  
+**邮箱**：mojianhua01@gmail.com  
+**专业会员**：IEEE 高级会员 (IEEE Senior Member)  
+
+---
+
+## 🎓 教育背景  
+- **2010年**：上海交通大学电子工程学士  
+- **2013年**：上海交通大学电子工程硕士  
+- **2013年**：佐治亚理工学院电子与计算机工程硕士  
+- **2017年**：德克萨斯大学奥斯汀分校博士（研究方向：毫米波通信）  
+
+---
+
+## 🔍 研究兴趣  
+- 📶 无线通信与 6G 技术  
+- 🤖 人工智能驱动的无线网络  
+- 📡 5G 标准与商业化（无线自回传、用户设备/基站波束码本设计）  
+
+---
+
+## 🏆 荣誉与奖项  
+- **2020-2024年**：斯坦福大学全球前2%顶尖科学家  
+- **2023年**：三星美国研究院杰出发明家奖  
+- **2021年**：三星网络全球研发创新奖  
+- **2019年**：IEEE 通信学会 Stephen O. Rice 奖  
+- **2019年**：无线宽带联盟（WBA）最佳 Wi-Fi 创新奖（Galaxy S10 with Wi-Fi 6 and Intelligent Wi-Fi）  
+
+---
+
+## 📚 研究成果  
+在毫米波 MIMO 系统中，关于有限比特 ADC 的信道估计研究，相关代码已在 GitHub 上发布：  
+```markdown
+[📂 Broadband_Fewbit 项目](https://github.com/mojianhua01/Broadband_Fewbit)
