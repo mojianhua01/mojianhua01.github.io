@@ -1,18 +1,12 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+mjh:
+  name: "莫建华"
+  avatar: "images/avatar.jpg"   # 头像路径（建议存放在 /images 文件夹中）
+  bio: "上海交通大学 长聘教轨副教授<br>研究方向：无线通信、AI与MIMO"
+  location: "上海，中国"
+  email: mjh@sjtu.edu.cn
+  github: mojianhua01
+  googlescholar: mojianhua01
+  orcid: 0000-0003-1877-2730
+  # 其他可选字段：twitter, linkedin, website 等
