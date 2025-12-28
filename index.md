@@ -26,7 +26,7 @@
 - 2017 · Ph.D., Electrical and Computer Engineering, The University of Texas at Austin  
   - 导师：Robert W. Heath, Jr.  
 - 2013 · M.S., Communication and Information Systems, 上海交通大学  
-  - 导师：陶梅艳 教授  
+  - 导师：陶梅霞 教授  
 - 2010 · B.Eng., Information Engineering, 上海交通大学  
 
 ---
@@ -50,9 +50,9 @@
 
 ## 荣誉奖项 / Awards
 - 2023：三星美国研究院 杰出发明人奖  
-- 2021：三星网络全球研发布 卓越成就奖  
+- 2021：三星网络全球研发布 杰出成就奖  
 - 2019：IEEE 通信学会 莱斯论文奖  
-- 2013：IEEE 通信学会 亨缪论文奖  
+- 2013：IEEE 通信学会 赫兹论文奖  
 
 ---
 
