@@ -1,6 +1,8 @@
  ![IEEE Senior Member](https://img.shields.io/badge/IEEE-Senior%20Member-blue)  
 ![Position: SJTU Associate Professor](https://img.shields.io/badge/Position-SJTU%20Associate%20Professor-green)  
-[GitHub](https://github.com/mojianhua01) · [个人主页](https://sites.google.com/view/mojianhua01/) · ✉️ mjh@sjtu.edu.cn
+！[GitHub](https://github.com/mojianhua01) 
+！[个人主页](https://sites.google.com/view/mojianhua01/) 
+！✉️ mjh@sjtu.edu.cn
 
 ---
 
