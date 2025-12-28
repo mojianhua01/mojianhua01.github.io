@@ -1,6 +1,4 @@
-# 莫建华（Mojianhua）  
-![Profile Views](https://komarev.com/ghpvc/?username=mojianhua01&color=blue)  
-![IEEE Senior Member](https://img.shields.io/badge/IEEE-Senior%20Member-blue)  
+ ![IEEE Senior Member](https://img.shields.io/badge/IEEE-Senior%20Member-blue)  
 ![Position: SJTU Associate Professor](https://img.shields.io/badge/Position-SJTU%20Associate%20Professor-green)  
 [GitHub](https://github.com/mojianhua01) · [个人主页](https://sites.google.com/view/mojianhua01/) · ✉️ mjh@sjtu.edu.cn
 
