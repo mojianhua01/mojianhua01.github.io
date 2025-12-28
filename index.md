@@ -1,5 +1,5 @@
-![IEEE Senior Member](https://img.shields.io/badge/IEEE-Senior%20Member-blue)  
-![Position: SJTU Associate Professor](https://img.shields.io/badge/Position-SJTU%20Associate%20Professor-green)  
+<!-- ![IEEE Senior Member](https://img.shields.io/badge/IEEE-Senior%20Member-blue)  
+![Position: SJTU Associate Professor](https://img.shields.io/badge/Position-SJTU%20Associate%20Professor-green)   -->
 
 # 莫建华 (Jianhua Mo)
 上交集成电路学院长聘教轨副教授，研究无线通信与人工智能融合、毫米波与大规模 MIMO、感知与通信一体化。招收 2026 级硕士 1 名，邮件标题请写 “硕士招生+姓名” 并附简历与成绩单。
