@@ -110,7 +110,7 @@ author_profile: true
   </article>
 
   <article class="team-member">
-    <div class="team-placeholder" aria-label="高铭">高</div>
+    <img class="team-photo" src="/images/team/ming-gao.png" alt="高铭">
     <div class="team-info">
       <h2 class="team-name">高铭</h2>
       <div class="team-name-en">Ming Gao</div>
