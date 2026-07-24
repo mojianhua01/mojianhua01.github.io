@@ -39,7 +39,7 @@ descending order within each section.
       {% if pub.year == y %}
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
           <strong>{{ pub.title }}</strong><br>
-          {{ pub.authors }}<br>
+          {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
@@ -66,7 +66,7 @@ descending order within each section.
       {% if pub.year == y %}
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
           <strong>{{ pub.title }}</strong><br>
-          {{ pub.authors }}<br>
+          {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
@@ -92,7 +92,7 @@ descending order within each section.
       {% if pub.year == y %}
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
           <strong>{{ pub.title }}</strong><br>
-          {{ pub.authors }}<br>
+          {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
@@ -119,7 +119,7 @@ descending order within each section.
       {% if pub.year == y %}
         <li class="pub-item">
           <strong>{{ pub.title }}</strong><br>
-          {{ pub.authors }}<br>
+          {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
@@ -147,7 +147,7 @@ descending order within each section.
       {% if pub.year == y %}
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
           <strong>{{ pub.title }}</strong><br>
-          {{ pub.authors }}<br>
+          {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">

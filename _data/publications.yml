@@ -24,7 +24,7 @@
   - label: Code
     url: https://github.com/SJTU-WirelessAI-Lab/SPOT
 - title: Deep Learning-Based Beamforming Design Using Target Beam Patterns
-  authors: H. Zhang, S. Sun, H. Yan, and J. Mo
+  authors: Hongpu Zhang, Shu Sun, Hangsong Yan, and Jianhua Mo
   year: 2025
   venue: 2025 IEEE Virtual Conference on Communications (VCC)
   category: conference
@@ -44,7 +44,7 @@
     url: https://ieeexplore.ieee.org/abstract/document/11352049/
 - title: Hybrid Near/Far-Field Frequency-Dependent Beamforming via Phase-Time Arrays
     With Single RF Chain
-  authors: Yeyue Cai, Meixia Tao, Jianhua Mo, and Shunqiao Sun
+  authors: Yeyue Cai, Meixia Tao, Jianhua Mo, and Shu Sun
   year: 2026
   venue: IEEE Transactions on Wireless Communications
   category: journal
@@ -66,7 +66,7 @@
     url: https://arxiv.org/abs/2511.06971v3
 - title: 'AirFM-DDA: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain
     for AI-Native 6G'
-  authors: Kejia Bian, Meixia Tao, Jianhua Mo, Zhaoyang Chen, and Lianxin Chen
+  authors: Kejia Bian, Meixia Tao, Jianhua Mo, Zhiyong Chen, and Leyan Chen
   year: 2026
   venue: arXiv preprint arXiv:2605.00020
   category: preprint
@@ -84,7 +84,7 @@
     url: https://arxiv.org/abs/2605.04919
 - title: 'Beamforming with Joint Phase and Time Array: System Design, Prototyping
     and Performance'
-  authors: Jianhua Mo, Ahmad AlAmmouri, Shenggang Dong, Younghan Nam, Won-Suk Choi,
+  authors: Jianhua Mo, Ahmad AlAmmouri, Shenggang Dong, Young-Han Nam, Won-Suk Choi,
     Gary Xu, and Jianzhong (Charlie) Zhang
   year: 2024
   venue: 58th Asilomar Conference on Signals, Systems and Computers
@@ -95,7 +95,8 @@
   - label: arXiv
     url: https://arxiv.org/pdf/2502.00139
 - title: 3D Beamforming Through Joint Phase-Time Arrays
-  authors: Ozlem Yildiz, Ahmad AlAmmour, Jianhua Mo, Younghan Nam, Elza Erkip, and
+  authors: Ozlem Yildiz, Ahmad AlAmmouri, Jianhua Mo, Young-Han Nam, Elza Erkip,
+    and
     Jianzhong (Charlie) Zhang
   year: 2024
   venue: 2024 IEEE 100th Vehicular Technology Conference (VTC2024-Fall)
@@ -292,7 +293,7 @@
     url: https://doi.org/10.1201/b15496-12
 - title: 'M3F-UAV: A Missing-Modality Multimodal Foundation Model for Low-Altitude
     Wireless Sensing'
-  authors: Peng Gao, Kaiying Ying, Bo Wu, Jianhua Mo, Qianwen (Q) Wen
+  authors: Pengxuan Gao, Kai Ying, Botao Wu, Jianhua Mo, and Qingsong Wen
   year: 2026
   venue: arXiv preprint arXiv:2607.13678
   category: preprint
@@ -301,7 +302,7 @@
     url: https://arxiv.org/abs/2607.13678
 - title: '3D extended target sensing in ISAC: Cramér-Rao bound analysis and beamforming
     design'
-  authors: Y. Wang, M. Tao, S. Sun, J. Mo, W. Cao
+  authors: Yiqiu Wang, Meixia Tao, Shu Sun, Jianhua Mo, and Wei Cao
   year: 2026
   venue: IEEE Transactions on Wireless Communications
   category: journal
@@ -311,7 +312,8 @@
   - label: arXiv
     url: https://arxiv.org/abs/2412.06353v2
 - title: 'LAMBDA: A Low-Altitude Multimodal Base Dataset for UAV Sensing and Communication'
-  authors: L. Zhou, P. Rao, C. Zhang, J. Mo, S. Sun, Z. Chen, M. Tao
+  authors: Lin Zhou, Peichuan Rao, Chenshuo Zhang, Jianhua Mo, Shu Sun, Zhiyong
+    Chen, and Meixia Tao
   year: 2026
   venue: arXiv preprint arXiv:2607.03826
   category: preprint
@@ -320,7 +322,7 @@
     url: https://arxiv.org/abs/2607.03826
 - title: 'BitSemCom: A Bit-Level Semantic Communication Framework with Learnable Probabilistic
     Mapping'
-  authors: H. Zhang, Y. Bo, J. Mo, M. Tao
+  authors: Haoshuo Zhang, Yufei Bo, Jianhua Mo, and Meixia Tao
   year: 2026
   venue: IEEE Communications Letters
   category: journal
@@ -330,7 +332,7 @@
   - label: arXiv
     url: https://arxiv.org/abs/2510.26225
 - title: 'AirMIND: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain'
-  authors: Kejia Bian, Lian Chen, Jianhua Mo, Zhaoyang Chen, Meixia Tao
+  authors: Kejia Bian, Leyan Chen, Jianhua Mo, Zhiyong Chen, and Meixia Tao
   year: 2026
   venue: 2026 IEEE International Conference on Communications Workshops (ICC Workshops)
   category: conference
@@ -341,7 +343,7 @@
     url: https://arxiv.org/abs/2605.00020v1
 - title: Extended Target Tracking for Contour-Aware Predictive Beamforming in ISAC
     Systems
-  authors: Y. Wang, M. Tao, J. Mo
+  authors: Yiqiu Wang, Meixia Tao, and Jianhua Mo
   year: 2026
   venue: ICC 2026 - IEEE International Conference on Communications
   category: conference
@@ -349,7 +351,7 @@
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11587518
 - title: Deep Learning-Based Maneuvering UAV Tracking in Multi-User Uplink ISAC Systems
-  authors: R. He, M. Tao, J. Mo
+  authors: Renjie He, Meixia Tao, and Jianhua Mo
   year: 2026
   venue: ICC 2026 - IEEE International Conference on Communications
   category: conference
@@ -358,7 +360,7 @@
     url: https://ieeexplore.ieee.org/document/11586883
 - title: 'Fed-PELAD: Communication-Efficient Federated Learning for Massive MIMO CSI
     Feedback with Personalized Encoders and a LoRA-Adapted Shared Decoder'
-  authors: Y. Zhou, T. Wu, M. Tao, and J. Mo
+  authors: Yixiang Zhou, Tong Wu, Meixia Tao, and Jianhua Mo
   year: 2025
   venue: arXiv preprint arXiv:2510.25181
   category: manuscript
@@ -366,7 +368,7 @@
   - label: arXiv
     url: https://arxiv.org/abs/2510.25181
 - title: 'Joint Phase Time Array: Opportunities, Challenges, and System Design Considerations'
-  authors: Y.-H. Nam, A. AlAmmouri, J. Mo, and J. C. Zhang
+  authors: Young-Han Nam, Ahmad AlAmmouri, Jianhua Mo, and Jianzhong Charlie Zhang
   year: 2025
   venue: IEEE Communications Magazine
   category: journal
@@ -376,7 +378,7 @@
   - label: arXiv
     url: https://arxiv.org/abs/2412.01714
 - title: 'SemCSINet: A Semantic-Aware CSI Feedback Network in Massive MIMO Systems'
-  authors: R. Ren, J. Mo, and M. Tao
+  authors: Ruonan Ren, Jianhua Mo, and Meixia Tao
   year: 2025
   venue: arXiv preprint arXiv:2505.08314
   category: manuscript
@@ -384,7 +386,7 @@
   - label: arXiv
     url: https://arxiv.org/abs/2505.08314
 - title: Achievable Rates of Hybrid Architectures with Few-Bit ADC Receivers
-  authors: J. Mo, A. Alkhateeb, S. Abu-Surra, and R. W. Heath Jr.
+  authors: Jianhua Mo, Ahmed Alkhateeb, Shadi Abu-Surra, and Robert W. Heath Jr.
   year: 2016
   venue: 20th International ITG Workshop on Smart Antennas (WSA)
   category: conference
@@ -392,7 +394,7 @@
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7499125
 - title: Limited Feedback in Multiple-Antenna Systems with One-Bit Quantization
-  authors: J. Mo and R. W. Heath Jr.
+  authors: Jianhua Mo and Robert W. Heath Jr.
   year: 2015
   venue: 49th Asilomar Conference on Signals, Systems and Computers
   category: conference
@@ -403,7 +405,7 @@
     url: https://arxiv.org/abs/1505.00484
 - title: Capacity Analysis of One-Bit Quantized MIMO Systems with Transmitter Channel
     State Information
-  authors: J. Mo and R. W. Heath Jr.
+  authors: Jianhua Mo and Robert W. Heath Jr.
   year: 2015
   venue: IEEE Transactions on Signal Processing
   category: journal
@@ -413,7 +415,8 @@
   - label: arXiv
     url: https://arxiv.org/abs/1410.7353
 - title: MIMO Precoding and Combining Solutions for Millimeter-Wave Systems
-  authors: A. Alkhateeb, J. Mo, N. González-Prelcic, and R. W. Heath Jr.
+  authors: Ahmed Alkhateeb, Jianhua Mo, Nuria González-Prelcic, and Robert W. Heath
+    Jr.
   year: 2014
   venue: IEEE Communications Magazine
   category: journal
@@ -421,7 +424,8 @@
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6979963
 - title: Channel Estimation in Millimeter Wave MIMO Systems with One-Bit Quantization
-  authors: J. Mo, P. Schniter, N. González-Prelcic, and R. W. Heath Jr.
+  authors: Jianhua Mo, Philip Schniter, Nuria González-Prelcic, and Robert W. Heath
+    Jr.
   year: 2014
   venue: Asilomar Conference on Signals, Systems and Computers
   category: conference
@@ -429,7 +433,7 @@
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7094595
 - title: Secure Beamforming for MIMO Two-Way Communications With an Untrusted Relay
-  authors: J. Mo, M. Tao, Y. Liu, and R. Wang
+  authors: Jianhua Mo, Meixia Tao, Yuan Liu, and Rui Wang
   year: 2014
   venue: IEEE Transactions on Signal Processing
   category: journal
@@ -439,7 +443,7 @@
   - label: arXiv
     url: https://arxiv.org/abs/1312.3695
 - title: High SNR Capacity of Millimeter Wave MIMO Systems with One-Bit Quantization
-  authors: J. Mo and R. W. Heath Jr.
+  authors: Jianhua Mo and Robert W. Heath Jr.
   year: 2014
   venue: Information Theory and Applications Workshop (ITA)
   category: conference
@@ -448,7 +452,7 @@
     url: https://ieeexplore.ieee.org/document/6804238
 - title: QoS-Aware Transmission Policies for OFDM Bidirectional Decode-and-Forward
     Relaying
-  authors: Y. Liu, J. Mo, and M. Tao
+  authors: Yuan Liu, Jianhua Mo, and Meixia Tao
   year: 2013
   venue: IEEE Transactions on Wireless Communications
   category: journal
@@ -458,7 +462,7 @@
   - label: arXiv
     url: https://arxiv.org/abs/1301.5954
 - title: Secure Beamforming for MIMO Two-Way Transmission with an Untrusted Relay
-  authors: J. Mo, M. Tao, Y. Liu, B. Xia, and X. Ma
+  authors: Jianhua Mo, Meixia Tao, Yuan Liu, Bin Xia, and Xiaoli Ma
   year: 2013
   venue: IEEE Wireless Communications and Networking Conference (WCNC)
   category: conference
@@ -466,7 +470,7 @@
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6555248
 - title: Degrees of Freedom for MIMO Two-Way X Relay Channel
-  authors: Z. Xiang, M. Tao, J. Mo, and X. Wang
+  authors: Zhengzheng Xiang, Meixia Tao, Jianhua Mo, and Xiaodong Wang
   year: 2013
   venue: IEEE Transactions on Signal Processing
   category: journal
@@ -477,7 +481,7 @@
     url: https://arxiv.org/abs/1208.4048
 - title: QoS-Aware Policies for OFDM Bidirectional Transmission with Decode-and-Forward
     Relaying
-  authors: Y. Liu, J. Mo, and M. Tao
+  authors: Yuan Liu, Jianhua Mo, and Meixia Tao
   year: 2012
   venue: IEEE Global Communications Conference (GLOBECOM)
   category: conference
@@ -486,7 +490,7 @@
     url: https://ieeexplore.ieee.org/document/6503832
 - title: Hash Function Mapping Design Utilizing Probability Distribution for Pre-image
     Resistance
-  authors: J. Mo, X. Xiao, M. Tao, and N. Zhou
+  authors: Jianhua Mo, Xiawen Xiao, Meixia Tao, and Nanrun Zhou
   year: 2012
   venue: IEEE Global Communications Conference (GLOBECOM)
   category: conference
@@ -494,7 +498,7 @@
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6503221
 - title: 'Relay Placement for Physical Layer Security: A Secure Connection Perspective'
-  authors: J. Mo, M. Tao, and Y. Liu
+  authors: Jianhua Mo, Meixia Tao, and Yuan Liu
   year: 2012
   venue: IEEE Communications Letters
   category: journal
@@ -505,7 +509,7 @@
     url: https://arxiv.org/abs/1204.1739
 - title: Power and Subcarrier Allocation for Physical-Layer Security in OFDMA-Based
     Broadband Wireless Networks
-  authors: X. Wang, M. Tao, J. Mo, and Y. Xu
+  authors: Xiaowei Wang, Meixia Tao, Jianhua Mo, and Youyun Xu
   year: 2011
   venue: IEEE Transactions on Information Forensics and Security
   category: journal
@@ -515,7 +519,7 @@
   - label: arXiv
     url: https://arxiv.org/abs/1106.6173
 - title: Power and Subcarrier Allocation for Physical-Layer Security in OFDMA Networks
-  authors: X. Wang, M. Tao, J. Mo, and Y. Xu
+  authors: Xiaowei Wang, Meixia Tao, Jianhua Mo, and Youyun Xu
   year: 2011
   venue: IEEE International Conference on Communications (ICC)
   category: conference
@@ -524,7 +528,7 @@
     url: https://ieeexplore.ieee.org/document/5963493
 - title: Cooperative Secret Communication with Artificial Noise in Symmetric Interference
     Channel
-  authors: J. Zhu, J. Mo, and M. Tao
+  authors: Jingge Zhu, Jianhua Mo, and Meixia Tao
   year: 2010
   venue: IEEE Communications Letters
   category: journal
