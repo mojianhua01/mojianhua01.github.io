@@ -28,6 +28,10 @@ descending order within each section.
   .pub-item { margin-bottom: 0.6rem; }
   .pub-item.highlight { background: rgba(176,0,0,0.04); padding: 6px; border-radius: 4px; }
   .pub-links a { text-decoration: none; }
+  .pub-award {
+    color: #9a6700;
+    font-weight: 600;
+  }
 </style>
 
 {% assign journal_pubs = site.data.publications | where: "category", "journal" | sort: "year" | reverse %}
@@ -58,6 +62,9 @@ descending order within each section.
           <strong>{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
+          {% if pub.award %}
+            <br><span class="pub-award">{% if page.lang == "zh" %}获奖：{% else %}Award: {% endif %}{{ pub.award }}</span>
+          {% endif %}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
             {% for link in pub.links %}
@@ -85,6 +92,9 @@ descending order within each section.
           <strong>{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
+          {% if pub.award %}
+            <br><span class="pub-award">{% if page.lang == "zh" %}获奖：{% else %}Award: {% endif %}{{ pub.award }}</span>
+          {% endif %}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
             {% for link in pub.links %}
@@ -111,6 +121,9 @@ descending order within each section.
           <strong>{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
+          {% if pub.award %}
+            <br><span class="pub-award">{% if page.lang == "zh" %}获奖：{% else %}Award: {% endif %}{{ pub.award }}</span>
+          {% endif %}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
             {% for link in pub.links %}
@@ -138,6 +151,9 @@ descending order within each section.
           <strong>{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
+          {% if pub.award %}
+            <br><span class="pub-award">{% if page.lang == "zh" %}获奖：{% else %}Award: {% endif %}{{ pub.award }}</span>
+          {% endif %}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
             {% for link in pub.links %}
