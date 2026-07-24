@@ -1,0 +1,67 @@
+<style>
+  .awards-list {
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .award-item {
+    display: grid;
+    grid-template-columns: 6.5rem 1fr;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .award-year {
+    color: #9a6700;
+    font-weight: 700;
+  }
+
+  .award-title {
+    font-weight: 700;
+  }
+
+  .award-detail {
+    margin-top: 0.3rem;
+    color: #666;
+    font-size: 0.92rem;
+  }
+
+  @media (max-width: 520px) {
+    .award-item {
+      grid-template-columns: 1fr;
+      gap: 0.25rem;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .award-item {
+      border-color: #444;
+    }
+
+    .award-detail {
+      color: #bbb;
+    }
+  }
+</style>
+
+<ul class="awards-list">
+  {% for award in site.data.awards %}
+    <li class="award-item">
+      <div class="award-year">{{ award.year }}</div>
+      <div>
+        <div class="award-title">
+          {% if award.url %}<a href="{{ award.url }}">{% endif %}
+          {% if page.lang == "zh" %}{{ award.title_zh }}{% else %}{{ award.title_en }}{% endif %}
+          {% if award.url %}</a>{% endif %}
+        </div>
+        {% if page.lang == "zh" and award.detail_zh %}
+          <div class="award-detail">{{ award.detail_zh }}</div>
+        {% elsif page.lang != "zh" and award.detail_en %}
+          <div class="award-detail">{{ award.detail_en }}</div>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
