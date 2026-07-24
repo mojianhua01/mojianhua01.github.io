@@ -11,6 +11,22 @@ descending order within each section.
 {% endcomment %}
 
 <style>
+  .pub-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin: 0.75rem 0 1.5rem;
+  }
+  .pub-nav a {
+    padding: 0.35rem 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    text-decoration: none;
+  }
+  .pub-nav a:hover {
+    border-color: #b00;
+    color: #b00;
+  }
   .pub-section { margin-top: 2rem; }
   .pub-section:first-of-type { margin-top: 1rem; }
   .pub-year { margin-top: 1.25rem; font-size: 1.25rem; }
@@ -28,8 +44,15 @@ descending order within each section.
 {% assign book_pubs = site.data.publications | where: "category", "book" | sort: "year" | reverse %}
 {% assign other_pubs = manuscript_pubs | concat: dataset_pubs | sort: "year" | reverse %}
 
+<nav class="pub-nav" aria-label="Publication categories">
+  <a href="#preprints">Preprints</a>
+  <a href="#journals">Journals</a>
+  <a href="#conferences">Conferences</a>
+  <a href="#books">Books</a>
+</nav>
+
 {% if preprint_pubs.size > 0 %}
-<section class="pub-section">
+<section id="preprints" class="pub-section">
   <h2>Preprints</h2>
   {% assign preprint_years = preprint_pubs | map: "year" | uniq %}
   {% for y in preprint_years %}
@@ -56,7 +79,7 @@ descending order within each section.
 </section>
 {% endif %}
 
-<section class="pub-section">
+<section id="journals" class="pub-section">
   <h2>Journal Papers</h2>
   {% assign journal_years = journal_pubs | map: "year" | uniq %}
   {% for y in journal_years %}
@@ -82,7 +105,7 @@ descending order within each section.
   {% endfor %}
 </section>
 
-<section class="pub-section">
+<section id="conferences" class="pub-section">
   <h2>Conference Papers</h2>
   {% assign conference_years = conference_pubs | map: "year" | uniq %}
   {% for y in conference_years %}
@@ -109,7 +132,7 @@ descending order within each section.
 </section>
 
 {% if book_pubs.size > 0 %}
-<section class="pub-section">
+<section id="books" class="pub-section">
   <h2>Books</h2>
   {% assign book_years = book_pubs | map: "year" | uniq %}
   {% for y in book_years %}

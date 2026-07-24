@@ -13,11 +13,15 @@ author_profile: true
 
   .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
     gap: 1.4rem;
+    align-items: stretch;
   }
 
   .team-member {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
     overflow: hidden;
     border: 1px solid #e5e5e5;
     border-radius: 10px;
@@ -30,12 +34,12 @@ author_profile: true
   .team-placeholder {
     display: block;
     width: 100%;
-    height: 220px;
+    aspect-ratio: 4 / 5;
   }
 
   .team-photo {
     object-fit: cover;
-    object-position: center;
+    object-position: center 25%;
   }
 
   .team-placeholder {
@@ -49,6 +53,11 @@ author_profile: true
   }
 
   .team-info {
+    display: flex;
+    min-height: 7.2rem;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
     padding: 1rem 0.75rem 1.1rem;
   }
 
