@@ -5,6 +5,8 @@
   venue: 2025 IEEE/CIC International Conference on Communications in China (ICCC)
   category: conference
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11149018
   - label: arXiv
     url: https://arxiv.org/abs/2505.10150
   - label: Code
@@ -15,6 +17,8 @@
   venue: IEEE Wireless Communications Letters
   category: journal
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11422914
   - label: arXiv
     url: https://arxiv.org/abs/2511.11391
   - label: Code
@@ -25,6 +29,8 @@
   venue: 2025 IEEE Virtual Conference on Communications (VCC)
   category: conference
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11351132
   - label: arXiv
     url: http://arxiv.org/abs/2507.10063v2
 - title: Feature-Space Based Joint Source-Channel Coding for Video Wireless Transmission
@@ -43,6 +49,8 @@
   venue: IEEE Transactions on Wireless Communications
   category: journal
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11447364
   - label: arXiv
     url: http://arxiv.org/abs/2501.15207v1
 - title: 'MARBLE-Net: Learning to Localize in Multipath Environment with Adaptive
@@ -52,6 +60,8 @@
   venue: 2026 IEEE Wireless Communications and Networking Conference (WCNC)
   category: conference
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11555563
   - label: arXiv
     url: http://arxiv.org/abs/2511.06971v3
 - title: 'AirFM-DDA: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain
@@ -80,6 +90,8 @@
   venue: 58th Asilomar Conference on Signals, Systems and Computers
   category: conference
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/10942922
   - label: arXiv
     url: https://arxiv.org/pdf/2502.00139
 - title: 3D Beamforming Through Joint Phase-Time Arrays
@@ -91,6 +103,8 @@
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/10757955
+  - label: arXiv
+    url: https://arxiv.org/abs/2401.00819
 - title: Extending Uplink Coverage of mmWave and Terahertz Systems Through Joint Phase-Time
     Arrays
   authors: Ahmad AlAmmouri, Jianhua Mo, Vishnu V. Ratnam, Boon Loong Ng, Robert W.
@@ -111,6 +125,8 @@
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/9826716
+  - label: arXiv
+    url: https://arxiv.org/abs/2312.11682
 - title: Beam Management with Orientation and RSRP using Deep Learning for Beyond
     5G Systems
   authors: Khuong N. Nguyen, Anum Ali, Jianhua Mo, Boon Loong Ng, Vutha Va, and Jianzhong
@@ -120,6 +136,8 @@
     towards 6G
   category: conference
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/9814507
   - label: arXiv
     url: https://arxiv.org/abs/2202.02247
 - title: Learning Site-Specific Probing Beams for Fast mmWave Beam Alignment
@@ -130,6 +148,8 @@
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/9690703
+  - label: arXiv
+    url: https://arxiv.org/abs/2107.13121
   - label: Code
     url: https://github.com/YuqiangHeng/Learning-Site-Specific-Probing-Beams-for-Fast-mmWave-Beam-Alignment-Public
 - title: 'Sub-Chain Beam for mmWave Devices: A Trade-off between Power Saving and
@@ -140,6 +160,8 @@
   venue: Asilomar Conference on Signals, Systems and Computers
   category: conference
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/9723333
   - label: arXiv
     url: https://arxiv.org/abs/2112.12296
 - title: Learning Probing Beams for Fast mmWave Beam Alignment
@@ -176,6 +198,8 @@
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/9014196
+  - label: arXiv
+    url: https://arxiv.org/abs/1908.00850
 - title: Beam Codebook Design for 5G mmWave Terminals
   authors: Jianhua Mo, Boon Loong Ng, Sanghyun Chang, Pengda Huang, Mandar N. Kulkarni,
     Ahmad AlAmmouri, Jianzhong Charlie Zhang, Jeongheum Lee, and Won-Joon Choi
@@ -185,6 +209,8 @@
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/8767936
+  - label: arXiv
+    url: https://arxiv.org/abs/1908.01004
 - title: Hand Grip Impact on 5G mmWave Mobile Devices
   authors: Ahmad AlAmmouri, Jianhua Mo, Boon Loong Ng, Jianzhong Charlie Zhang, and
     Jeffrey G. Andrews
@@ -209,6 +235,8 @@
   venue: IEEE Transactions on Wireless Communications
   category: journal
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/8305638
   - label: arXiv
     url: https://arxiv.org/abs/1704.04365
 - title: Channel Estimation in Broadband Millimeter Wave MIMO Systems with Few-Bit
@@ -218,6 +246,8 @@
   venue: IEEE Transactions on Signal Processing
   category: journal
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/8171203
   - label: arXiv
     url: https://arxiv.org/abs/1610.02735
 - title: 'Hybrid Architectures with Few-Bit ADC Receivers: Achievable Rates and Energy-Rate
@@ -227,6 +257,8 @@
   venue: IEEE Transactions on Wireless Communications
   category: journal
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/7876856
   - label: arXiv
     url: https://arxiv.org/abs/1605.00668
 - title: Limited Feedback in MISO Systems with Finite-Bit ADCs
@@ -235,6 +267,8 @@
   venue: 50th Asilomar Conference on Signals, Systems and Computers
   category: conference
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/7869085
   - label: arXiv
     url: https://arxiv.org/abs/1612.03357
 - title: Near Maximum-Likelihood Detector and Channel Estimator for Uplink Multiuser
@@ -244,6 +278,8 @@
   venue: IEEE Transactions on Communications
   category: journal
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/7439790
   - label: arXiv
     url: http://arxiv.org/abs/1507.04452
 - title: Physical Layer Security in OFDMA Networks
@@ -270,6 +306,8 @@
   venue: IEEE Transactions on Wireless Communications
   category: journal
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11603948
   - label: arXiv
     url: http://arxiv.org/abs/2412.06353v2
 - title: 'LAMBDA: A Low-Altitude Multimodal Base Dataset for UAV Sensing and Communication'
@@ -287,14 +325,18 @@
   venue: IEEE Communications Letters
   category: journal
   links:
-  - label: DOI
-    url: https://doi.org/10.1109/lcomm.2026.3706984
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11577189
+  - label: arXiv
+    url: https://arxiv.org/abs/2510.26225
 - title: 'AirMIND: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain'
   authors: Kun Bian, Lian Chen, Jianhua Mo, Zhaoyang Chen, Meixia Tao
   year: 2026
   venue: 2026 IEEE International Conference on Communications Workshops (ICC Workshops)
   category: conference
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11586587
   - label: arXiv
     url: http://arxiv.org/abs/2605.00020v1
 - title: Extended Target Tracking for Contour-Aware Predictive Beamforming in ISAC
@@ -304,16 +346,16 @@
   venue: ICC 2026 - IEEE International Conference on Communications
   category: conference
   links:
-  - label: DOI
-    url: https://doi.org/10.1109/icc59461.2026.11587518
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11587518
 - title: Deep Learning-Based Maneuvering UAV Tracking in Multi-User Uplink ISAC Systems
   authors: R. He, M. Tao, J. Mo
   year: 2026
   venue: ICC 2026 - IEEE International Conference on Communications
   category: conference
   links:
-  - label: DOI
-    url: https://doi.org/10.1109/icc59461.2026.11586883
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11586883
 - title: 'Fed-PELAD: Communication-Efficient Federated Learning for Massive MIMO CSI
     Feedback with Personalized Encoders and a LoRA-Adapted Shared Decoder'
   authors: Y. Zhou, T. Wu, M. Tao, and J. Mo
@@ -328,7 +370,11 @@
   year: 2025
   venue: IEEE Communications Magazine
   category: journal
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11193673
+  - label: arXiv
+    url: https://arxiv.org/abs/2412.01714
 - title: 'SemCSINet: A Semantic-Aware CSI Feedback Network in Massive MIMO Systems'
   authors: R. Ren, J. Mo, and M. Tao
   year: 2025
@@ -348,7 +394,11 @@
   year: 2015
   venue: 49th Asilomar Conference on Signals, Systems and Computers
   category: conference
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/7421380
+  - label: arXiv
+    url: https://arxiv.org/abs/1505.00484
 - title: Capacity Analysis of One-Bit Quantized MIMO Systems with Transmitter Channel
     State Information
   authors: J. Mo and R. W. Heath Jr.
@@ -356,6 +406,8 @@
   venue: IEEE Transactions on Signal Processing
   category: journal
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/7155570
   - label: arXiv
     url: https://arxiv.org/abs/1410.7353
 - title: MIMO Precoding and Combining Solutions for Millimeter-Wave Systems
@@ -363,81 +415,119 @@
   year: 2014
   venue: IEEE Communications Magazine
   category: journal
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/6979963
 - title: Channel Estimation in Millimeter Wave MIMO Systems with One-Bit Quantization
   authors: J. Mo, P. Schniter, N. González-Prelcic, and R. W. Heath Jr.
   year: 2014
   venue: Asilomar Conference on Signals, Systems and Computers
   category: conference
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/7094595
 - title: Secure Beamforming for MIMO Two-Way Communications With an Untrusted Relay
   authors: J. Mo, M. Tao, Y. Liu, and R. Wang
   year: 2014
   venue: IEEE Transactions on Signal Processing
   category: journal
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/6746215
+  - label: arXiv
+    url: https://arxiv.org/abs/1312.3695
 - title: High SNR Capacity of Millimeter Wave MIMO Systems with One-Bit Quantization
   authors: J. Mo and R. W. Heath Jr.
   year: 2014
   venue: Information Theory and Applications Workshop (ITA)
   category: conference
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/6804238
 - title: QoS-Aware Transmission Policies for OFDM Bidirectional Decode-and-Forward
     Relaying
   authors: Y. Liu, J. Mo, and M. Tao
   year: 2013
   venue: IEEE Transactions on Wireless Communications
   category: journal
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/6485031
+  - label: arXiv
+    url: https://arxiv.org/abs/1301.5954
 - title: Secure Beamforming for MIMO Two-Way Transmission with an Untrusted Relay
   authors: J. Mo, M. Tao, Y. Liu, B. Xia, and X. Ma
   year: 2013
   venue: IEEE Wireless Communications and Networking Conference (WCNC)
   category: conference
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/6555248
 - title: Degrees of Freedom for MIMO Two-Way X Relay Channel
   authors: Z. Xiang, M. Tao, J. Mo, and X. Wang
   year: 2013
   venue: IEEE Transactions on Signal Processing
   category: journal
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/6408233
+  - label: arXiv
+    url: https://arxiv.org/abs/1208.4048
 - title: QoS-Aware Policies for OFDM Bidirectional Transmission with Decode-and-Forward
     Relaying
   authors: Y. Liu, J. Mo, and M. Tao
   year: 2012
   venue: IEEE Global Communications Conference (GLOBECOM)
   category: conference
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/6503832
 - title: Hash Function Mapping Design Utilizing Probability Distribution for Pre-image
     Resistance
   authors: J. Mo, X. Xiao, M. Tao, and N. Zhou
   year: 2012
   venue: IEEE Global Communications Conference (GLOBECOM)
   category: conference
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/6503221
 - title: 'Relay Placement for Physical Layer Security: A Secure Connection Perspective'
   authors: J. Mo, M. Tao, and Y. Liu
   year: 2012
   venue: IEEE Communications Letters
   category: journal
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/6189820
+  - label: arXiv
+    url: https://arxiv.org/abs/1204.1739
 - title: Power and Subcarrier Allocation for Physical-Layer Security in OFDMA-Based
     Broadband Wireless Networks
   authors: X. Wang, M. Tao, J. Mo, and Y. Xu
   year: 2011
   venue: IEEE Transactions on Information Forensics and Security
   category: journal
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/5872025
+  - label: arXiv
+    url: https://arxiv.org/abs/1106.6173
 - title: Power and Subcarrier Allocation for Physical-Layer Security in OFDMA Networks
   authors: X. Wang, M. Tao, J. Mo, and Y. Xu
   year: 2011
   venue: IEEE International Conference on Communications (ICC)
   category: conference
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/5963493
 - title: Cooperative Secret Communication with Artificial Noise in Symmetric Interference
     Channel
   authors: J. Zhu, J. Mo, and M. Tao
   year: 2010
   venue: IEEE Communications Letters
   category: journal
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/5560174
+  - label: arXiv
+    url: https://arxiv.org/abs/1008.2571
