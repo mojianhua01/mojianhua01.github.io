@@ -4,40 +4,105 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-{% comment %} Render publications grouped by year (descending). Highlight 2026 entries. {% endcomment %}
+{% comment %}
+Render journal and conference papers in separate sections. Keep manuscripts,
+datasets, and books visible in a third section. Entries are grouped by year in
+descending order within each section.
+{% endcomment %}
 
 <style>
-  .pub-year { margin-top: 1.25rem; }
+  .pub-section { margin-top: 2rem; }
+  .pub-section:first-of-type { margin-top: 1rem; }
+  .pub-year { margin-top: 1.25rem; font-size: 1.25rem; }
   .pub-year.highlight { color: #b00; }
   .pub-item { margin-bottom: 0.6rem; }
   .pub-item.highlight { background: rgba(176,0,0,0.04); padding: 6px; border-radius: 4px; }
   .pub-links a { text-decoration: none; }
 </style>
 
-{% assign pubs = site.data.publications | sort: "year" | reverse %}
-{% assign years = pubs | map: "year" | uniq %}
+{% assign journal_pubs = site.data.publications | where: "category", "journal" | sort: "year" | reverse %}
+{% assign conference_pubs = site.data.publications | where: "category", "conference" | sort: "year" | reverse %}
+{% assign manuscript_pubs = site.data.publications | where: "category", "manuscript" %}
+{% assign dataset_pubs = site.data.publications | where: "category", "dataset" %}
+{% assign book_pubs = site.data.publications | where: "category", "book" %}
+{% assign other_pubs = manuscript_pubs | concat: dataset_pubs | concat: book_pubs | sort: "year" | reverse %}
 
-{% for y in years %}
-  <h2 class="pub-year{% if y == 2026 %} highlight{% endif %}">{{ y }}</h2>
-  <ul>
-  {% for pub in pubs %}
-    {% if pub.year == y %}
-      <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
-        <strong>{{ pub.title }}</strong><br>
-        {{ pub.authors }}<br>
-        <em>{{ pub.venue }}</em>{% if pub.year %}, {{ pub.year }}{% endif %}<br>
-        <span class="pub-links">
-        {% if pub.links and pub.links.size > 0 %}
-          {% for link in pub.links %}
-            <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
-          {% endfor %}
-        {% endif %}
-        </span>
-      </li>
-    {% endif %}
+<section class="pub-section">
+  <h2>Journal Papers</h2>
+  {% assign journal_years = journal_pubs | map: "year" | uniq %}
+  {% for y in journal_years %}
+    <h3 class="pub-year{% if y == 2026 %} highlight{% endif %}">{{ y }}</h3>
+    <ul>
+    {% for pub in journal_pubs %}
+      {% if pub.year == y %}
+        <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
+          <strong>{{ pub.title }}</strong><br>
+          {{ pub.authors }}<br>
+          <em>{{ pub.venue }}</em>, {{ pub.year }}
+          {% if pub.links and pub.links.size > 0 %}
+            <br><span class="pub-links">
+            {% for link in pub.links %}
+              <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
+            {% endfor %}
+            </span>
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
   {% endfor %}
-  </ul>
-{% endfor %}
+</section>
 
+<section class="pub-section">
+  <h2>Conference Papers</h2>
+  {% assign conference_years = conference_pubs | map: "year" | uniq %}
+  {% for y in conference_years %}
+    <h3 class="pub-year{% if y == 2026 %} highlight{% endif %}">{{ y }}</h3>
+    <ul>
+    {% for pub in conference_pubs %}
+      {% if pub.year == y %}
+        <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
+          <strong>{{ pub.title }}</strong><br>
+          {{ pub.authors }}<br>
+          <em>{{ pub.venue }}</em>, {{ pub.year }}
+          {% if pub.links and pub.links.size > 0 %}
+            <br><span class="pub-links">
+            {% for link in pub.links %}
+              <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
+            {% endfor %}
+            </span>
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endfor %}
+</section>
 
-
+{% if other_pubs.size > 0 %}
+<section class="pub-section">
+  <h2>Preprints &amp; Other Works</h2>
+  {% assign other_years = other_pubs | map: "year" | uniq %}
+  {% for y in other_years %}
+    <h3 class="pub-year{% if y == 2026 %} highlight{% endif %}">{{ y }}</h3>
+    <ul>
+    {% for pub in other_pubs %}
+      {% if pub.year == y %}
+        <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
+          <strong>{{ pub.title }}</strong><br>
+          {{ pub.authors }}<br>
+          <em>{{ pub.venue }}</em>, {{ pub.year }}
+          {% if pub.links and pub.links.size > 0 %}
+            <br><span class="pub-links">
+            {% for link in pub.links %}
+              <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
+            {% endfor %}
+            </span>
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endfor %}
+</section>
+{% endif %}

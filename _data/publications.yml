@@ -314,3 +314,130 @@
   links:
   - label: DOI
     url: https://doi.org/10.1109/icc59461.2026.11586883
+- title: 'Fed-PELAD: Communication-Efficient Federated Learning for Massive MIMO CSI
+    Feedback with Personalized Encoders and a LoRA-Adapted Shared Decoder'
+  authors: Y. Zhou, T. Wu, M. Tao, and J. Mo
+  year: 2025
+  venue: arXiv preprint arXiv:2510.25181
+  category: manuscript
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2510.25181
+- title: 'Joint Phase Time Array: Opportunities, Challenges, and System Design Considerations'
+  authors: Y.-H. Nam, A. AlAmmouri, J. Mo, and J. C. Zhang
+  year: 2025
+  venue: IEEE Communications Magazine
+  category: journal
+  links: []
+- title: 'SemCSINet: A Semantic-Aware CSI Feedback Network in Massive MIMO Systems'
+  authors: R. Ren, J. Mo, and M. Tao
+  year: 2025
+  venue: arXiv preprint arXiv:2505.08314
+  category: manuscript
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2505.08314
+- title: Achievable Rates of Hybrid Architectures with Few-Bit ADC Receivers
+  authors: J. Mo, A. Alkhateeb, S. Abu-Surra, and R. W. Heath Jr.
+  year: 2016
+  venue: 20th International ITG Workshop on Smart Antennas (WSA)
+  category: conference
+  links: []
+- title: Limited Feedback in Multiple-Antenna Systems with One-Bit Quantization
+  authors: J. Mo and R. W. Heath Jr.
+  year: 2015
+  venue: 49th Asilomar Conference on Signals, Systems and Computers
+  category: conference
+  links: []
+- title: Capacity Analysis of One-Bit Quantized MIMO Systems with Transmitter Channel
+    State Information
+  authors: J. Mo and R. W. Heath Jr.
+  year: 2015
+  venue: IEEE Transactions on Signal Processing
+  category: journal
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/1410.7353
+- title: MIMO Precoding and Combining Solutions for Millimeter-Wave Systems
+  authors: A. Alkhateeb, J. Mo, N. González-Prelcic, and R. W. Heath Jr.
+  year: 2014
+  venue: IEEE Communications Magazine
+  category: journal
+  links: []
+- title: Channel Estimation in Millimeter Wave MIMO Systems with One-Bit Quantization
+  authors: J. Mo, P. Schniter, N. González-Prelcic, and R. W. Heath Jr.
+  year: 2014
+  venue: Asilomar Conference on Signals, Systems and Computers
+  category: conference
+  links: []
+- title: Secure Beamforming for MIMO Two-Way Communications With an Untrusted Relay
+  authors: J. Mo, M. Tao, Y. Liu, and R. Wang
+  year: 2014
+  venue: IEEE Transactions on Signal Processing
+  category: journal
+  links: []
+- title: High SNR Capacity of Millimeter Wave MIMO Systems with One-Bit Quantization
+  authors: J. Mo and R. W. Heath Jr.
+  year: 2014
+  venue: Information Theory and Applications Workshop (ITA)
+  category: conference
+  links: []
+- title: QoS-Aware Transmission Policies for OFDM Bidirectional Decode-and-Forward
+    Relaying
+  authors: Y. Liu, J. Mo, and M. Tao
+  year: 2013
+  venue: IEEE Transactions on Wireless Communications
+  category: journal
+  links: []
+- title: Secure Beamforming for MIMO Two-Way Transmission with an Untrusted Relay
+  authors: J. Mo, M. Tao, Y. Liu, B. Xia, and X. Ma
+  year: 2013
+  venue: IEEE Wireless Communications and Networking Conference (WCNC)
+  category: conference
+  links: []
+- title: Degrees of Freedom for MIMO Two-Way X Relay Channel
+  authors: Z. Xiang, M. Tao, J. Mo, and X. Wang
+  year: 2013
+  venue: IEEE Transactions on Signal Processing
+  category: journal
+  links: []
+- title: QoS-Aware Policies for OFDM Bidirectional Transmission with Decode-and-Forward
+    Relaying
+  authors: Y. Liu, J. Mo, and M. Tao
+  year: 2012
+  venue: IEEE Global Communications Conference (GLOBECOM)
+  category: conference
+  links: []
+- title: Hash Function Mapping Design Utilizing Probability Distribution for Pre-image
+    Resistance
+  authors: J. Mo, X. Xiao, M. Tao, and N. Zhou
+  year: 2012
+  venue: IEEE Global Communications Conference (GLOBECOM)
+  category: conference
+  links: []
+- title: 'Relay Placement for Physical Layer Security: A Secure Connection Perspective'
+  authors: J. Mo, M. Tao, and Y. Liu
+  year: 2012
+  venue: IEEE Communications Letters
+  category: journal
+  links: []
+- title: Power and Subcarrier Allocation for Physical-Layer Security in OFDMA-Based
+    Broadband Wireless Networks
+  authors: X. Wang, M. Tao, J. Mo, and Y. Xu
+  year: 2011
+  venue: IEEE Transactions on Information Forensics and Security
+  category: journal
+  links: []
+- title: Power and Subcarrier Allocation for Physical-Layer Security in OFDMA Networks
+  authors: X. Wang, M. Tao, J. Mo, and Y. Xu
+  year: 2011
+  venue: IEEE International Conference on Communications (ICC)
+  category: conference
+  links: []
+- title: Cooperative Secret Communication with Artificial Noise in Symmetric Interference
+    Channel
+  authors: J. Zhu, J. Mo, and M. Tao
+  year: 2010
+  venue: IEEE Communications Letters
+  category: journal
+  links: []
