@@ -69,4 +69,5 @@ redirect_from:
 ## 联系方式 / Contact
 - 邮箱：mjh@sjtu.edu.cn  
 - 主页：[Google Sites](https://sites.google.com/view/mojianhua01/)  
-- GitHub：[github.com/mojianhua01](https://github.com/mojianhua01)  
+- 个人 GitHub：[github.com/mojianhua01](https://github.com/mojianhua01)
+- 实验室 GitHub：[github.com/SJTU-WirelessAI-Lab](https://github.com/SJTU-WirelessAI-Lab)
