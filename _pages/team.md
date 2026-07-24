@@ -101,7 +101,7 @@ author_profile: true
   </article>
 
   <article class="team-member">
-    <div class="team-placeholder" aria-label="梁秋实">梁</div>
+    <img class="team-photo" src="/images/team/qiushi-liang.jpg" alt="梁秋实">
     <div class="team-info">
       <h2 class="team-name">梁秋实</h2>
       <div class="team-name-en">Qiushi Liang</div>
