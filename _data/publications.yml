@@ -13,7 +13,7 @@
     url: https://github.com/SJTU-WirelessAI-Lab/CFARNet
 - title: 'SPOT: Single-shot positioning via trainable near-field rainbow beamforming'
   authors: Yeyue Cai, Jianhua Mo, and Meixia Tao
-  year: 2025
+  year: 2026
   venue: IEEE Wireless Communications Letters
   category: journal
   links:
@@ -45,7 +45,7 @@
 - title: Hybrid Near/Far-Field Frequency-Dependent Beamforming via Phase-Time Arrays
     With Single RF Chain
   authors: Yeyue Cai, Meixia Tao, Jianhua Mo, and Shunqiao Sun
-  year: 2025
+  year: 2026
   venue: IEEE Transactions on Wireless Communications
   category: journal
   links:
@@ -69,7 +69,7 @@
   authors: Kejia Bian, Meixia Tao, Jianhua Mo, Zhaoyang Chen, and Lianxin Chen
   year: 2026
   venue: arXiv preprint arXiv:2605.00020
-  category: manuscript
+  category: preprint
   links:
   - label: arXiv
     url: https://arxiv.org/abs/2605.00020

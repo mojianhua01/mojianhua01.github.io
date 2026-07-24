@@ -25,8 +25,36 @@ descending order within each section.
 {% assign preprint_pubs = site.data.publications | where: "category", "preprint" | sort: "year" | reverse %}
 {% assign manuscript_pubs = site.data.publications | where: "category", "manuscript" %}
 {% assign dataset_pubs = site.data.publications | where: "category", "dataset" %}
-{% assign book_pubs = site.data.publications | where: "category", "book" %}
-{% assign other_pubs = manuscript_pubs | concat: dataset_pubs | concat: book_pubs | sort: "year" | reverse %}
+{% assign book_pubs = site.data.publications | where: "category", "book" | sort: "year" | reverse %}
+{% assign other_pubs = manuscript_pubs | concat: dataset_pubs | sort: "year" | reverse %}
+
+{% if preprint_pubs.size > 0 %}
+<section class="pub-section">
+  <h2>Preprints</h2>
+  {% assign preprint_years = preprint_pubs | map: "year" | uniq %}
+  {% for y in preprint_years %}
+    <h3 class="pub-year{% if y == 2026 %} highlight{% endif %}">{{ y }}</h3>
+    <ul>
+    {% for pub in preprint_pubs %}
+      {% if pub.year == y %}
+        <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
+          <strong>{{ pub.title }}</strong><br>
+          {{ pub.authors }}<br>
+          <em>{{ pub.venue }}</em>, {{ pub.year }}
+          {% if pub.links and pub.links.size > 0 %}
+            <br><span class="pub-links">
+            {% for link in pub.links %}
+              <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
+            {% endfor %}
+            </span>
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endfor %}
+</section>
+{% endif %}
 
 <section class="pub-section">
   <h2>Journal Papers</h2>
@@ -80,16 +108,16 @@ descending order within each section.
   {% endfor %}
 </section>
 
-{% if preprint_pubs.size > 0 %}
+{% if book_pubs.size > 0 %}
 <section class="pub-section">
-  <h2>Preprints</h2>
-  {% assign preprint_years = preprint_pubs | map: "year" | uniq %}
-  {% for y in preprint_years %}
-    <h3 class="pub-year{% if y == 2026 %} highlight{% endif %}">{{ y }}</h3>
+  <h2>Books</h2>
+  {% assign book_years = book_pubs | map: "year" | uniq %}
+  {% for y in book_years %}
+    <h3 class="pub-year">{{ y }}</h3>
     <ul>
-    {% for pub in preprint_pubs %}
+    {% for pub in book_pubs %}
       {% if pub.year == y %}
-        <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
+        <li class="pub-item">
           <strong>{{ pub.title }}</strong><br>
           {{ pub.authors }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
