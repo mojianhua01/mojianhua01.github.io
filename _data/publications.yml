@@ -32,7 +32,7 @@
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11351132
   - label: arXiv
-    url: http://arxiv.org/abs/2507.10063v2
+    url: https://arxiv.org/abs/2507.10063v2
 - title: Feature-Space Based Joint Source-Channel Coding for Video Wireless Transmission
   authors: Yanbing Wu, Haoshuo Zhang, Jianhua Mo, and Meixia Tao
   year: 2025
@@ -52,7 +52,7 @@
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11447364
   - label: arXiv
-    url: http://arxiv.org/abs/2501.15207v1
+    url: https://arxiv.org/abs/2501.15207v1
 - title: 'MARBLE-Net: Learning to Localize in Multipath Environment with Adaptive
     Rainbow Beams'
   authors: Qiushi Liang, Yeyue Cai, Jianhua Mo, and Meixia Tao
@@ -63,10 +63,10 @@
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11555563
   - label: arXiv
-    url: http://arxiv.org/abs/2511.06971v3
+    url: https://arxiv.org/abs/2511.06971v3
 - title: 'AirFM-DDA: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain
     for AI-Native 6G'
-  authors: Kun Bian, Meixia Tao, Jianhua Mo, Zhaoyang Chen, and Lianxin Chen
+  authors: Kejia Bian, Meixia Tao, Jianhua Mo, Zhaoyang Chen, and Lianxin Chen
   year: 2026
   venue: arXiv preprint arXiv:2605.00020
   category: manuscript
@@ -78,7 +78,7 @@
   authors: Ming Gao, Jianhua Mo, and Meixia Tao
   year: 2026
   venue: arXiv preprint arXiv:2605.04919
-  category: manuscript
+  category: preprint
   links:
   - label: arXiv
     url: https://arxiv.org/abs/2605.04919
@@ -281,7 +281,7 @@
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7439790
   - label: arXiv
-    url: http://arxiv.org/abs/1507.04452
+    url: https://arxiv.org/abs/1507.04452
 - title: Physical Layer Security in OFDMA Networks
   authors: Meixia Tao, Jianhua Mo, and Xiaowei Wang
   year: 2014
@@ -295,7 +295,7 @@
   authors: Peng Gao, Kaiying Ying, Bo Wu, Jianhua Mo, Qianwen (Q) Wen
   year: 2026
   venue: arXiv preprint arXiv:2607.13678
-  category: manuscript
+  category: preprint
   links:
   - label: arXiv
     url: https://arxiv.org/abs/2607.13678
@@ -309,12 +309,12 @@
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11603948
   - label: arXiv
-    url: http://arxiv.org/abs/2412.06353v2
+    url: https://arxiv.org/abs/2412.06353v2
 - title: 'LAMBDA: A Low-Altitude Multimodal Base Dataset for UAV Sensing and Communication'
   authors: L. Zhou, P. Rao, C. Zhang, J. Mo, S. Sun, Z. Chen, M. Tao
   year: 2026
   venue: arXiv preprint arXiv:2607.03826
-  category: dataset
+  category: preprint
   links:
   - label: arXiv
     url: https://arxiv.org/abs/2607.03826
@@ -338,7 +338,7 @@
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11586587
   - label: arXiv
-    url: http://arxiv.org/abs/2605.00020v1
+    url: https://arxiv.org/abs/2605.00020v1
 - title: Extended Target Tracking for Contour-Aware Predictive Beamforming in ISAC
     Systems
   authors: Y. Wang, M. Tao, J. Mo
@@ -388,7 +388,9 @@
   year: 2016
   venue: 20th International ITG Workshop on Smart Antennas (WSA)
   category: conference
-  links: []
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/7499125
 - title: Limited Feedback in Multiple-Antenna Systems with One-Bit Quantization
   authors: J. Mo and R. W. Heath Jr.
   year: 2015
