@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Team"
-permalink: /team/
+title: "团队"
+permalink: /zh/team/
 author_profile: true
-lang: en
-translation_url: /zh/team/
+lang: zh
+translation_url: /team/
 ---
 
 {% include team-content.html %}

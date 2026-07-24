@@ -11,6 +11,13 @@ main:
   - title: "Publications"
     url: /publications/
 
+main_zh:
+  - title: "团队"
+    url: /zh/team/
+
+  - title: "论文发表"
+    url: /zh/publications/
+
   # - title: "Talks"
   #   url: /talks/    
 

@@ -3,71 +3,72 @@ layout: archive
 title: "Jianhua Mo"
 permalink: /
 author_profile: true
+lang: en
+translation_url: /zh/
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<!-- ![IEEE Senior Member](https://img.shields.io/badge/IEEE-Senior%20Member-blue)  
-![Position: SJTU Associate Professor](https://img.shields.io/badge/Position-SJTU%20Associate%20Professor-green)   -->
+## About
 
-<!-- # 莫建华 (Jianhua Mo)
-上海交通大学集成电路学院长聘教轨副教授，研究无线通信与人工智能融合、毫米波与大规模 MIMO、感知与通信一体化。招收 2026 级硕士 1 名，邮件标题请写 “硕士招生+姓名” 并附简历与成绩单。
-
---- -->
-
-## 简介 / About
-- 上海交通大学集成电路学院（信息与电子工程学院）长聘教轨副教授  
-- 研究方向：无线通信与人工智能融合、毫米波与大规模 MIMO、感知与通信一体化（ISAC）  
-- 招生信息：2026 级（即2026年9月入学）硕士 1 名，符合方向者欢迎联系，邮件标题请写 “2026级硕士+姓名” 并附简历与成绩单。
+- Tenure-track Associate Professor at the School of Integrated Circuits (School of Information and Electronic Engineering), Shanghai Jiao Tong University
+- Research interests: the integration of wireless communications and artificial intelligence, millimeter-wave and massive MIMO systems, and integrated sensing and communications (ISAC)
+- Opening: one master's student position for the 2026 intake (September 2026). Interested candidates are welcome to email a CV and transcript with the subject “2026 Master Application + Name.”
 
 ---
 
-## 目录 / Contents
-- [教育背景 / Education](#教育背景--education)  
-- [工作经历 / Experience](#工作经历--experience)  
-- [研究方向 / Research](#研究方向--research)  
-- [荣誉奖项 / Awards](#荣誉奖项--awards)  
-- [联系方式 / Contact](#联系方式--contact)  
+## Contents
+
+- [Education](#education)
+- [Experience](#experience)
+- [Research](#research)
+- [Awards](#awards)
+- [Contact](#contact)
 
 ---
 
-## 教育背景 / Education
-- 2017 · Ph.D., Electrical and Computer Engineering, The University of Texas at Austin  
-  - 导师：Robert W. Heath, Jr.  
-- 2013 · M.S., Communication and Information Systems, 上海交通大学  
-  - 导师：陶梅霞 教授  
-- 2010 · B.Eng., Information Engineering, 上海交通大学  
+## Education
+
+- 2017 · Ph.D., Electrical and Computer Engineering, The University of Texas at Austin
+  - Advisor: Prof. Robert W. Heath, Jr.
+- 2013 · M.S., Communication and Information Systems, Shanghai Jiao Tong University
+  - Advisor: Prof. Meixia Tao
+- 2010 · B.Eng., Information Engineering, Shanghai Jiao Tong University
 
 ---
 
-## 工作经历 / Experience
-- 2024.11–至今：上海交通大学，长聘教轨副教授  
-- 2023.03–2024.11：三星美国研究院，Senior Staff Engineer  
-- 2019.03–2023.03：三星美国研究院，Staff Engineer  
-- 2017.01–2019.03：三星美国研究院，Senior Engineer  
-- 2015.05–2015.08：三星美国研究院，暑期实习  
-- 2014.05–2014.08：高通，暑期实习  
+## Experience
+
+- Nov. 2024–Present: Tenure-track Associate Professor, Shanghai Jiao Tong University
+- Mar. 2023–Nov. 2024: Senior Staff Engineer, Samsung Research America
+- Mar. 2019–Mar. 2023: Staff Engineer, Samsung Research America
+- Jan. 2017–Mar. 2019: Senior Engineer, Samsung Research America
+- May–Aug. 2015: Summer Intern, Samsung Research America
+- May–Aug. 2014: Summer Intern, Qualcomm
 
 ---
 
-## 研究方向 / Research
-- 无线通信与人工智能融合（AI for communications）  
-- 毫米波与大规模 MIMO（mmWave & massive MIMO）  
-- 感知与通信一体化（ISAC / Integrated Sensing and Communications）  
+## Research
+
+- AI for wireless communications
+- Millimeter-wave communications and massive MIMO
+- Integrated sensing and communications (ISAC)
 
 ---
 
-## 荣誉奖项 / Awards
-- 2023：三星美国研究院 杰出发明人奖  
-- 2021：三星全球网络研发部门 杰出成就奖  
-- 2019：IEEE 通信学会 莱斯论文奖  
-- 2013：IEEE 通信学会 赫兹论文奖  
+## Awards
+
+- 2023: Distinguished Inventor Award, Samsung Research America
+- 2021: Best Contribution Award, Samsung Global Networks R&D
+- 2019: IEEE Communications Society Stephen O. Rice Prize
+- 2013: IEEE Communications Society Heinrich Hertz Award
 
 ---
 
-## 联系方式 / Contact
-- 邮箱：mjh@sjtu.edu.cn  
-- 主页：[Google Sites](https://sites.google.com/view/mojianhua01/)  
-- 个人 GitHub：[github.com/mojianhua01](https://github.com/mojianhua01)
-- 实验室 GitHub：[github.com/SJTU-WirelessAI-Lab](https://github.com/SJTU-WirelessAI-Lab)
+## Contact
+
+- Email: mjh@sjtu.edu.cn
+- Previous website: [Google Sites](https://sites.google.com/view/mojianhua01/)
+- Personal GitHub: [github.com/mojianhua01](https://github.com/mojianhua01)
+- Lab GitHub: [github.com/SJTU-WirelessAI-Lab](https://github.com/SJTU-WirelessAI-Lab)
