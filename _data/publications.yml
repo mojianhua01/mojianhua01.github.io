@@ -1,190 +1,316 @@
-- title: "CFARNet: Learning-Based High-Resolution Multi-Target Detection for Rainbow Beam Radar"
-  authors: "Qiushi Liang, Yeyue Cai, Jianhua Mo, and Meixia Tao"
+- title: 'CFARNet: Learning-Based High-Resolution Multi-Target Detection for Rainbow
+    Beam Radar'
+  authors: Qiushi Liang, Yeyue Cai, Jianhua Mo, and Meixia Tao
   year: 2025
-  venue: "2025 IEEE/CIC International Conference on Communications in China (ICCC)"
+  venue: 2025 IEEE/CIC International Conference on Communications in China (ICCC)
   category: conference
   links:
-    - label: arXiv
-      url: "https://arxiv.org/abs/2505.10150"
-    - label: Code
-      url: "https://github.com/SJTU-WirelessAI-Lab/CFARNet"
-
-- title: "Beamforming with Joint Phase and Time Array: System Design, Prototyping and Performance"
-  authors: "Jianhua Mo, Ahmad AlAmmouri, Shenggang Dong, Younghan Nam, Won-Suk Choi, Gary Xu, and Jianzhong (Charlie) Zhang"
+  - label: arXiv
+    url: https://arxiv.org/abs/2505.10150
+  - label: Code
+    url: https://github.com/SJTU-WirelessAI-Lab/CFARNet
+- title: 'SPOT: Single-shot positioning via trainable near-field rainbow beamforming'
+  authors: Yeyue Cai, Jianhua Mo, and Meixia Tao
+  year: 2025
+  venue: IEEE Wireless Communications Letters
+  category: journal
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2511.11391
+  - label: Code
+    url: https://github.com/SJTU-WirelessAI-Lab/SPOT
+- title: Deep Learning-Based Beamforming Design Using Target Beam Patterns
+  authors: H. Zhang, S. Sun, H. Yan, and J. Mo
+  year: 2025
+  venue: 2025 IEEE Virtual Conference on Communications (VCC)
+  category: conference
+  links:
+  - label: arXiv
+    url: http://arxiv.org/abs/2507.10063v2
+- title: Feature-Space Based Joint Source-Channel Coding for Video Wireless Transmission
+  authors: Yanbing Wu, Haoshuo Zhang, Jianhua Mo, and Meixia Tao
+  year: 2025
+  venue: 2025 Seventeenth International Conference on Wireless Communications and
+    Signal Processing (WCSP)
+  category: conference
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/abstract/document/11352049/
+- title: Hybrid Near/Far-Field Frequency-Dependent Beamforming via Phase-Time Arrays
+    With Single RF Chain
+  authors: Yeyue Cai, Meixia Tao, Jianhua Mo, and Shunqiao Sun
+  year: 2025
+  venue: IEEE Transactions on Wireless Communications
+  category: journal
+  links:
+  - label: arXiv
+    url: http://arxiv.org/abs/2501.15207v1
+- title: 'MARBLE-Net: Learning to Localize in Multipath Environment with Adaptive
+    Rainbow Beams'
+  authors: Qiushi Liang, Yeyue Cai, Jianhua Mo, and Meixia Tao
+  year: 2026
+  venue: 2026 IEEE Wireless Communications and Networking Conference (WCNC)
+  category: conference
+  links:
+  - label: arXiv
+    url: http://arxiv.org/abs/2511.06971v3
+- title: 'AirFM-DDA: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain
+    for AI-Native 6G'
+  authors: Kun Bian, Meixia Tao, Jianhua Mo, Zhaoyang Chen, and Lianxin Chen
+  year: 2026
+  venue: arXiv preprint arXiv:2605.00020
+  category: manuscript
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2605.00020
+- title: Phase-Time Array Enabled Multistatic Sensing with Multi-Level Fusion for
+    UAV Localization
+  authors: Ming Gao, Jianhua Mo, and Meixia Tao
+  year: 2026
+  venue: arXiv preprint arXiv:2605.04919
+  category: manuscript
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2605.04919
+- title: 'Beamforming with Joint Phase and Time Array: System Design, Prototyping
+    and Performance'
+  authors: Jianhua Mo, Ahmad AlAmmouri, Shenggang Dong, Younghan Nam, Won-Suk Choi,
+    Gary Xu, and Jianzhong (Charlie) Zhang
   year: 2024
-  venue: "58th Asilomar Conference on Signals, Systems and Computers"
+  venue: 58th Asilomar Conference on Signals, Systems and Computers
   category: conference
   links:
-    - label: arXiv
-      url: "https://arxiv.org/pdf/2502.00139"
-
-- title: "3D Beamforming Through Joint Phase-Time Arrays"
-  authors: "Ozlem Yildiz, Ahmad AlAmmour, Jianhua Mo, Younghan Nam, Elza Erkip, and Jianzhong (Charlie) Zhang"
+  - label: arXiv
+    url: https://arxiv.org/pdf/2502.00139
+- title: 3D Beamforming Through Joint Phase-Time Arrays
+  authors: Ozlem Yildiz, Ahmad AlAmmour, Jianhua Mo, Younghan Nam, Elza Erkip, and
+    Jianzhong (Charlie) Zhang
   year: 2024
-  venue: "2024 IEEE 100th Vehicular Technology Conference (VTC2024-Fall)"
+  venue: 2024 IEEE 100th Vehicular Technology Conference (VTC2024-Fall)
   category: conference
   links:
-    - label: IEEE Xplore
-      url: "https://ieeexplore.ieee.org/abstract/document/10757955"
-
-- title: "Extending Uplink Coverage of mmWave and Terahertz Systems Through Joint Phase-Time Arrays"
-  authors: "Ahmad AlAmmouri, Jianhua Mo, Vishnu V. Ratnam, Boon Loong Ng, Robert W. Heath Jr., Juho Lee, and Jianzhong Charlie Zhang"
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/abstract/document/10757955
+- title: Extending Uplink Coverage of mmWave and Terahertz Systems Through Joint Phase-Time
+    Arrays
+  authors: Ahmad AlAmmouri, Jianhua Mo, Vishnu V. Ratnam, Boon Loong Ng, Robert W.
+    Heath Jr., Juho Lee, and Jianzhong Charlie Zhang
   year: 2022
-  venue: "IEEE Access"
+  venue: IEEE Access
   category: journal
   links:
-    - label: IEEE Xplore
-      url: "https://ieeexplore.ieee.org/abstract/document/9863771"
-
-- title: "Joint Phase-Time Arrays: A Paradigm for Frequency-Dependent Analog Beamforming in 6G"
-  authors: "Vishnu V. Ratnam, Jianhua Mo, Ahmad AlAmmouri, Boon Loong Ng, Jianzhong Charlie Zhang, and Andreas F. Molisch"
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/abstract/document/9863771
+- title: 'Joint Phase-Time Arrays: A Paradigm for Frequency-Dependent Analog Beamforming
+    in 6G'
+  authors: Vishnu V. Ratnam, Jianhua Mo, Ahmad AlAmmouri, Boon Loong Ng, Jianzhong
+    Charlie Zhang, and Andreas F. Molisch
   year: 2022
-  venue: "IEEE Access"
+  venue: IEEE Access
   category: journal
   links:
-    - label: IEEE Xplore
-      url: "https://ieeexplore.ieee.org/abstract/document/9826716"
-
-- title: "Beam Management with Orientation and RSRP using Deep Learning for Beyond 5G Systems"
-  authors: "Khuong N. Nguyen, Anum Ali, Jianhua Mo, Boon Loong Ng, Vutha Va, and Jianzhong Charlie Zhang"
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/abstract/document/9826716
+- title: Beam Management with Orientation and RSRP using Deep Learning for Beyond
+    5G Systems
+  authors: Khuong N. Nguyen, Anum Ali, Jianhua Mo, Boon Loong Ng, Vutha Va, and Jianzhong
+    Charlie Zhang
   year: 2022
-  venue: "ICC 2022 Workshop on Synergies of Communication, Localization, and Sensing towards 6G"
+  venue: ICC 2022 Workshop on Synergies of Communication, Localization, and Sensing
+    towards 6G
   category: conference
   links:
-    - label: arXiv
-      url: "https://arxiv.org/abs/2202.02247"
-
-- title: "Learning Site-Specific Probing Beams for Fast mmWave Beam Alignment"
-  authors: "Yuqiang Heng, Jianhua Mo, and Jeffrey G. Andrews"
+  - label: arXiv
+    url: https://arxiv.org/abs/2202.02247
+- title: Learning Site-Specific Probing Beams for Fast mmWave Beam Alignment
+  authors: Yuqiang Heng, Jianhua Mo, and Jeffrey G. Andrews
   year: 2022
-  venue: "IEEE Transactions on Wireless Communications"
+  venue: IEEE Transactions on Wireless Communications
   category: journal
   links:
-    - label: IEEE Xplore
-      url: "https://ieeexplore.ieee.org/document/9690703"
-    - label: Code
-      url: "https://github.com/YuqiangHeng/Learning-Site-Specific-Probing-Beams-for-Fast-mmWave-Beam-Alignment-Public"
-
-- title: "Sub-Chain Beam for mmWave Devices: A Trade-off between Power Saving and Beam Correspondence"
-  authors: "Jianhua Mo, Daehee Park, Boon Loong Ng, Vutha Va, Anum Ali, Chonghwa Seo, and Jianzhong Charlie Zhang"
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/9690703
+  - label: Code
+    url: https://github.com/YuqiangHeng/Learning-Site-Specific-Probing-Beams-for-Fast-mmWave-Beam-Alignment-Public
+- title: 'Sub-Chain Beam for mmWave Devices: A Trade-off between Power Saving and
+    Beam Correspondence'
+  authors: Jianhua Mo, Daehee Park, Boon Loong Ng, Vutha Va, Anum Ali, Chonghwa Seo,
+    and Jianzhong Charlie Zhang
   year: 2021
-  venue: "Asilomar Conference on Signals, Systems and Computers"
+  venue: Asilomar Conference on Signals, Systems and Computers
   category: conference
   links:
-    - label: arXiv
-      url: "https://arxiv.org/abs/2112.12296"
-
-- title: "Learning Probing Beams for Fast mmWave Beam Alignment"
-  authors: "Yuqiang Heng, Jianhua Mo, and Jeffrey G. Andrews"
+  - label: arXiv
+    url: https://arxiv.org/abs/2112.12296
+- title: Learning Probing Beams for Fast mmWave Beam Alignment
+  authors: Yuqiang Heng, Jianhua Mo, and Jeffrey G. Andrews
   year: 2021
-  venue: "IEEE GLOBECOM"
+  venue: IEEE GLOBECOM
   category: conference
   links:
-    - label: IEEE Xplore
-      url: "https://ieeexplore.ieee.org/abstract/document/9685512"
-
-- title: "Six Key Challenges for Beam Management in 5.5G and 6G Systems"
-  authors: "Yuqiang Heng, Jeffrey G. Andrews, Jianhua Mo, Vutha Va, Anum Ali, Boon Loong Ng, and Jianzhong Charlie Zhang"
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/abstract/document/9685512
+- title: Six Key Challenges for Beam Management in 5.5G and 6G Systems
+  authors: Yuqiang Heng, Jeffrey G. Andrews, Jianhua Mo, Vutha Va, Anum Ali, Boon
+    Loong Ng, and Jianzhong Charlie Zhang
   year: 2021
-  venue: "IEEE Communications Magazine"
+  venue: IEEE Communications Magazine
   category: journal
   links:
-    - label: IEEE Xplore
-      url: "https://ieeexplore.ieee.org/abstract/document/9502647"
-
-- title: "Orientation-Assisted Beam Management for Beyond 5G Systems"
-  authors: "Anum Ali, Jianhua Mo, Boon Loong Ng, Vutha Va, and Jianzhong Charlie Zhang"
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/abstract/document/9502647
+- title: Orientation-Assisted Beam Management for Beyond 5G Systems
+  authors: Anum Ali, Jianhua Mo, Boon Loong Ng, Vutha Va, and Jianzhong Charlie Zhang
   year: 2021
-  venue: "IEEE Access"
+  venue: IEEE Access
   category: journal
   links:
-    - label: IEEE Xplore
-      url: "https://ieeexplore.ieee.org/abstract/document/9391649"
-
-- title: "Grip-Aware Analog mmWave Beam Codebook Adaptation for 5G Mobile Handsets"
-  authors: "Ahmad AlAmmouri, Jianhua Mo, Boon Loong Ng, Jianzhong Charlie Zhang, and Jeffrey G. Andrews"
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/abstract/document/9391649
+- title: Grip-Aware Analog mmWave Beam Codebook Adaptation for 5G Mobile Handsets
+  authors: Ahmad AlAmmouri, Jianhua Mo, Boon Loong Ng, Jianzhong Charlie Zhang, and
+    Jeffrey G. Andrews
   year: 2019
-  venue: "IEEE GLOBECOM"
+  venue: IEEE GLOBECOM
   category: conference
   links:
-    - label: IEEE Xplore
-      url: "https://ieeexplore.ieee.org/document/9014196"
-
-- title: "Beam Codebook Design for 5G mmWave Terminals"
-  authors: "Jianhua Mo, Boon Loong Ng, Sanghyun Chang, Pengda Huang, Mandar N. Kulkarni, Ahmad AlAmmouri, Jianzhong Charlie Zhang, Jeongheum Lee, and Won-Joon Choi"
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/9014196
+- title: Beam Codebook Design for 5G mmWave Terminals
+  authors: Jianhua Mo, Boon Loong Ng, Sanghyun Chang, Pengda Huang, Mandar N. Kulkarni,
+    Ahmad AlAmmouri, Jianzhong Charlie Zhang, Jeongheum Lee, and Won-Joon Choi
   year: 2019
-  venue: "IEEE Access"
+  venue: IEEE Access
   category: journal
   links:
-    - label: IEEE Xplore
-      url: "https://ieeexplore.ieee.org/document/8767936"
-
-- title: "Hand Grip Impact on 5G mmWave Mobile Devices"
-  authors: "Ahmad AlAmmouri, Jianhua Mo, Boon Loong Ng, Jianzhong Charlie Zhang, and Jeffrey G. Andrews"
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/8767936
+- title: Hand Grip Impact on 5G mmWave Mobile Devices
+  authors: Ahmad AlAmmouri, Jianhua Mo, Boon Loong Ng, Jianzhong Charlie Zhang, and
+    Jeffrey G. Andrews
   year: 2019
-  venue: "IEEE Access"
+  venue: IEEE Access
   category: journal
   links:
-    - label: IEEE Xplore
-      url: "https://ieeexplore.ieee.org/document/8705216"
-
-- title: "Design and Prototyping of 60 GHz Mesh Networks"
-  authors: "Jianhua Mo, Hao Chen, Wenxun Qiu, Prasad Netalkar, Boon Loong Ng, Gary Xu, and Jianzhong Charlie Zhang"
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/8705216
+- title: Design and Prototyping of 60 GHz Mesh Networks
+  authors: Jianhua Mo, Hao Chen, Wenxun Qiu, Prasad Netalkar, Boon Loong Ng, Gary
+    Xu, and Jianzhong Charlie Zhang
   year: 2018
-  venue: "11th Global Symposium on Millimeter Waves (GSMM)"
+  venue: 11th Global Symposium on Millimeter Waves (GSMM)
   category: conference
   links:
-    - label: IEEE Xplore
-      url: "https://ieeexplore.ieee.org/document/8439586"
-
-- title: "Limited Feedback in Single and Multi-user MIMO Systems with Finite-Bit ADCs"
-  authors: "Jianhua Mo and Robert W. Heath Jr."
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/8439586
+- title: Limited Feedback in Single and Multi-user MIMO Systems with Finite-Bit ADCs
+  authors: Jianhua Mo and Robert W. Heath Jr.
   year: 2018
-  venue: "IEEE Transactions on Wireless Communications"
+  venue: IEEE Transactions on Wireless Communications
   category: journal
   links:
-    - label: arXiv
-      url: "https://arxiv.org/abs/1704.04365"
-
-- title: "Channel Estimation in Broadband Millimeter Wave MIMO Systems with Few-Bit ADCs"
-  authors: "Jianhua Mo, Philip Schniter, and Robert W. Heath Jr."
+  - label: arXiv
+    url: https://arxiv.org/abs/1704.04365
+- title: Channel Estimation in Broadband Millimeter Wave MIMO Systems with Few-Bit
+    ADCs
+  authors: Jianhua Mo, Philip Schniter, and Robert W. Heath Jr.
   year: 2018
-  venue: "IEEE Transactions on Signal Processing"
+  venue: IEEE Transactions on Signal Processing
   category: journal
   links:
-    - label: arXiv
-      url: "https://arxiv.org/abs/1610.02735"
-
-- title: "Hybrid Architectures with Few-Bit ADC Receivers: Achievable Rates and Energy-Rate Tradeoffs"
-  authors: "Jianhua Mo, Ahmed Alkhateeb, Shadi Abu-Surra, and Robert W. Heath Jr."
+  - label: arXiv
+    url: https://arxiv.org/abs/1610.02735
+- title: 'Hybrid Architectures with Few-Bit ADC Receivers: Achievable Rates and Energy-Rate
+    Tradeoffs'
+  authors: Jianhua Mo, Ahmed Alkhateeb, Shadi Abu-Surra, and Robert W. Heath Jr.
   year: 2017
-  venue: "IEEE Transactions on Wireless Communications"
+  venue: IEEE Transactions on Wireless Communications
   category: journal
   links:
-    - label: arXiv
-      url: "https://arxiv.org/abs/1605.00668"
-
-- title: "Limited Feedback in MISO Systems with Finite-Bit ADCs"
-  authors: "Jianhua Mo and Robert W. Heath Jr."
+  - label: arXiv
+    url: https://arxiv.org/abs/1605.00668
+- title: Limited Feedback in MISO Systems with Finite-Bit ADCs
+  authors: Jianhua Mo and Robert W. Heath Jr.
   year: 2016
-  venue: "50th Asilomar Conference on Signals, Systems and Computers"
+  venue: 50th Asilomar Conference on Signals, Systems and Computers
   category: conference
   links:
-    - label: arXiv
-      url: "https://arxiv.org/abs/1612.03357"
-
-- title: "Near Maximum-Likelihood Detector and Channel Estimator for Uplink Multiuser Massive MIMO Systems with One-Bit ADCs"
-  authors: "Junil Choi, Jianhua Mo, and Robert W. Heath Jr."
+  - label: arXiv
+    url: https://arxiv.org/abs/1612.03357
+- title: Near Maximum-Likelihood Detector and Channel Estimator for Uplink Multiuser
+    Massive MIMO Systems with One-Bit ADCs
+  authors: Junil Choi, Jianhua Mo, and Robert W. Heath Jr.
   year: 2016
-  venue: "IEEE Transactions on Communications"
+  venue: IEEE Transactions on Communications
   category: journal
   links:
-    - label: arXiv
-      url: "http://arxiv.org/abs/1507.04452"
-
-- title: "Physical Layer Security in OFDMA Networks"
-  authors: "Meixia Tao, Jianhua Mo, and Xiaowei Wang"
+  - label: arXiv
+    url: http://arxiv.org/abs/1507.04452
+- title: Physical Layer Security in OFDMA Networks
+  authors: Meixia Tao, Jianhua Mo, and Xiaowei Wang
   year: 2014
-  venue: "CRC Press"
+  venue: CRC Press
   category: book
-  links: []
+  links:
+  - label: DOI
+    url: https://doi.org/10.1201/b15496-12
+- title: 'M3F-UAV: A Missing-Modality Multimodal Foundation Model for Low-Altitude
+    Wireless Sensing'
+  authors: Peng Gao, Kaiying Ying, Bo Wu, Jianhua Mo, Qianwen (Q) Wen
+  year: 2026
+  venue: arXiv preprint arXiv:2607.13678
+  category: manuscript
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2607.13678
+- title: '3D extended target sensing in ISAC: Cramér-Rao bound analysis and beamforming
+    design'
+  authors: Y. Wang, M. Tao, S. Sun, J. Mo, W. Cao
+  year: 2026
+  venue: IEEE Transactions on Wireless Communications
+  category: journal
+  links:
+  - label: arXiv
+    url: http://arxiv.org/abs/2412.06353v2
+- title: 'LAMBDA: A Low-Altitude Multimodal Base Dataset for UAV Sensing and Communication'
+  authors: L. Zhou, P. Rao, C. Zhang, J. Mo, S. Sun, Z. Chen, M. Tao
+  year: 2026
+  venue: arXiv preprint arXiv:2607.03826
+  category: dataset
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2607.03826
+- title: 'BitSemCom: A Bit-Level Semantic Communication Framework with Learnable Probabilistic
+    Mapping'
+  authors: H. Zhang, Y. Bo, J. Mo, M. Tao
+  year: 2026
+  venue: IEEE Communications Letters
+  category: journal
+  links:
+  - label: DOI
+    url: https://doi.org/10.1109/lcomm.2026.3706984
+- title: 'AirMIND: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain'
+  authors: Kun Bian, Lian Chen, Jianhua Mo, Zhaoyang Chen, Meixia Tao
+  year: 2026
+  venue: 2026 IEEE International Conference on Communications Workshops (ICC Workshops)
+  category: conference
+  links:
+  - label: arXiv
+    url: http://arxiv.org/abs/2605.00020v1
+- title: Extended Target Tracking for Contour-Aware Predictive Beamforming in ISAC
+    Systems
+  authors: Y. Wang, M. Tao, J. Mo
+  year: 2026
+  venue: ICC 2026 - IEEE International Conference on Communications
+  category: conference
+  links:
+  - label: DOI
+    url: https://doi.org/10.1109/icc59461.2026.11587518
+- title: Deep Learning-Based Maneuvering UAV Tracking in Multi-User Uplink ISAC Systems
+  authors: R. He, M. Tao, J. Mo
+  year: 2026
+  venue: ICC 2026 - IEEE International Conference on Communications
+  category: conference
+  links:
+  - label: DOI
+    url: https://doi.org/10.1109/icc59461.2026.11586883
