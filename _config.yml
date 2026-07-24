@@ -22,7 +22,7 @@ repository               : "mojianhua01/mojianhua01.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "team/jianhua-mo.jpg"
   name             : "莫建华"
   pronouns         : # example: "she/her"  
   bio              :  "长聘教轨副教授<br>研究方向：无线通信、AI与MIMO"
