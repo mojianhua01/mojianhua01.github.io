@@ -40,7 +40,7 @@ redirect_from:
 
 ## Experience
 
-- Nov. 2024–Present: Tenure-track Associate Professor, Shanghai Jiao Tong University
+- Dec. 2024–Present: Tenure-track Associate Professor, Shanghai Jiao Tong University
 - Mar. 2023–Nov. 2024: Senior Staff Engineer, Samsung Research America
 - Mar. 2019–Mar. 2023: Staff Engineer, Samsung Research America
 - Jan. 2017–Mar. 2019: Senior Engineer, Samsung Research America
