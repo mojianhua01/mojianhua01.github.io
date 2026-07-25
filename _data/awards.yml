@@ -44,38 +44,38 @@
   title_en: "Exemplary Reviewer, IEEE Communications Letters"
   title_zh: "IEEE Communications Letters 优秀审稿人"
 
-- year: "2012"
-  title_en: "Graduate National Scholarship Award"
-  title_zh: "研究生国家奖学金"
-  detail_en: "The top scholarship for graduate students in China"
-  detail_zh: "中国研究生最高等级奖学金"
-
-- year: "2011"
-  title_en: "First Prize, Kwang-Hua Scholarship"
-  title_zh: "光华奖学金一等奖"
-  detail_en: "Awarded by the Kwang-Hua Education Foundation"
-  detail_zh: "由光华教育基金会颁发"
-
-- year: "2009"
-  title_en: "Second Prize, Shanghai Division, China Undergraduate Mathematical Contest in Modeling"
-  title_zh: "全国大学生数学建模竞赛上海赛区二等奖"
-
-- year: "2009"
-  title_en: "National Scholarship Award"
-  title_zh: "国家奖学金"
-  detail_en: "The top scholarship in China"
-  detail_zh: "中国最高等级奖学金"
-
-- year: "2009"
-  title_en: "Excellent Academic Scholarship (Second Class), Shanghai Jiao Tong University"
-  title_zh: "上海交通大学优秀奖学金二等奖"
-
-- year: "2008"
-  title_en: "Excellent Academic Scholarship (Third Class), Shanghai Jiao Tong University"
-  title_zh: "上海交通大学优秀奖学金三等奖"
-
-- year: "2007"
-  title_en: "National Scholarship Award"
-  title_zh: "国家奖学金"
-  detail_en: "The top scholarship in China"
-  detail_zh: "中国最高等级奖学金"
+# - year: "2012"
+#   title_en: "Graduate National Scholarship Award"
+#   title_zh: "研究生国家奖学金"
+#   detail_en: "The top scholarship for graduate students in China"
+#   detail_zh: "中国研究生最高等级奖学金"
+#
+# - year: "2011"
+#   title_en: "First Prize, Kwang-Hua Scholarship"
+#   title_zh: "光华奖学金一等奖"
+#   detail_en: "Awarded by the Kwang-Hua Education Foundation"
+#   detail_zh: "由光华教育基金会颁发"
+#
+# - year: "2009"
+#   title_en: "Second Prize, Shanghai Division, China Undergraduate Mathematical Contest in Modeling"
+#   title_zh: "全国大学生数学建模竞赛上海赛区二等奖"
+#
+# - year: "2009"
+#   title_en: "National Scholarship Award"
+#   title_zh: "国家奖学金"
+#   detail_en: "The top scholarship in China"
+#   detail_zh: "中国最高等级奖学金"
+#
+# - year: "2009"
+#   title_en: "Excellent Academic Scholarship (Second Class), Shanghai Jiao Tong University"
+#   title_zh: "上海交通大学优秀奖学金二等奖"
+#
+# - year: "2008"
+#   title_en: "Excellent Academic Scholarship (Third Class), Shanghai Jiao Tong University"
+#   title_zh: "上海交通大学优秀奖学金三等奖"
+#
+# - year: "2007"
+#   title_en: "National Scholarship Award"
+#   title_zh: "国家奖学金"
+#   detail_en: "The top scholarship in China"
+#   detail_zh: "中国最高等级奖学金"
