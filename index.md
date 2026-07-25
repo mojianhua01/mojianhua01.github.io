@@ -44,8 +44,8 @@ redirect_from:
 - Mar. 2023–Nov. 2024: Senior Staff Engineer, Samsung Research America
 - Mar. 2019–Mar. 2023: Staff Engineer, Samsung Research America
 - Jan. 2017–Mar. 2019: Senior Engineer, Samsung Research America
-- May–Aug. 2015: Summer Intern, Samsung Research America
-- May–Aug. 2014: Summer Intern, Qualcomm
+- May 2015–Aug. 2015: Summer Intern, Samsung Research America
+- May 2015–Aug. 2014: Summer Intern, Qualcomm
 
 ---
 
@@ -59,8 +59,8 @@ redirect_from:
 
 ## Awards
 
-- 2023: Distinguished Inventor Award, Samsung Research America
-- 2021: Best Contribution Award, Samsung Global Networks R&D
+- 2023: Samsung Research America Outstanding Inventor Award
+- 2021: Samsung Network Global R&D Innovation Award
 - 2019: IEEE Communications Society Stephen O. Rice Prize
 - 2013: IEEE Communications Society Heinrich Hertz Award
 
