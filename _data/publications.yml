@@ -55,6 +55,8 @@
     url: https://arxiv.org/abs/2501.15207v1
   - label: Code
     url: https://github.com/SJTU-WirelessAI-Lab/NF-FF_Communication_with_PTA
+  - label: Errata (TXT)
+    url: /files/publications/2025-hybrid-near-far-field-errata.txt
 - title: 'MARBLE-Net: Learning to Localize in Multipath Environment with Adaptive
     Rainbow Beams'
   authors: Qiushi Liang, Yeyue Cai, Jianhua Mo, and Meixia Tao
