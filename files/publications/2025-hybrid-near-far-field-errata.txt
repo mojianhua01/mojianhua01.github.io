@@ -1,0 +1,1 @@
+In Table V, the array gain 1 of FD architecture should be 63.99 instead of 53.99.
