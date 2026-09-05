@@ -1,0 +1,1 @@
+In the equation before Proposition 1, $ R_s < 0 $ should be $ R_s = 0 $ since $ R_s $ is guaranteed to be nonnegative by Eq. (3).

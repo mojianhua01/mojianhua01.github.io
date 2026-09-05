@@ -120,6 +120,8 @@
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/9863771
+  - label: Errata (TXT)
+    url: /files/publications/2022-extending-uplink-coverage-errata.txt
 - title: 'Joint Phase-Time Arrays: A Paradigm for Frequency-Dependent Analog Beamforming
     in 6G'
   authors: Vishnu V. Ratnam, Jianhua Mo, Ahmad AlAmmouri, Boon Loong Ng, Jianzhong
@@ -419,6 +421,8 @@
     url: https://ieeexplore.ieee.org/document/7155570
   - label: arXiv
     url: https://arxiv.org/abs/1410.7353
+  - label: Errata (TXT)
+    url: /files/publications/2015-one-bit-mimo-capacity-errata.txt
 - title: MIMO Precoding and Combining Solutions for Millimeter-Wave Systems
   authors: Ahmed Alkhateeb, Jianhua Mo, Nuria González-Prelcic, and Robert W. Heath
     Jr.
@@ -437,6 +441,8 @@
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7094595
+  - label: Errata (TXT)
+    url: /files/publications/2014-one-bit-channel-estimation-errata.txt
 - title: Secure Beamforming for MIMO Two-Way Communications With an Untrusted Relay
   authors: Jianhua Mo, Meixia Tao, Yuan Liu, and Rui Wang
   year: 2014
@@ -512,6 +518,8 @@
     url: https://ieeexplore.ieee.org/document/6189820
   - label: arXiv
     url: https://arxiv.org/abs/1204.1739
+  - label: Errata (TXT)
+    url: /files/publications/2012-relay-placement-errata.txt
 - title: Power and Subcarrier Allocation for Physical-Layer Security in OFDMA-Based
     Broadband Wireless Networks
   authors: Xiaowei Wang, Meixia Tao, Jianhua Mo, and Youyun Xu

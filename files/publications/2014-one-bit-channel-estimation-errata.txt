@@ -1,0 +1,3 @@
+Strictly speaking, the algorithm in this paper is not an EM algorithm. It is a heuristic algorithm which alternatively optimizes the hidden variable y and the estimator h, following the principle of alternating optimization (or called alternating minimization). We turned to the GAMP algorithm in the journal version of this paper.
+
+Thanks the readers for citing this paper and pointing out the mistake.

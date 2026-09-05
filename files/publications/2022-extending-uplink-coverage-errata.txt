@@ -1,0 +1,3 @@
+1. Page 88877,  left column, the 3rd last line of the first paragraph, 'proportional to the BS' --> 'proportional to the BW'
+2. Figure 10 title, 'bright blue region' --> 'bright yellow region'
+3. Page 88879, right column, the 2nd last line of the 2nd paragraph, ‘N_{NT}=2’ should be ‘N_{TR}=2’.
