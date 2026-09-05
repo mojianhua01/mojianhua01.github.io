@@ -259,6 +259,8 @@
     url: https://ieeexplore.ieee.org/document/8171203
   - label: arXiv
     url: https://arxiv.org/abs/1610.02735
+  - label: Code
+    url: https://github.com/mojianhua01/Broadband_Fewbit
 - title: 'Hybrid Architectures with Few-Bit ADC Receivers: Achievable Rates and Energy-Rate
     Tradeoffs'
   authors: Jianhua Mo, Ahmed Alkhateeb, Shadi Abu-Surra, and Robert W. Heath Jr.
@@ -423,6 +425,8 @@
     url: https://ieeexplore.ieee.org/document/7155570
   - label: arXiv
     url: https://arxiv.org/abs/1410.7353
+  - label: Code
+    url: https://github.com/mojianhua01/One-bit-MIMO-Capacity
   - label: Errata (TXT)
     url: /files/publications/2015-one-bit-mimo-capacity-errata.txt
 - title: MIMO Precoding and Combining Solutions for Millimeter-Wave Systems
@@ -520,6 +524,8 @@
     url: https://ieeexplore.ieee.org/document/6189820
   - label: arXiv
     url: https://arxiv.org/abs/1204.1739
+  - label: Code
+    url: https://github.com/mojianhua01/Relay-placement-for-physical-layer-security#english
   - label: Errata (TXT)
     url: /files/publications/2012-relay-placement-errata.txt
 - title: Power and Subcarrier Allocation for Physical-Layer Security in OFDMA-Based
