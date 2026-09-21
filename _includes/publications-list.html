@@ -59,7 +59,7 @@ descending order within each section.
     {% for pub in preprint_pubs %}
       {% if pub.year == y %}
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
-          <strong>{{ pub.title }}</strong><br>
+          <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
           {% if pub.award %}
@@ -89,7 +89,7 @@ descending order within each section.
     {% for pub in journal_pubs %}
       {% if pub.year == y %}
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
-          <strong>{{ pub.title }}</strong><br>
+          <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
           {% if pub.award %}
@@ -118,7 +118,7 @@ descending order within each section.
     {% for pub in conference_pubs %}
       {% if pub.year == y %}
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
-          <strong>{{ pub.title }}</strong><br>
+          <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
           {% if pub.award %}
@@ -148,7 +148,7 @@ descending order within each section.
     {% for pub in book_pubs %}
       {% if pub.year == y %}
         <li class="pub-item">
-          <strong>{{ pub.title }}</strong><br>
+          <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
           {% if pub.award %}
@@ -182,7 +182,7 @@ _data/publications.yml so this section can be restored later.
     {% for pub in other_pubs %}
       {% if pub.year == y %}
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
-          <strong>{{ pub.title }}</strong><br>
+          <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {{ pub.year }}
           {% if pub.links and pub.links.size > 0 %}

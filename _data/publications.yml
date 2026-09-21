@@ -4,6 +4,7 @@
   year: 2025
   venue: 2025 IEEE/CIC International Conference on Communications in China (ICCC)
   category: conference
+  number: C17
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11149018
@@ -16,6 +17,7 @@
   year: 2026
   venue: IEEE Wireless Communications Letters
   category: journal
+  number: J21
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11422914
@@ -28,6 +30,7 @@
   year: 2025
   venue: 2025 IEEE Virtual Conference on Communications (VCC)
   category: conference
+  number: C18
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11351132
@@ -39,6 +42,7 @@
   venue: 2025 Seventeenth International Conference on Wireless Communications and
     Signal Processing (WCSP)
   category: conference
+  number: C19
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/11352049/
@@ -48,6 +52,7 @@
   year: 2026
   venue: IEEE Transactions on Wireless Communications
   category: journal
+  number: J22
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11447364
@@ -63,6 +68,7 @@
   year: 2026
   venue: 2026 IEEE Wireless Communications and Networking Conference (WCNC)
   category: conference
+  number: C20
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11555563
@@ -95,6 +101,7 @@
   year: 2024
   venue: 58th Asilomar Conference on Signals, Systems and Computers
   category: conference
+  number: C16
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/10942922
@@ -107,6 +114,7 @@
   year: 2024
   venue: 2024 IEEE 100th Vehicular Technology Conference (VTC2024-Fall)
   category: conference
+  number: C15
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/10757955
@@ -119,6 +127,7 @@
   year: 2022
   venue: IEEE Access
   category: journal
+  number: J19
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/9863771
@@ -131,6 +140,7 @@
   year: 2022
   venue: IEEE Access
   category: journal
+  number: J18
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/9826716
@@ -144,6 +154,7 @@
   venue: ICC 2022 Workshop on Synergies of Communication, Localization, and Sensing
     towards 6G
   category: conference
+  number: C14
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/9814507
@@ -154,6 +165,7 @@
   year: 2022
   venue: IEEE Transactions on Wireless Communications
   category: journal
+  number: J17
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/9690703
@@ -168,6 +180,7 @@
   year: 2021
   venue: Asilomar Conference on Signals, Systems and Computers
   category: conference
+  number: C13
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/9723333
@@ -178,6 +191,7 @@
   year: 2021
   venue: IEEE GLOBECOM
   category: conference
+  number: C12
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/9685512
@@ -187,6 +201,7 @@
   year: 2021
   venue: IEEE Communications Magazine
   category: journal
+  number: J16
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/9502647
@@ -195,6 +210,7 @@
   year: 2021
   venue: IEEE Access
   category: journal
+  number: J15
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/9391649
@@ -204,6 +220,7 @@
   year: 2019
   venue: IEEE GLOBECOM
   category: conference
+  number: C11
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/9014196
@@ -215,6 +232,7 @@
   year: 2019
   venue: IEEE Access
   category: journal
+  number: J14
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/8767936
@@ -226,6 +244,7 @@
   year: 2019
   venue: IEEE Access
   category: journal
+  number: J13
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/8705216
@@ -235,6 +254,7 @@
   year: 2018
   venue: 11th Global Symposium on Millimeter Waves (GSMM)
   category: conference
+  number: C10
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/8439586
@@ -243,6 +263,7 @@
   year: 2018
   venue: IEEE Transactions on Wireless Communications
   category: journal
+  number: J12
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/8305638
@@ -254,6 +275,7 @@
   year: 2018
   venue: IEEE Transactions on Signal Processing
   category: journal
+  number: J11
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/8171203
@@ -267,6 +289,7 @@
   year: 2017
   venue: IEEE Transactions on Wireless Communications
   category: journal
+  number: J10
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7876856
@@ -277,6 +300,7 @@
   year: 2016
   venue: 50th Asilomar Conference on Signals, Systems and Computers
   category: conference
+  number: C9
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7869085
@@ -288,6 +312,7 @@
   year: 2016
   venue: IEEE Transactions on Communications
   category: journal
+  number: J9
   award: 2019 IEEE Communications Society Stephen O. Rice Prize
   links:
   - label: IEEE Xplore
@@ -317,6 +342,7 @@
   year: 2026
   venue: IEEE Transactions on Wireless Communications
   category: journal
+  number: J24
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11603948
@@ -337,6 +363,7 @@
   year: 2026
   venue: IEEE Communications Letters
   category: journal
+  number: J23
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11577189
@@ -347,6 +374,7 @@
   year: 2026
   venue: 2026 IEEE International Conference on Communications Workshops (ICC Workshops)
   category: conference
+  number: C21
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11586587
@@ -358,6 +386,7 @@
   year: 2026
   venue: ICC 2026 - IEEE International Conference on Communications
   category: conference
+  number: C23
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11587518
@@ -366,6 +395,7 @@
   year: 2026
   venue: ICC 2026 - IEEE International Conference on Communications
   category: conference
+  number: C22
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11586883
@@ -383,6 +413,7 @@
   year: 2025
   venue: IEEE Communications Magazine
   category: journal
+  number: J20
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11193673
@@ -401,6 +432,7 @@
   year: 2016
   venue: 20th International ITG Workshop on Smart Antennas (WSA)
   category: conference
+  number: C8
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7499125
@@ -409,6 +441,7 @@
   year: 2015
   venue: 49th Asilomar Conference on Signals, Systems and Computers
   category: conference
+  number: C7
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7421380
@@ -420,6 +453,7 @@
   year: 2015
   venue: IEEE Transactions on Signal Processing
   category: journal
+  number: J8
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7155570
@@ -435,6 +469,7 @@
   year: 2014
   venue: IEEE Communications Magazine
   category: journal
+  number: J7
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6979963
@@ -444,6 +479,7 @@
   year: 2014
   venue: Asilomar Conference on Signals, Systems and Computers
   category: conference
+  number: C6
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7094595
@@ -454,6 +490,7 @@
   year: 2014
   venue: IEEE Transactions on Signal Processing
   category: journal
+  number: J6
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6746215
@@ -464,6 +501,7 @@
   year: 2014
   venue: Information Theory and Applications Workshop (ITA)
   category: conference
+  number: C5
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6804238
@@ -473,6 +511,7 @@
   year: 2013
   venue: IEEE Transactions on Wireless Communications
   category: journal
+  number: J5
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6485031
@@ -483,6 +522,7 @@
   year: 2013
   venue: IEEE Wireless Communications and Networking Conference (WCNC)
   category: conference
+  number: C4
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6555248
@@ -491,6 +531,7 @@
   year: 2013
   venue: IEEE Transactions on Signal Processing
   category: journal
+  number: J4
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6408233
@@ -502,6 +543,7 @@
   year: 2012
   venue: IEEE Global Communications Conference (GLOBECOM)
   category: conference
+  number: C3
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6503832
@@ -511,6 +553,7 @@
   year: 2012
   venue: IEEE Global Communications Conference (GLOBECOM)
   category: conference
+  number: C2
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6503221
@@ -519,6 +562,7 @@
   year: 2012
   venue: IEEE Communications Letters
   category: journal
+  number: J3
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6189820
@@ -534,6 +578,7 @@
   year: 2011
   venue: IEEE Transactions on Information Forensics and Security
   category: journal
+  number: J2
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/5872025
@@ -544,6 +589,7 @@
   year: 2011
   venue: IEEE International Conference on Communications (ICC)
   category: conference
+  number: C1
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/5963493
@@ -553,6 +599,7 @@
   year: 2010
   venue: IEEE Communications Letters
   category: journal
+  number: J1
   award: 2013 IEEE Communications Society Heinrich Hertz Award
   links:
   - label: IEEE Xplore
