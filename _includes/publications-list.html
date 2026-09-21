@@ -41,6 +41,7 @@ descending order within each section.
 {% assign dataset_pubs = site.data.publications | where: "category", "dataset" %}
 {% assign book_pubs = site.data.publications | where: "category", "book" | sort: "year" | reverse %}
 {% assign other_pubs = manuscript_pubs | concat: dataset_pubs | sort: "year" | reverse %}
+{% assign months_en = "Jan.|Feb.|Mar.|Apr.|May|Jun.|Jul.|Aug.|Sep.|Oct.|Nov.|Dec." | split: "|" %}
 
 <nav class="pub-nav" aria-label="{% if page.lang == "zh" %}论文分类{% else %}Publication categories{% endif %}">
   <a href="#preprints">{% if page.lang == "zh" %}预印本{% else %}Preprints{% endif %}</a>
@@ -61,7 +62,7 @@ descending order within each section.
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
           <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
-          <em>{{ pub.venue }}</em>, {{ pub.year }}
+          <em>{{ pub.venue }}</em>, {% if pub.month %}{% if page.lang == "zh" %}{{ pub.year }}年{{ pub.month }}月{% else %}{% assign mi = pub.month | minus: 1 %}{{ months_en[mi] }} {{ pub.year }}{% endif %}{% else %}{{ pub.year }}{% endif %}
           {% if pub.award %}
             <br><span class="pub-award">{% if page.lang == "zh" %}获奖：{% else %}Award: {% endif %}{{ pub.award }}</span>
           {% endif %}
@@ -91,7 +92,7 @@ descending order within each section.
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
           <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
-          <em>{{ pub.venue }}</em>, {{ pub.year }}
+          <em>{{ pub.venue }}</em>, {% if pub.month %}{% if page.lang == "zh" %}{{ pub.year }}年{{ pub.month }}月{% else %}{% assign mi = pub.month | minus: 1 %}{{ months_en[mi] }} {{ pub.year }}{% endif %}{% else %}{{ pub.year }}{% endif %}
           {% if pub.award %}
             <br><span class="pub-award">{% if page.lang == "zh" %}获奖：{% else %}Award: {% endif %}{{ pub.award }}</span>
           {% endif %}
@@ -120,7 +121,7 @@ descending order within each section.
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
           <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
-          <em>{{ pub.venue }}</em>, {{ pub.year }}
+          <em>{{ pub.venue }}</em>, {% if pub.month %}{% if page.lang == "zh" %}{{ pub.year }}年{{ pub.month }}月{% else %}{% assign mi = pub.month | minus: 1 %}{{ months_en[mi] }} {{ pub.year }}{% endif %}{% else %}{{ pub.year }}{% endif %}
           {% if pub.award %}
             <br><span class="pub-award">{% if page.lang == "zh" %}获奖：{% else %}Award: {% endif %}{{ pub.award }}</span>
           {% endif %}
@@ -150,7 +151,7 @@ descending order within each section.
         <li class="pub-item">
           <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
-          <em>{{ pub.venue }}</em>, {{ pub.year }}
+          <em>{{ pub.venue }}</em>, {% if pub.month %}{% if page.lang == "zh" %}{{ pub.year }}年{{ pub.month }}月{% else %}{% assign mi = pub.month | minus: 1 %}{{ months_en[mi] }} {{ pub.year }}{% endif %}{% else %}{{ pub.year }}{% endif %}
           {% if pub.award %}
             <br><span class="pub-award">{% if page.lang == "zh" %}获奖：{% else %}Award: {% endif %}{{ pub.award }}</span>
           {% endif %}
@@ -184,7 +185,7 @@ _data/publications.yml so this section can be restored later.
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
           <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
-          <em>{{ pub.venue }}</em>, {{ pub.year }}
+          <em>{{ pub.venue }}</em>, {% if pub.month %}{% if page.lang == "zh" %}{{ pub.year }}年{{ pub.month }}月{% else %}{% assign mi = pub.month | minus: 1 %}{{ months_en[mi] }} {{ pub.year }}{% endif %}{% else %}{{ pub.year }}{% endif %}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
             {% for link in pub.links %}
