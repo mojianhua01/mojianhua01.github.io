@@ -157,7 +157,7 @@ schema:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
@@ -207,6 +207,26 @@ exclude:
   - files/slides1.pdf
   - files/slides2.pdf
   - files/slides3.pdf
+
+  # Unused template demo images: kept in the repository but not published (2026-09-21)
+  # Verified to have zero references in any source file (_includes, _layouts, _pages,
+  # _data, index.md, _sass, assets).
+  - images/3953273590_704e3899d5_m.jpg
+  - images/bio-photo.jpg
+  - images/bio-photo-2.jpg
+  - images/editing-talk.png
+  - images/foo-bar-identity.jpg
+  - images/foo-bar-identity-th.jpg
+  - images/homepage.png
+  - images/image-alignment-1200x4002.jpg
+  - images/image-alignment-150x150.jpg
+  - images/image-alignment-300x200.jpg
+  - images/image-alignment-580x300.jpg
+  - images/paragraph-indent.png
+  - images/paragraph-no-indent.png
+  - images/site-logo.png
+  - images/themes/homepage-dark.png
+  - images/themes/homepage-light.png
 keep_files:
   - .git
   - .svn

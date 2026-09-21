@@ -11,3 +11,7 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Local WorkBuddy notes/memory: they contain absolute local paths and are
+# meant to stay on this machine, not in the public repository.
+.workbuddy/

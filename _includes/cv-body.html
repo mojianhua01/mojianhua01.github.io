@@ -183,6 +183,21 @@ and the education / appointment lists already published on the home pages.
   {% endif %}
 </ul>
 
+<h2>{% if page.lang == "zh" %}教学{% else %}Teaching{% endif %}</h2>
+<ul class="cv-list">
+  {% if page.lang == "zh" %}
+    <li>
+      <span class="cv-when">2026年秋</span>
+      <span>通信原理</span>
+    </li>
+  {% else %}
+    <li>
+      <span class="cv-when">Fall 2026</span>
+      <span>Principles of Communications</span>
+    </li>
+  {% endif %}
+</ul>
+
 <h2>{% if page.lang == "zh" %}荣誉奖项{% else %}Honors and Awards{% endif %}</h2>
 {% include awards-list.html %}
 
