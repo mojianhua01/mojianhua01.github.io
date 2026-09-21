@@ -194,6 +194,19 @@ exclude:
   - README
   - tmp
   - vendor
+
+  # Template demo leftovers: kept in the repository but not published (2026-09-21)
+  # talkmap* covers talkmap/ + talkmap.py + talkmap.ipynb + talkmap_out.ipynb
+  - CONTRIBUTING.md
+  - docker-compose.yaml
+  - markdown_generator
+  - talkmap*
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
 keep_files:
   - .git
   - .svn
