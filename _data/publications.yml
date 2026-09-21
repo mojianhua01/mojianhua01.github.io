@@ -1,3 +1,36 @@
+- title: Feature-Space Based Joint Source-Channel Coding for Video Wireless Transmission
+  authors: Yanbing Wu, Haoshuo Zhang, Jianhua Mo, and Meixia Tao
+  year: 2025
+  venue: 2025 Seventeenth International Conference on Wireless Communications and
+    Signal Processing (WCSP)
+  category: conference
+  number: C19
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/abstract/document/11352049/
+- title: '3D extended target sensing in ISAC: Cramér-Rao bound analysis and beamforming
+    design'
+  authors: Yiqiu Wang, Meixia Tao, Shu Sun, Jianhua Mo, and Wei Cao
+  year: 2026
+  venue: IEEE Transactions on Wireless Communications
+  category: journal
+  number: J24
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11603948
+  - label: arXiv
+    url: https://arxiv.org/abs/2412.06353v2
+- title: Deep Learning-Based Beamforming Design Using Target Beam Patterns
+  authors: Hongpu Zhang, Shu Sun, Hangsong Yan, and Jianhua Mo
+  year: 2025
+  venue: 2025 IEEE Virtual Conference on Communications (VCC)
+  category: conference
+  number: C18
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11351132
+  - label: arXiv
+    url: https://arxiv.org/abs/2507.10063v2
 - title: 'CFARNet: Learning-Based High-Resolution Multi-Target Detection for Rainbow
     Beam Radar'
   authors: Qiushi Liang, Yeyue Cai, Jianhua Mo, and Meixia Tao
@@ -12,70 +45,28 @@
     url: https://arxiv.org/abs/2505.10150
   - label: Code
     url: https://github.com/SJTU-WirelessAI-Lab/CFARNet
-- title: 'SPOT: Single-shot positioning via trainable near-field rainbow beamforming'
-  authors: Yeyue Cai, Jianhua Mo, and Meixia Tao
+- title: 'BitSemCom: A Bit-Level Semantic Communication Framework with Learnable Probabilistic
+    Mapping'
+  authors: Haoshuo Zhang, Yufei Bo, Jianhua Mo, and Meixia Tao
   year: 2026
-  venue: IEEE Wireless Communications Letters
+  venue: IEEE Communications Letters
   category: journal
-  number: J21
+  number: J23
   links:
   - label: IEEE Xplore
-    url: https://ieeexplore.ieee.org/document/11422914
+    url: https://ieeexplore.ieee.org/document/11577189
   - label: arXiv
-    url: https://arxiv.org/abs/2511.11391
-  - label: Code
-    url: https://github.com/SJTU-WirelessAI-Lab/SPOT
-- title: Deep Learning-Based Beamforming Design Using Target Beam Patterns
-  authors: Hongpu Zhang, Shu Sun, Hangsong Yan, and Jianhua Mo
-  year: 2025
-  venue: 2025 IEEE Virtual Conference on Communications (VCC)
-  category: conference
-  number: C18
-  links:
-  - label: IEEE Xplore
-    url: https://ieeexplore.ieee.org/document/11351132
-  - label: arXiv
-    url: https://arxiv.org/abs/2507.10063v2
-- title: Feature-Space Based Joint Source-Channel Coding for Video Wireless Transmission
-  authors: Yanbing Wu, Haoshuo Zhang, Jianhua Mo, and Meixia Tao
-  year: 2025
-  venue: 2025 Seventeenth International Conference on Wireless Communications and
-    Signal Processing (WCSP)
-  category: conference
-  number: C19
-  links:
-  - label: IEEE Xplore
-    url: https://ieeexplore.ieee.org/abstract/document/11352049/
-- title: Hybrid Near/Far-Field Frequency-Dependent Beamforming via Phase-Time Arrays
-    With Single RF Chain
-  authors: Yeyue Cai, Meixia Tao, Jianhua Mo, and Shu Sun
+    url: https://arxiv.org/abs/2510.26225
+- title: Extended Target Tracking for Contour-Aware Predictive Beamforming in ISAC
+    Systems
+  authors: Yiqiu Wang, Meixia Tao, and Jianhua Mo
   year: 2026
-  venue: IEEE Transactions on Wireless Communications
-  category: journal
-  number: J22
-  links:
-  - label: IEEE Xplore
-    url: https://ieeexplore.ieee.org/document/11447364
-  - label: arXiv
-    url: https://arxiv.org/abs/2501.15207v1
-  - label: Code
-    url: https://github.com/SJTU-WirelessAI-Lab/NF-FF_Communication_with_PTA
-  - label: Errata (TXT)
-    url: /files/publications/2025-hybrid-near-far-field-errata.txt
-- title: 'MARBLE-Net: Learning to Localize in Multipath Environment with Adaptive
-    Rainbow Beams'
-  authors: Qiushi Liang, Yeyue Cai, Jianhua Mo, and Meixia Tao
-  year: 2026
-  venue: 2026 IEEE Wireless Communications and Networking Conference (WCNC)
+  venue: ICC 2026 - IEEE International Conference on Communications
   category: conference
-  number: C20
+  number: C23
   links:
   - label: IEEE Xplore
-    url: https://ieeexplore.ieee.org/document/11555563
-  - label: arXiv
-    url: https://arxiv.org/abs/2511.06971v3
-  - label: Code
-    url: https://github.com/SJTU-WirelessAI-Lab/MARBLE-Net_arxiv
+    url: https://ieeexplore.ieee.org/document/11587518
 - title: 'AirFM-DDA: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain
     for AI-Native 6G'
   authors: Kejia Bian, Meixia Tao, Jianhua Mo, Zhiyong Chen, and Leyan Chen
@@ -336,18 +327,22 @@
   links:
   - label: arXiv
     url: https://arxiv.org/abs/2607.13678
-- title: '3D extended target sensing in ISAC: Cramér-Rao bound analysis and beamforming
-    design'
-  authors: Yiqiu Wang, Meixia Tao, Shu Sun, Jianhua Mo, and Wei Cao
+- title: Hybrid Near/Far-Field Frequency-Dependent Beamforming via Phase-Time Arrays
+    With Single RF Chain
+  authors: Yeyue Cai, Meixia Tao, Jianhua Mo, and Shu Sun
   year: 2026
   venue: IEEE Transactions on Wireless Communications
   category: journal
-  number: J24
+  number: J22
   links:
   - label: IEEE Xplore
-    url: https://ieeexplore.ieee.org/document/11603948
+    url: https://ieeexplore.ieee.org/document/11447364
   - label: arXiv
-    url: https://arxiv.org/abs/2412.06353v2
+    url: https://arxiv.org/abs/2501.15207v1
+  - label: Code
+    url: https://github.com/SJTU-WirelessAI-Lab/NF-FF_Communication_with_PTA
+  - label: Errata (TXT)
+    url: /files/publications/2025-hybrid-near-far-field-errata.txt
 - title: 'LAMBDA: A Low-Altitude Multimodal Base Dataset for UAV Sensing and Communication'
   authors: Lin Zhou, Peichuan Rao, Chenshuo Zhang, Jianhua Mo, Shu Sun, Zhiyong
     Chen, and Meixia Tao
@@ -357,18 +352,28 @@
   links:
   - label: arXiv
     url: https://arxiv.org/abs/2607.03826
-- title: 'BitSemCom: A Bit-Level Semantic Communication Framework with Learnable Probabilistic
-    Mapping'
-  authors: Haoshuo Zhang, Yufei Bo, Jianhua Mo, and Meixia Tao
+- title: 'SPOT: Single-shot positioning via trainable near-field rainbow beamforming'
+  authors: Yeyue Cai, Jianhua Mo, and Meixia Tao
   year: 2026
-  venue: IEEE Communications Letters
+  venue: IEEE Wireless Communications Letters
   category: journal
-  number: J23
+  number: J21
   links:
   - label: IEEE Xplore
-    url: https://ieeexplore.ieee.org/document/11577189
+    url: https://ieeexplore.ieee.org/document/11422914
   - label: arXiv
-    url: https://arxiv.org/abs/2510.26225
+    url: https://arxiv.org/abs/2511.11391
+  - label: Code
+    url: https://github.com/SJTU-WirelessAI-Lab/SPOT
+- title: Deep Learning-Based Maneuvering UAV Tracking in Multi-User Uplink ISAC Systems
+  authors: Renjie He, Meixia Tao, and Jianhua Mo
+  year: 2026
+  venue: ICC 2026 - IEEE International Conference on Communications
+  category: conference
+  number: C22
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11586883
 - title: 'AirMIND: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain'
   authors: Kejia Bian, Leyan Chen, Jianhua Mo, Zhiyong Chen, and Meixia Tao
   year: 2026
@@ -380,25 +385,20 @@
     url: https://ieeexplore.ieee.org/document/11586587
   - label: arXiv
     url: https://arxiv.org/abs/2605.00020v1
-- title: Extended Target Tracking for Contour-Aware Predictive Beamforming in ISAC
-    Systems
-  authors: Yiqiu Wang, Meixia Tao, and Jianhua Mo
+- title: 'MARBLE-Net: Learning to Localize in Multipath Environment with Adaptive
+    Rainbow Beams'
+  authors: Qiushi Liang, Yeyue Cai, Jianhua Mo, and Meixia Tao
   year: 2026
-  venue: ICC 2026 - IEEE International Conference on Communications
+  venue: 2026 IEEE Wireless Communications and Networking Conference (WCNC)
   category: conference
-  number: C23
+  number: C20
   links:
   - label: IEEE Xplore
-    url: https://ieeexplore.ieee.org/document/11587518
-- title: Deep Learning-Based Maneuvering UAV Tracking in Multi-User Uplink ISAC Systems
-  authors: Renjie He, Meixia Tao, and Jianhua Mo
-  year: 2026
-  venue: ICC 2026 - IEEE International Conference on Communications
-  category: conference
-  number: C22
-  links:
-  - label: IEEE Xplore
-    url: https://ieeexplore.ieee.org/document/11586883
+    url: https://ieeexplore.ieee.org/document/11555563
+  - label: arXiv
+    url: https://arxiv.org/abs/2511.06971v3
+  - label: Code
+    url: https://github.com/SJTU-WirelessAI-Lab/MARBLE-Net_arxiv
 - title: 'Fed-PELAD: Communication-Efficient Federated Learning for Massive MIMO CSI
     Feedback with Personalized Encoders and a LoRA-Adapted Shared Decoder'
   authors: Yixiang Zhou, Tong Wu, Meixia Tao, and Jianhua Mo
