@@ -1,0 +1,195 @@
+{% comment %}
+Full CV body, shared by /cv/ (EN) and /zh/cv/ (ZH). Everything lives in a single
+include so the host page can stay a thin .md file: the whole block is raw HTML,
+which kramdown passes through untouched.
+
+Content sources: _data/publications.yml (numbers + months), _data/awards.yml,
+and the education / appointment lists already published on the home pages.
+{% endcomment %}
+<div class="cv-page">
+
+<style>
+  .cv-page { --cv-rule: #e6e6e6; }
+  .cv-page > h2 {
+    margin: 2rem 0 .5rem;
+    padding-bottom: .3rem;
+    border-bottom: 2px solid #b00;
+    font-size: 1.3rem;
+  }
+  .cv-page > h3.cv-year {
+    margin: 1.15rem 0 .2rem;
+    color: #777;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .02em;
+  }
+  .cv-list {
+    margin: .3rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .cv-list > li {
+    display: grid;
+    grid-template-columns: 9.5rem 1fr;
+    gap: .9rem;
+    padding: .55rem 0;
+    border-top: 1px solid var(--cv-rule);
+  }
+  .cv-list .cv-when { color: #b00; font-weight: 700; }
+  .cv-list .cv-note { color: #777; font-size: .9rem; }
+  .cv-contact {
+    margin: .4rem 0 0;
+    padding-left: 1.1rem;
+  }
+  .cv-pub {
+    display: grid;
+    grid-template-columns: 3.6rem 1fr;
+    gap: .7rem;
+    padding: .5rem 0;
+    border-top: 1px solid var(--cv-rule);
+  }
+  .cv-pub-id { color: #b00; font-weight: 700; }
+  .cv-pub-title { font-weight: 600; }
+  .cv-pub-meta { margin-top: .15rem; color: #555; font-size: .92rem; }
+  .cv-pub-award { color: #9a6700; font-weight: 600; }
+  .cv-pub-links a, .cv-contact a { text-decoration: none; }
+  .cv-count { color: #999; font-weight: 400; font-size: .95rem; }
+  .cv-updated { margin-top: 2rem; color: #888; font-size: .9rem; }
+
+  @media (max-width: 560px) {
+    .cv-list > li, .cv-pub { grid-template-columns: 1fr; gap: .15rem; }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .cv-page { --cv-rule: #3a3a3a; }
+    .cv-page > h3.cv-year,
+    .cv-list .cv-note,
+    .cv-updated { color: #aaa; }
+    .cv-pub-meta { color: #bbb; }
+  }
+</style>
+
+<h2>{% if page.lang == "zh" %}联系方式{% else %}Contact{% endif %}</h2>
+<ul class="cv-contact">
+  {% if page.lang == "zh" %}
+    <li>上海交通大学集成电路学院（信息与电子工程学院）长聘教轨副教授</li>
+    <li>邮箱：<a href="mailto:mjh@sjtu.edu.cn">mjh@sjtu.edu.cn</a></li>
+    <li>主页：<a href="https://mojianhua01.github.io/zh/">mojianhua01.github.io</a> · 原主页：<a href="https://sites.google.com/view/mojianhua01/">Google Sites</a></li>
+    <li>学术档案：<a href="https://scholar.google.com/citations?user=OW4_YiwAAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0003-1877-2730">ORCID</a> · <a href="https://github.com/mojianhua01">个人 GitHub</a> · <a href="https://github.com/SJTU-WirelessAI-Lab">实验室 GitHub</a></li>
+  {% else %}
+    <li>Tenure-track Associate Professor, School of Integrated Circuits (School of Information and Electronic Engineering), Shanghai Jiao Tong University, Shanghai, China</li>
+    <li>Email: <a href="mailto:mjh@sjtu.edu.cn">mjh@sjtu.edu.cn</a></li>
+    <li>Website: <a href="https://mojianhua01.github.io/">mojianhua01.github.io</a> · Previous website: <a href="https://sites.google.com/view/mojianhua01/">Google Sites</a></li>
+    <li>Profiles: <a href="https://scholar.google.com/citations?user=OW4_YiwAAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0003-1877-2730">ORCID</a> · <a href="https://github.com/mojianhua01">GitHub</a> · <a href="https://github.com/SJTU-WirelessAI-Lab">Lab GitHub</a></li>
+  {% endif %}
+</ul>
+
+<h2>{% if page.lang == "zh" %}研究方向{% else %}Research Interests{% endif %}</h2>
+<ul class="cv-contact">
+  {% if page.lang == "zh" %}
+    <li>无线通信与人工智能融合</li>
+    <li>毫米波通信与大规模 MIMO</li>
+    <li>通信与感知一体化（ISAC）</li>
+  {% else %}
+    <li>AI for wireless communications</li>
+    <li>Millimeter-wave communications and massive MIMO</li>
+    <li>Integrated sensing and communications (ISAC)</li>
+  {% endif %}
+</ul>
+
+<h2>{% if page.lang == "zh" %}教育背景{% else %}Education{% endif %}</h2>
+<ul class="cv-list">
+  {% if page.lang == "zh" %}
+    <li>
+      <span class="cv-when">2017</span>
+      <span><strong>博士</strong>，电气与计算机工程，美国得克萨斯大学奥斯汀分校<br><span class="cv-note">导师：Robert W. Heath, Jr. 教授</span></span>
+    </li>
+    <li>
+      <span class="cv-when">2013</span>
+      <span><strong>硕士</strong>，通信与信息系统，上海交通大学<br><span class="cv-note">导师：陶梅霞教授</span></span>
+    </li>
+    <li>
+      <span class="cv-when">2010</span>
+      <span><strong>学士</strong>，信息工程，上海交通大学</span>
+    </li>
+  {% else %}
+    <li>
+      <span class="cv-when">2017</span>
+      <span><strong>Ph.D.</strong>, Electrical and Computer Engineering, The University of Texas at Austin<br><span class="cv-note">Advisor: Prof. Robert W. Heath, Jr.</span></span>
+    </li>
+    <li>
+      <span class="cv-when">2013</span>
+      <span><strong>M.S.</strong>, Communication and Information Systems, Shanghai Jiao Tong University<br><span class="cv-note">Advisor: Prof. Meixia Tao</span></span>
+    </li>
+    <li>
+      <span class="cv-when">2010</span>
+      <span><strong>B.Eng.</strong>, Information Engineering, Shanghai Jiao Tong University</span>
+    </li>
+  {% endif %}
+</ul>
+
+<h2>{% if page.lang == "zh" %}工作经历{% else %}Professional Experience{% endif %}</h2>
+<ul class="cv-list">
+  {% if page.lang == "zh" %}
+    <li>
+      <span class="cv-when">2024.12–至今</span>
+      <span>上海交通大学，长聘教轨副教授</span>
+    </li>
+    <li>
+      <span class="cv-when">2023.03–2024.11</span>
+      <span>三星美国研究院，Senior Staff Engineer</span>
+    </li>
+    <li>
+      <span class="cv-when">2019.03–2023.03</span>
+      <span>三星美国研究院，Staff Engineer</span>
+    </li>
+    <li>
+      <span class="cv-when">2017.01–2019.03</span>
+      <span>三星美国研究院，Senior Engineer</span>
+    </li>
+    <li>
+      <span class="cv-when">2015.05–2015.08</span>
+      <span>三星美国研究院，暑期实习</span>
+    </li>
+    <li>
+      <span class="cv-when">2014.05–2014.08</span>
+      <span>高通，暑期实习</span>
+    </li>
+  {% else %}
+    <li>
+      <span class="cv-when">Dec. 2024–Present</span>
+      <span>Tenure-track Associate Professor, Shanghai Jiao Tong University</span>
+    </li>
+    <li>
+      <span class="cv-when">Mar. 2023–Nov. 2024</span>
+      <span>Senior Staff Engineer, Samsung Research America</span>
+    </li>
+    <li>
+      <span class="cv-when">Mar. 2019–Mar. 2023</span>
+      <span>Staff Engineer, Samsung Research America</span>
+    </li>
+    <li>
+      <span class="cv-when">Jan. 2017–Mar. 2019</span>
+      <span>Senior Engineer, Samsung Research America</span>
+    </li>
+    <li>
+      <span class="cv-when">May 2015–Aug. 2015</span>
+      <span>Summer Intern, Samsung Research America</span>
+    </li>
+    <li>
+      <span class="cv-when">May 2014–Aug. 2014</span>
+      <span>Summer Intern, Qualcomm</span>
+    </li>
+  {% endif %}
+</ul>
+
+<h2>{% if page.lang == "zh" %}荣誉奖项{% else %}Honors and Awards{% endif %}</h2>
+{% include awards-list.html %}
+
+{% include cv-publications.html %}
+
+<p class="cv-updated">
+  {% if page.lang == "zh" %}最近更新：{{ site.time | date: "%Y年%-m月" }}{% else %}Last updated: {{ site.time | date: "%B %Y" }}{% endif %}
+</p>
+
+</div>

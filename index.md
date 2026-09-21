@@ -45,7 +45,7 @@ redirect_from:
 - Mar. 2019–Mar. 2023: Staff Engineer, Samsung Research America
 - Jan. 2017–Mar. 2019: Senior Engineer, Samsung Research America
 - May 2015–Aug. 2015: Summer Intern, Samsung Research America
-- May 2015–Aug. 2014: Summer Intern, Qualcomm
+- May 2014–Aug. 2014: Summer Intern, Qualcomm
 
 ---
 

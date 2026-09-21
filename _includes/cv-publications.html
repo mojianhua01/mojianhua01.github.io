@@ -1,0 +1,50 @@
+{% comment %}
+CV publication list, shared by /cv/ (EN) and /zh/cv/ (ZH).
+
+Ordering: newest first, both across years and inside a year. It is built without
+depending on the stability of Liquid's `sort`, which Ruby does not guarantee:
+`map: "year" | sort | reverse | uniq` is safe because the year values are
+distinct, and each year group is then pulled out with `where` (which preserves
+the order of _data/publications.yml) and reversed. The YAML keeps every year
+group in ascending month order, so reversing it gives month-descending order.
+This matches the order shown on the Publications page.
+
+The entry markup is written inline rather than in a sub-include on purpose:
+parameter passing to includes behaves differently between Jekyll's Liquid and
+the local liquidjs used for pre-flight checks.
+{% endcomment %}
+
+{% assign months_en = "Jan.|Feb.|Mar.|Apr.|May|Jun.|Jul.|Aug.|Sep.|Oct.|Nov.|Dec." | split: "|" %}
+{% assign cv_sections = "journal|conference|preprint|book|manuscript" | split: "|" %}
+
+{% for cv_sec in cv_sections %}
+  {% assign cv_items = site.data.publications | where: "category", cv_sec %}
+  {% if cv_items.size > 0 %}
+    <h2 id="cv-pubs-{{ cv_sec }}">
+      {% if cv_sec == "journal" %}{% if page.lang == "zh" %}期刊论文{% else %}Journal Papers{% endif %}
+      {% elsif cv_sec == "conference" %}{% if page.lang == "zh" %}会议论文{% else %}Conference Papers{% endif %}
+      {% elsif cv_sec == "preprint" %}{% if page.lang == "zh" %}预印本{% else %}Preprints{% endif %}
+      {% elsif cv_sec == "book" %}{% if page.lang == "zh" %}著作{% else %}Book{% endif %}
+      {% else %}{% if page.lang == "zh" %}在审稿件{% else %}Manuscripts (under review){% endif %}{% endif %}
+      <span class="cv-count">({{ cv_items.size }})</span>
+    </h2>
+
+    {% assign cv_years = cv_items | map: "year" | sort | reverse | uniq %}
+    {% for cv_year in cv_years %}
+      <h3 class="cv-year">{{ cv_year }}</h3>
+      {% assign cv_group = cv_items | where: "year", cv_year | reverse %}
+      {% for cv_pub in cv_group %}
+        <div class="cv-pub">
+          <div class="cv-pub-id">{% if cv_pub.number %}[{{ cv_pub.number }}]{% endif %}</div>
+          <div class="cv-pub-body">
+            <div class="cv-pub-title">{{ cv_pub.title }}</div>
+            <div class="cv-pub-meta">
+              {{ cv_pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
+              <em>{{ cv_pub.venue }}</em>, {% if cv_pub.month %}{% if page.lang == "zh" %}{{ cv_pub.year }}年{{ cv_pub.month }}月{% else %}{% assign mi = cv_pub.month | minus: 1 %}{{ months_en[mi] }} {{ cv_pub.year }}{% endif %}{% else %}{{ cv_pub.year }}{% endif %}{% if cv_pub.award %} · <span class="cv-pub-award">{{ cv_pub.award }}</span>{% endif %}{% if cv_pub.links and cv_pub.links.size > 0 %}<span class="cv-pub-links"> · {% for link in cv_pub.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</span>{% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
