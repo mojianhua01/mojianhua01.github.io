@@ -17,6 +17,18 @@
   - ⚠️ OpenAlex 给的是**上线日期**、且无月份时会补 `YYYY-01-01` 占位，不可直接当期号月份用。
 - 展示：`{% if pub.month %}` 时中文页 `2026年7月`、英文页 `Jul. 2026`（`months_en` 数组在 include 顶部定义）；无 month 自动退回只显示年份。
 
+## 站点元数据 / SEO（2026-09-21 第 1 批优化后）
+- **`page.description` 全站只在 `_includes/seo.html` 里被读取**，不会渲染到页面上；每个真实页面都应在 front matter 写 `description:`（英文控制在 ≤140 字符，Google 摘要约 155–160 截断）。站点级兜底在 `_config.yml` 的 `description`。
+- `seo.html` 的关键逻辑（改动前容易踩）：
+  - `<meta name="description">` 的触发条件是 `{% if seo_description %}`（**曾误写成 `{% if page.excerpt %}`，导致全站一个 description 都没有**）。
+  - 标题：`page.title == site.title` 时只用页面标题，否则 `页面标题 - 站点标题`（**否则首页会输出 `Jianhua Mo - Jianhua Mo`**）。
+  - `og:locale` 由 `page.lang` 决定（`zh_CN` / `en_US`）。
+  - JSON-LD 的 Person 实体字段全部用 `{% if %}` 包、**逗号写在 if 体内**，条件为假时 JSON 仍合法；数据来源是 `_config.yml` 的 `social`（type/name/links）与 `schema`（alternate_name / job_title / affiliation / affiliation_url）。
+- **`_config.yml` 里 `social:` 若只有键、没有值，Liquid 判定为空哈希为"真"**，会照样输出 JSON-LD，但 `name` 为空、`sameAs` 为 null —— 属于坏的结构化数据，必须填实。
+- **MathJax + ES6 polyfill 已改为 `{% if page.math %}` 条件加载**（`_includes/head/custom.html`）。要让某页用公式，在该页 front matter 写 `math: true`。此前默认全站加载 1.23 MB。
+- 待办（第 2/3/4 批，详见 `C:\Users\mojia\.workbuddy\preview\site-optimization-audit-2026-09-21.md`）：线上 sitemap 48 条里 40 条是 academicpages 模板残留（演示论文/报告/课程/博客 + 样例 PDF + `/cv/` 样板页），计划用 `published: false` 隐藏（**不删文件**）；`images/team/` 6 张头像合计 4.31 MB 但显示区仅约 200 px；无 `og:image`；未配站长验证。
+- 核对线上页面时的坑：判断"某脚本是否还在"别用 `'mathjax' in html` —— 会被注释命中而误报。
+
 ## 页面与模板
 - 论文列表由 `_includes/publications-list.html` 渲染，`_pages/publications.html`（en）与 `_pages/zh-publications.html`（zh）共用同一个 include；改一处即中英文同步。
 - 该 include 按 `category` 分节（preprints / journals / conferences / books），节内按年份倒序分组；`other_pubs` 一段（manuscript+dataset）目前被注释隐藏。
