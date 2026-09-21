@@ -7,7 +7,11 @@
 {% assign seo_url = seo_url | default: site.github.url %}
 
 {% if page.title %}
-  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
+  {% if page.title == site.title %}
+    {% assign seo_title = page.title %}
+  {% else %}
+    {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
+  {% endif %}
 {% endif %}
 
 {% if seo_title %}
@@ -39,7 +43,7 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="{{ site.locale | default: "en" }}">
+<meta property="og:locale" content="{% if page.lang == "zh" %}zh_CN{% else %}en_US{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 
@@ -48,7 +52,7 @@
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-{% if page.excerpt %}
+{% if seo_description %}
   <meta property="og:description" name="description" content="{{ seo_description }}">
 {% endif %}
 
@@ -118,7 +122,11 @@
       "@context" : "http://schema.org",
       "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
       "name" : "{{ site.social.name | default: site.name }}",
+      {% if site.schema.alternate_name %}"alternateName" : "{{ site.schema.alternate_name }}",{% endif %}
       "url" : {{ seo_url | jsonify }},
+      {% if site.author.avatar %}"image" : {{ site.author.avatar | prepend: "/images/" | prepend: seo_url | jsonify }},{% endif %}
+      {% if site.schema.job_title %}"jobTitle" : "{{ site.schema.job_title }}",{% endif %}
+      {% if site.schema.affiliation %}"affiliation" : { "@type" : "Organization", "name" : "{{ site.schema.affiliation }}", "url" : "{{ site.schema.affiliation_url }}" },{% endif %}
       "sameAs" : {{ site.social.links | jsonify }}
     }
   </script>

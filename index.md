@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Jianhua Mo"
+description: "Tenure-track associate professor at Shanghai Jiao Tong University. Research: AI for wireless communications, millimeter-wave MIMO, and ISAC."
 permalink: /
 author_profile: true
 lang: en
@@ -14,7 +15,6 @@ redirect_from:
 
 - Tenure-track Associate Professor at the School of Integrated Circuits (School of Information and Electronic Engineering), Shanghai Jiao Tong University
 - Research interests: the integration of wireless communications and artificial intelligence, millimeter-wave and massive MIMO systems, and integrated sensing and communications (ISAC)
-- Opening: one master's student position for the 2026 intake (September 2026). Interested candidates are welcome to email a CV and transcript with the subject “2026 Master Application + Name.”
 
 ---
 
