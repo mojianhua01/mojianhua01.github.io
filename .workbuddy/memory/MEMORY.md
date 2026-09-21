@@ -26,8 +26,19 @@
   - JSON-LD 的 Person 实体字段全部用 `{% if %}` 包、**逗号写在 if 体内**，条件为假时 JSON 仍合法；数据来源是 `_config.yml` 的 `social`（type/name/links）与 `schema`（alternate_name / job_title / affiliation / affiliation_url）。
 - **`_config.yml` 里 `social:` 若只有键、没有值，Liquid 判定为空哈希为"真"**，会照样输出 JSON-LD，但 `name` 为空、`sameAs` 为 null —— 属于坏的结构化数据，必须填实。
 - **MathJax + ES6 polyfill 已改为 `{% if page.math %}` 条件加载**（`_includes/head/custom.html`）。要让某页用公式，在该页 front matter 写 `math: true`。此前默认全站加载 1.23 MB。
-- 待办（第 2/3/4 批，详见 `C:\Users\mojia\.workbuddy\preview\site-optimization-audit-2026-09-21.md`）：线上 sitemap 48 条里 40 条是 academicpages 模板残留（演示论文/报告/课程/博客 + 样例 PDF + `/cv/` 样板页），计划用 `published: false` 隐藏（**不删文件**）；`images/team/` 6 张头像合计 4.31 MB 但显示区仅约 200 px；无 `og:image`；未配站长验证。
+- 待办（详见 `C:\Users\mojia\.workbuddy\preview\site-optimization-audit-2026-09-21.md`）：**第 1、2 批已完成**（第 1 批元数据/结构化数据/MathJax，第 2 批清模板残留）。剩余：第 3 批 `images/team/` 6 张头像合计 4.31 MB 但显示区仅约 200 px（重采样 + 懒加载）+ 无 `og:image` + **真 CV 页**（`/cv/` 目前只是隐藏了，没做真实内容）；第 4 批 站长验证 / 访问统计 / `.workbuddy` 隐私处理。
 - 核对线上页面时的坑：判断"某脚本是否还在"别用 `'mathjax' in html` —— 会被注释命中而误报。
+
+## 模板残留已清空（2026-09-21 第 2 批，提交 `5f8503b`）
+- **线上 sitemap 现为 8 条**（`/` `/team/` `/publications/` `/awards/` `/zh/` `/zh/team/` `/zh/publications/` `/zh/awards/`），原 48 条里的 40 条模板残留已全部 404。
+- **隐藏方式（改前查过 Jekyll 3.10.0 源码，不是凭记忆）**：
+  - **普通 page** 与**集合条目/文章**加 `published: false` 即不生成（`PageReader#read` → `Publisher#can_be_published?`；`Collection#read_document` → `doc.published?`）。文件留在仓库，一步 revert 可回退。
+  - **静态文件（PDF 等）没有 front matter，`published: false` 无效** → 只能靠 `_config.yml` 的 `exclude:`（对嵌套路径有效，**不需要挪文件**）或挪进 `_` 开头目录。
+  - ⚠️ 判 `exclude` 是否生效**别只看目录 URL 的 404**（目录没 index.html 本来也 404）→ 要探目录里的具体文件。
+- 已隐藏：15 个演示页（含 `/cv/`、以及条目隐藏后会变空页的 `talks`/`teaching`/`portfolio` 索引页）、4 篇占位论文、4 个演示报告、2 门演示课程、2 个作品集、5 篇演示博客、6 个样例 PDF、`talkmap*`、`markdown_generator/`、`CONTRIBUTING.md`、`docker-compose.yaml`。
+- ⚠️ **隐藏任何页面前先 grep 引用**：`_includes/`、`_layouts/`、`_data/navigation.yml`、8 个真实页面。本次唯一命中是 `_includes/footer/custom.html` 的页脚 `<a href="/sitemap/">` → 已改指 `/sitemap.xml`。
+- 未改动、**不要动**：`index.md`、`_pages/404.md`、8 个真实页面、`_data/publications.yml`、`_includes/publications-list.html`、`_includes/seo.html`。
+
 
 ## 页面与模板
 - 论文列表由 `_includes/publications-list.html` 渲染，`_pages/publications.html`（en）与 `_pages/zh-publications.html`（zh）共用同一个 include；改一处即中英文同步。
@@ -43,4 +54,8 @@
 ## 本机操作备忘
 - 改数据/模板前先备份到 `C:\Users\mojia\.workbuddy\backups\`，并在副本上做改动、用 git diff 核对“只增不改”。
 - 校验 yml：用 `C:\Users\mojia\.workbuddy\binaries\python\envs\default\Scripts\python.exe`（已装 PyYAML）。
+- ⚠️ **本仓库 `core.autocrlf=true`，工作区文件是 CRLF**（`_pages/**`、`_posts/**`、`_portfolio/**`、`_includes/**` 等都是；**`_config.yml` 反而是纯 LF**）。用脚本批量往 front matter 插行时：
+  - ❌ `open(p,"r",newline="")` 读 → `split("\n")` → `"\r\n".join()` 写回 —— 每行残留的 `\r` 与 join 的 `\r\n` 叠成 **`\r\r\n`，整个文件被改写**（`git diff --stat` 全行重写）。
+  - ✅ `rb` 读 → 探测 `nl = "\r\n" if "\r\n" in text else "\n"` → `text.split(nl)` → 列表插行 → `nl.join(...)` → `wb` 写回。
+  - **验收两步**：`git diff --numstat <file>` 必须是 `1  0`；再加"新文件 == 原文件在第 1 行后插了一行"的字节级断言。备份用 `shutil.copy2` 保留原始字节。
 - ⚠️ **`.workbuddy/memory/` 两个 md 已被莫老师提交进公开仓库**（提交 `fcf08cd upload Workbuddy memory files`），不再是 untracked。所以它们会出现在 `git status` 里 —— 提交站点改动时**只 `git add` 明确列出的站点文件，别用 `git add .`**。
