@@ -1,9 +1,4 @@
 <style>
-  .team-intro {
-    margin-bottom: 1.75rem;
-    color: #555;
-  }
-
   .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
@@ -83,7 +78,6 @@
       border-bottom-color: #444;
     }
 
-    .team-intro,
     .team-name-en,
     .team-role {
       color: #bbb;
@@ -100,14 +94,6 @@
     }
   }
 </style>
-
-<p class="team-intro">
-  {% if page.lang == "zh" %}
-    上海交通大学莫建华教授指导的学生
-  {% else %}
-    Students working with Professor Jianhua Mo at Shanghai Jiao Tong University
-  {% endif %}
-</p>
 
 <div class="team-grid">
   <article class="team-member">
