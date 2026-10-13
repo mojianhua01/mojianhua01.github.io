@@ -71,7 +71,18 @@
     font-size: 0.85rem;
   }
 
+  .team-alumni-heading {
+    margin: 2.25rem 0 1.4rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 1.4rem;
+  }
+
   @media (prefers-color-scheme: dark) {
+    .team-alumni-heading {
+      border-bottom-color: #444;
+    }
+
     .team-intro,
     .team-name-en,
     .team-role {
@@ -99,15 +110,6 @@
 </p>
 
 <div class="team-grid">
-  <article class="team-member">
-    <img class="team-photo" loading="lazy" decoding="async" src="/images/team/yeyue-cai.jpg" alt="蔡也越">
-    <div class="team-info">
-      <h2 class="team-name">{% if page.lang == "zh" %}蔡也越{% else %}Yeyue Cai{% endif %}</h2>
-      <div class="team-name-en">{% if page.lang == "zh" %}Yeyue Cai{% else %}蔡也越{% endif %}</div>
-      <div class="team-role">{% if page.lang == "zh" %}2023 入学 · 硕士{% else %}M.S. Student · Since 2023{% endif %}</div>
-    </div>
-  </article>
-
   <article class="team-member">
     <img class="team-photo" loading="lazy" decoding="async" src="/images/team/qiushi-liang.jpg" alt="梁秋实">
     <div class="team-info">
@@ -168,6 +170,37 @@
       <h2 class="team-name">{% if page.lang == "zh" %}潘艺豪{% else %}Yihao Pan{% endif %}</h2>
       <div class="team-name-en">{% if page.lang == "zh" %}Yihao Pan{% else %}潘艺豪{% endif %}</div>
       <div class="team-role">{% if page.lang == "zh" %}2026 入学 · 硕士{% else %}M.S. Student · Since 2026{% endif %}</div>
+    </div>
+  </article>
+</div>
+
+<h2 class="team-alumni-heading">{% if page.lang == "zh" %}校友{% else %}Alumni{% endif %}</h2>
+
+<div class="team-grid">
+  <article class="team-member">
+    <img class="team-photo" loading="lazy" decoding="async" src="/images/team/yeyue-cai.jpg" alt="蔡也越">
+    <div class="team-info">
+      <h2 class="team-name">{% if page.lang == "zh" %}蔡也越{% else %}Yeyue Cai{% endif %}</h2>
+      <div class="team-name-en">{% if page.lang == "zh" %}Yeyue Cai{% else %}蔡也越{% endif %}</div>
+      <div class="team-role">{% if page.lang == "zh" %}2023–2026 · 硕士 · 下一步：蚂蚁集团{% else %}M.S. · 2023–2026 · Next: Ant Group{% endif %}</div>
+    </div>
+  </article>
+
+  <article class="team-member">
+    <img class="team-photo" loading="lazy" decoding="async" src="/images/team/yuhe-huang.jpg" alt="黄予何">
+    <div class="team-info">
+      <h2 class="team-name">{% if page.lang == "zh" %}黄予何{% else %}Yuhe Huang{% endif %}</h2>
+      <div class="team-name-en">{% if page.lang == "zh" %}Yuhe Huang{% else %}黄予何{% endif %}</div>
+      <div class="team-role">{% if page.lang == "zh" %}2025–2026 · 本科生 · 下一步：康奈尔大学硕士{% else %}Undergraduate · 2025–2026 · Next: M.S. at Cornell University{% endif %}</div>
+    </div>
+  </article>
+
+  <article class="team-member">
+    <img class="team-photo" loading="lazy" decoding="async" src="/images/team/lingbang-bu.jpg" alt="卜令邦">
+    <div class="team-info">
+      <h2 class="team-name">{% if page.lang == "zh" %}卜令邦{% else %}Lingbang Bu{% endif %}</h2>
+      <div class="team-name-en">{% if page.lang == "zh" %}Lingbang Bu{% else %}卜令邦{% endif %}</div>
+      <div class="team-role">{% if page.lang == "zh" %}2025–2026 · 本科生 · 下一步：上海交通大学硕士{% else %}Undergraduate · 2025–2026 · Next: M.S. at Shanghai Jiao Tong University{% endif %}</div>
     </div>
   </article>
 </div>
