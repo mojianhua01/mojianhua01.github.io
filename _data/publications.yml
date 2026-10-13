@@ -5,7 +5,7 @@
   month: 8
   venue: 2025 IEEE/CIC International Conference on Communications in China (ICCC)
   category: conference
-  number: C17
+  number: C18
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11149018
@@ -34,7 +34,7 @@
   venue: 2025 Seventeenth International Conference on Wireless Communications and
     Signal Processing (WCSP)
   category: conference
-  number: C18
+  number: C19
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/11352049/
@@ -44,7 +44,7 @@
   month: 11
   venue: 2025 IEEE Virtual Conference on Communications (VCC)
   category: conference
-  number: C19
+  number: C20
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11351132
@@ -74,7 +74,7 @@
   month: 4
   venue: 2026 IEEE Wireless Communications and Networking Conference (WCNC)
   category: conference
-  number: C20
+  number: C21
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11555563
@@ -110,7 +110,7 @@
   month: 10
   venue: 2024 IEEE 100th Vehicular Technology Conference (VTC2024-Fall)
   category: conference
-  number: C15
+  number: C16
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/10757955
@@ -124,7 +124,7 @@
   month: 10
   venue: 58th Asilomar Conference on Signals, Systems and Computers
   category: conference
-  number: C16
+  number: C17
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/10942922
@@ -167,7 +167,7 @@
   venue: ICC 2022 Workshop on Synergies of Communication, Localization, and Sensing
     towards 6G
   category: conference
-  number: C14
+  number: C15
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/9814507
@@ -195,7 +195,7 @@
   month: 10
   venue: Asilomar Conference on Signals, Systems and Computers
   category: conference
-  number: C12
+  number: C13
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/9723333
@@ -207,7 +207,7 @@
   month: 12
   venue: IEEE GLOBECOM
   category: conference
-  number: C13
+  number: C14
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/9685512
@@ -239,7 +239,7 @@
   month: 12
   venue: IEEE GLOBECOM
   category: conference
-  number: C11
+  number: C12
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/9014196
@@ -276,7 +276,7 @@
   month: 5
   venue: 11th Global Symposium on Millimeter Waves (GSMM)
   category: conference
-  number: C10
+  number: C11
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/8439586
@@ -326,7 +326,7 @@
   month: 3
   venue: 20th International ITG Workshop on Smart Antennas (WSA)
   category: conference
-  number: C8
+  number: C9
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7499125
@@ -404,7 +404,7 @@
   month: 5
   venue: 2026 IEEE International Conference on Communications Workshops (ICC Workshops)
   category: conference
-  number: C21
+  number: C22
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11586587
@@ -416,7 +416,7 @@
   month: 5
   venue: ICC 2026 - IEEE International Conference on Communications
   category: conference
-  number: C22
+  number: C23
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11586883
@@ -427,7 +427,7 @@
   month: 5
   venue: ICC 2026 - IEEE International Conference on Communications
   category: conference
-  number: C23
+  number: C24
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/11587518
@@ -466,7 +466,7 @@
   month: 11
   venue: 50th Asilomar Conference on Signals, Systems and Computers
   category: conference
-  number: C9
+  number: C10
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7869085
@@ -478,7 +478,7 @@
   month: 11
   venue: 49th Asilomar Conference on Signals, Systems and Computers
   category: conference
-  number: C7
+  number: C8
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7421380
@@ -519,7 +519,7 @@
   month: 2
   venue: Information Theory and Applications Workshop (ITA)
   category: conference
-  number: C5
+  number: C6
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6804238
@@ -541,7 +541,7 @@
   month: 11
   venue: Asilomar Conference on Signals, Systems and Computers
   category: conference
-  number: C6
+  number: C7
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7094595
@@ -565,7 +565,7 @@
   month: 4
   venue: IEEE Wireless Communications and Networking Conference (WCNC)
   category: conference
-  number: C4
+  number: C5
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6555248
@@ -593,6 +593,16 @@
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6503221
+- title: Degrees of Freedom of MIMO Two-Way X Relay Channel
+  authors: Zhengzheng Xiang, Jianhua Mo, and Meixia Tao
+  year: 2012
+  month: 12
+  venue: IEEE Global Communications Conference (GLOBECOM)
+  category: conference
+  number: C3
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/6503479
 - title: QoS-Aware Policies for OFDM Bidirectional Transmission with Decode-and-Forward
     Relaying
   authors: Yuan Liu, Jianhua Mo, and Meixia Tao
@@ -600,7 +610,7 @@
   month: 12
   venue: IEEE Global Communications Conference (GLOBECOM)
   category: conference
-  number: C3
+  number: C4
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/6503832
