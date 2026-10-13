@@ -15,3 +15,4 @@ package-lock.json
 # Local WorkBuddy notes/memory: they contain absolute local paths and are
 # meant to stay on this machine, not in the public repository.
 .workbuddy/
+/backups
