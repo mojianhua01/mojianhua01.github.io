@@ -32,6 +32,34 @@ descending order within each section.
     color: #9a6700;
     font-weight: 600;
   }
+  .pub-tag {
+    display: inline-block;
+    margin-left: 0.45rem;
+    padding: 0 0.4rem;
+    font-size: 0.72rem;
+    line-height: 1.6;
+    color: #666;
+    background: #f4f4f4;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    vertical-align: 1px;
+  }
+  .pub-sub {
+    margin-top: 1.6rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #eee;
+    font-size: 1.15rem;
+  }
+  .pub-year-sub {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .pub-note {
+    color: #666;
+    font-size: 0.9rem;
+    margin: -0.35rem 0 0.5rem;
+  }
 </style>
 
 {% assign journal_pubs = site.data.publications | where: "category", "journal" | sort: "year" | reverse %}
@@ -40,6 +68,10 @@ descending order within each section.
 {% assign manuscript_pubs = site.data.publications | where: "category", "manuscript" %}
 {% assign dataset_pubs = site.data.publications | where: "category", "dataset" %}
 {% assign book_pubs = site.data.publications | where: "category", "book" | sort: "year" | reverse %}
+{% assign patent_granted = site.data.patents | where: "status", "granted" | sort: "year" | reverse %}
+{% assign patent_pending = site.data.patents | where: "status", "pending" | sort: "year" | reverse %}
+{% assign patent_granted_first = patent_granted | where: "first_inventor", true %}
+{% assign patent_pending_first = patent_pending | where: "first_inventor", true %}
 {% assign other_pubs = manuscript_pubs | concat: dataset_pubs | sort: "year" | reverse %}
 {% assign months_en = "Jan.|Feb.|Mar.|Apr.|May|Jun.|Jul.|Aug.|Sep.|Oct.|Nov.|Dec." | split: "|" %}
 
@@ -47,6 +79,7 @@ descending order within each section.
   <a href="#preprints">{% if page.lang == "zh" %}预印本{% else %}Preprints{% endif %}</a>
   <a href="#journals">{% if page.lang == "zh" %}期刊论文{% else %}Journals{% endif %}</a>
   <a href="#conferences">{% if page.lang == "zh" %}会议论文{% else %}Conferences{% endif %}</a>
+  <a href="#patents">{% if page.lang == "zh" %}专利{% else %}Patents{% endif %}</a>
   <a href="#books">{% if page.lang == "zh" %}著作{% else %}Books{% endif %}</a>
 </nav>
 
@@ -138,6 +171,57 @@ descending order within each section.
     </ul>
   {% endfor %}
 </section>
+
+{% if patent_granted.size > 0 or patent_pending.size > 0 %}
+<section id="patents" class="pub-section">
+  <h2>{% if page.lang == "zh" %}专利{% else %}Patents{% endif %}</h2>
+  <p class="pub-note">
+    {% if page.lang == "zh" %}
+      已授权美国专利{{ patent_granted.size }}项（第一发明人{{ patent_granted_first.size }}项），另有{{ patent_pending.size }}项在审（第一发明人{{ patent_pending_first.size }}项）。
+    {% else %}
+      {{ patent_granted.size }} granted US patents ({{ patent_granted_first.size }} as first inventor), plus {{ patent_pending.size }} pending applications ({{ patent_pending_first.size }} as first inventor).
+    {% endif %}
+  </p>
+
+  {% if patent_granted.size > 0 %}
+  <h3 class="pub-sub">{% if page.lang == "zh" %}已授权专利（{{ patent_granted.size }}）{% else %}Granted Patents ({{ patent_granted.size }}){% endif %}</h3>
+  {% assign granted_years = patent_granted | map: "year" | uniq %}
+  {% for y in granted_years %}
+    <h4 class="pub-year pub-year-sub{% if y == 2026 %} highlight{% endif %}">{{ y }}</h4>
+    <ul>
+    {% for pat in patent_granted %}
+      {% if pat.year == y %}
+        <li class="pub-item{% if pat.year == 2026 %} highlight{% endif %}">
+          <strong>{{ pat.title }}</strong><br>
+          {{ pat.inventors | replace: "J. Mo", "<strong>J. Mo</strong>" }}{% if pat.first_inventor %}<span class="pub-tag">{% if page.lang == "zh" %}第一发明人{% else %}First inventor{% endif %}</span>{% endif %}<br>
+          <em>{{ pat.number }}</em>, {{ pat.year }}
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endfor %}
+  {% endif %}
+
+  {% if patent_pending.size > 0 %}
+  <h3 class="pub-sub">{% if page.lang == "zh" %}专利申请（{{ patent_pending.size }}）{% else %}Patent Applications ({{ patent_pending.size }}){% endif %}</h3>
+  {% assign pending_years = patent_pending | map: "year" | uniq %}
+  {% for y in pending_years %}
+    <h4 class="pub-year pub-year-sub{% if y == 2026 %} highlight{% endif %}">{{ y }}</h4>
+    <ul>
+    {% for pat in patent_pending %}
+      {% if pat.year == y %}
+        <li class="pub-item{% if pat.year == 2026 %} highlight{% endif %}">
+          <strong>{{ pat.title }}</strong><br>
+          {{ pat.inventors | replace: "J. Mo", "<strong>J. Mo</strong>" }}{% if pat.first_inventor %}<span class="pub-tag">{% if page.lang == "zh" %}第一发明人{% else %}First inventor{% endif %}</span>{% endif %}<br>
+          <em>{{ pat.number }}</em>, {{ pat.year }}
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endfor %}
+  {% endif %}
+</section>
+{% endif %}
 
 {% if book_pubs.size > 0 %}
 <section id="books" class="pub-section">
