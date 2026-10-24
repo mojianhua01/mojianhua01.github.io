@@ -65,6 +65,8 @@
     url: https://arxiv.org/abs/2501.15207v1
   - label: Code
     url: https://github.com/SJTU-WirelessAI-Lab/NF-FF_Communication_with_PTA
+  - label: Errata
+    url: /errata/#J22
   - label: Errata (TXT)
     url: /files/publications/2025-hybrid-near-far-field-errata.txt
 - title: 'MARBLE-Net: Learning to Localize in Multipath Environment with Adaptive
@@ -144,6 +146,8 @@
     url: https://ieeexplore.ieee.org/abstract/document/9826716
   - label: arXiv
     url: https://arxiv.org/abs/2312.11682
+  - label: Errata
+    url: /errata/#J17
   - label: Errata (TXT)
     url: /files/publications/2022-joint-phase-time-arrays-errata.txt
 - title: Learning Site-Specific Probing Beams for Fast mmWave Beam Alignment
@@ -187,6 +191,8 @@
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/9863771
+  - label: Errata
+    url: /errata/#J19
   - label: Errata (TXT)
     url: /files/publications/2022-extending-uplink-coverage-errata.txt
 - title: 'Sub-Chain Beam for mmWave Devices: A Trade-off between Power Saving and
@@ -501,6 +507,8 @@
     url: https://arxiv.org/abs/1410.7353
   - label: Code
     url: https://github.com/mojianhua01/One-bit-MIMO-Capacity
+  - label: Errata
+    url: /errata/#J8
   - label: Errata (TXT)
     url: /files/publications/2015-one-bit-mimo-capacity-errata.txt
 - title: Secure Beamforming for MIMO Two-Way Communications With an Untrusted Relay
@@ -547,6 +555,8 @@
   links:
   - label: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/7094595
+  - label: Errata
+    url: /errata/#C7
   - label: Errata (TXT)
     url: /files/publications/2014-one-bit-channel-estimation-errata.txt
 - title: Degrees of Freedom for MIMO Two-Way X Relay Channel
@@ -630,6 +640,8 @@
     url: https://arxiv.org/abs/1204.1739
   - label: Code
     url: https://github.com/mojianhua01/Relay-placement-for-physical-layer-security#english
+  - label: Errata
+    url: /errata/#J3
   - label: Errata (TXT)
     url: /files/publications/2012-relay-placement-errata.txt
 - title: Power and Subcarrier Allocation for Physical-Layer Security in OFDMA-Based
