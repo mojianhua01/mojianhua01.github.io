@@ -1,345 +1,416 @@
-# 专利清单（数据来源：Google Scholar 主页 OW4_YiwAAAAJ，抓取于 2026-10-17）
-# status: granted = 已授权（有正式专利号）；pending = 申请中（仅有申请号）
-# 同年内按号升序排列 —— 模板 sort+reverse 后页面呈年份降序、同年号降序
+# 专利清单 —— 数据核实来源：USPTO 公开检索（patents.justia.com），2026-10-25
+# granted = 已授权（含授权号与授权日）；pending = 已公开、尚未授权（号码为公开号或申请号）
+# 同年内按月份升序 —— 模板 sort+reverse 后页面呈年份降序、同年月份降序
 
 - title: 'Hybrid Precoding Design for Multiple Input Multiple Output System with Few-Bit Analog to Digital Converters'
-  inventors: 'J. Mo, S. Abu-Surra, A. Alkhateeb, and R. Taori'
+  inventors: 'Jianhua Mo, Shadi Abu-Surra, Ahmed Alkhateeb, Rakesh Taori'
   number: 'US 10,027,389'
-  year: 2017
+  year: 2018
+  month: 7
   status: granted
-  first_inventor: true
-- title: 'Method and Apparatus for Sensor Assisted Beam Selection, Beam Tracking, and Antenna Module Selection'
-  inventors: 'P. Huang, J. Mo, B. L. Ng, M. N. Kulkarni, W. S. Choi, and J. Zhang'
-  number: 'US App. 16/246,284'
-  year: 2019
-  status: pending
-- title: 'Methods of Radio Front-End Beam Sweeping for 5G Terminals'
-  inventors: 'J. Mo, P. P. Netalkar, B. L. Ng, and J. Zhang'
-  number: 'US App. 16/248,616'
-  year: 2019
-  status: pending
   first_inventor: true
 - title: 'Methods of Radio Front-End Beam Management for 5G Terminals'
-  inventors: 'B. L. Ng and J. Mo'
+  inventors: 'Boon Loong Ng, Jianhua Mo'
   number: 'US 10,530,456'
   year: 2020
+  month: 1
   status: granted
 - title: 'Methods of Beam Codebook Generation for the 5G Terminals'
-  inventors: 'J. Mo, P. Huang, B. L. Ng, J. Zhang, and S. Chang'
+  inventors: 'Jianhua Mo, Pengda Huang, Boon Loong Ng, Jianzhong Zhang, SangHyun Chang'
   number: 'US 10,735,066'
   year: 2020
+  month: 8
+  status: granted
+  first_inventor: true
+- title: 'Methods of Radio Front-End Beam Sweeping for 5G Terminals'
+  inventors: 'Jianhua Mo, Prasad P. Netalkar, Boon Loong Ng, Jianzhong Zhang'
+  number: 'US 10,764,766'
+  year: 2020
+  month: 9
   status: granted
   first_inventor: true
 - title: 'Methods of RF Compliance for Terminal'
-  inventors: 'B. L. Ng, S. Yoon, S. Park, J. Mo, and A. Papasakellariou'
-  number: 'US App. 16/848,693'
+  inventors: 'Boon Loong Ng, Suha Yoon, Sungchul Park, Jianhua Mo, Aris Papasakellariou'
+  number: 'US App. 2020/0411960'
   year: 2020
+  month: 12
   status: pending
 - title: 'Adaptation of Hierarchical Codebooks'
-  inventors: 'J. Mo and B. L. Ng'
+  inventors: 'Jianhua Mo, Boon Loong Ng'
   number: 'US 11,025,317'
   year: 2021
+  month: 6
   status: granted
   first_inventor: true
 - title: 'Method of Neighbor Discovery and Wireless Inter-Connection for Cellular Mesh Network'
-  inventors: 'J. Jeon, V. V. Ratnam, J. Cho, H. Chen, and J. Mo'
+  inventors: 'Jeongho Jeon, Vishnu Vardhan Ratnam, Joonyoung Cho, Hao Chen, Jianhua Mo'
   number: 'US 11,076,348'
   year: 2021
+  month: 7
   status: granted
-- title: 'Multi-Band Beam Codebook Design and Operations'
-  inventors: 'J. Mo, B. L. Ng, and M. S. Rahman'
+- title: 'Multi-Band Beam Codebook Design and Operations [A]'
+  inventors: 'Jianhua Mo, Boon Loong Ng, Md. Saifur Rahman'
   number: 'US 11,088,748'
   year: 2021
+  month: 8
   status: granted
   first_inventor: true
 - title: 'Method and Apparatus for Antenna Parameter Configuration for Cellular Communication Systems'
-  inventors: 'H. Chen, A. A. I. Ibrahim, R. Jurdi, Z. Lin, J. Mo, and J. Zhang'
+  inventors: 'Hao Chen, Ahmed Atef Ibrahim Ibrahim, Rebal Jurdi, Zinan Lin, Jianhua Mo, Jianzhong Zhang'
   number: 'US 11,171,698'
   year: 2021
+  month: 11
   status: granted
 - title: 'Network Topology Initialization Protocol for Wireless Mesh Network'
-  inventors: 'H. Chen, W. Qiu, J. Mo, P. P. Netalkar, B. L. Ng, and J. Zhang'
+  inventors: 'Hao Chen, Wenxun Qiu, Jianhua Mo, Prasad P. Netalkar, Boon Loong Ng, Jianzhong Zhang'
   number: 'US 11,178,662'
   year: 2021
+  month: 11
   status: granted
 - title: 'Methods for Beam Management in Vehicle'
-  inventors: 'M. N. Kulkarni, B. L. Ng, J. Mo, and P. Huang'
+  inventors: 'Mandar Narsinh Kulkarni, Boon Loong Ng, Jianhua Mo, Pengda Huang'
   number: 'US 11,201,391'
   year: 2021
+  month: 12
   status: granted
 - title: 'Method and Apparatus for Intelligent Wi-Fi Connection Management'
-  inventors: 'W. Qiu, H. Chen, M. Tonnemacher, I. S. Jung, J. Sung, K. N. Nguyen, and A. Sehgal'
+  inventors: 'Wenxun Qiu, Hao Chen, Matthew Tonnemacher, In-sick Jung, Jihoon Sung, Khuong N. Nguyen, Abhishek Sehgal, Jianhua Mo, Jianzhong Zhang, Junyeop Jung, John Wensowitch, Eric Johnson, Namjoon Park'
   number: 'US 11,284,473'
   year: 2022
+  month: 3
   status: granted
 - title: 'Method and Apparatus of Receive Beam Management at Terminal'
-  inventors: 'D. Zhu, B. L. Ng, and J. Mo'
+  inventors: 'Dalin Zhu, Boon Loong Ng, Jianhua Mo'
   number: 'US 11,337,226'
   year: 2022
+  month: 5
   status: granted
 - title: 'Method and Apparatus of Fusing Radio Frequency and Sensor Measurements for Beam Management'
-  inventors: 'A. Ali, J. Mo, K. N. Nguyen, B. L. Ng, and V. Va'
+  inventors: 'Anum Ali, Jianhua Mo, Khuong N. Nguyen, Boon Loong Ng, Vutha Va'
   number: 'US 11,342,977'
   year: 2022
+  month: 5
   status: granted
-- title: 'Systems and Methods to Improve Co-Existence Between Fixed Wireless Access and Short Range Devices in 802.11ay'
-  inventors: 'A. V. Padaki, J. Mo, B. L. Ng, and J. Zhang'
+- title: 'Systems and Methods to Improve Co-Existence Between Fixed Wireless Access and Short Range Devices'
+  inventors: 'Aditya V. Padaki, Jianhua Mo, Boon Loong Ng, Jianzhong Zhang'
   number: 'US 11,343,064'
   year: 2022
+  month: 5
   status: granted
-- title: 'Multi-Band Beam Codebook Design and Operations'
-  inventors: 'J. Mo, B. L. Ng, and M. S. Rahman'
+- title: 'Method and Apparatus for Sensor Assisted Beam Selection, Beam Tracking, and Antenna Module Selection'
+  inventors: 'Pengda Huang, Jianhua Mo, Boon Loong Ng, Mandar Narsinh Kulkarni, Won-Suk Choi, Jianzhong Zhang'
+  number: 'US 11,374,635'
+  year: 2022
+  month: 6
+  status: granted
+- title: 'Multi-Band Beam Codebook Design and Operations [B]'
+  inventors: 'Jianhua Mo, Boon Loong Ng, Md. Saifur Rahman'
   number: 'US 11,509,375'
   year: 2022
+  month: 11
   status: granted
   first_inventor: true
-- title: 'Method and Apparatus for Site-Specific and Dynamic Base Station Beam Codebook Design'
-  inventors: 'J. Mo and B. L. Ng'
-  number: 'US App. 17/381,007'
-  year: 2022
-  status: pending
-  first_inventor: true
-- title: 'Method and Apparatus for a User Equipment Sub-Chain Beam Codebook Design and Operation'
-  inventors: 'J. Mo, B. L. Ng, A. Ali, V. Va, and D. Park'
-  number: 'US App. 17/445,583'
-  year: 2022
-  status: pending
-  first_inventor: true
-- title: 'Method and Apparatus for Beam Management in Multi-Module Devices'
-  inventors: 'A. Ali, J. Mo, B. L. Ng, and V. Va'
-  number: 'US App. 17/446,122'
-  year: 2022
-  status: pending
-- title: 'Method and Apparatus for Beam Management in Antenna Array Sharing Radar and Communication Systems'
-  inventors: 'A. Ali, B. L. Ng, J. Mo, and V. Va'
-  number: 'US App. 17/454,478'
-  year: 2022
-  status: pending
-- title: 'Method and Apparatus for Multi-Objective Beam Management'
-  inventors: 'A. Ali, J. Mo, B. L. Ng, and V. Va'
-  number: 'US App. 17/519,456'
-  year: 2022
-  status: pending
-- title: 'Method and Apparatus for Multi Panel Radar Operation'
-  inventors: 'A. Ali, J. Mo, B. L. Ng, and V. Va'
-  number: 'US App. 17/585,450'
-  year: 2022
-  status: pending
 - title: 'Utilization of Wireless Communication Reference Signal Measurement Resources for Co-Channel Radar Operation'
-  inventors: 'B. L. Ng, V. Va, J. Mo, and H. Si'
-  number: 'US App. 17/659,313'
+  inventors: 'Boon Loong Ng, Vutha Va, Jianhua Mo, Hongbo Si'
+  number: 'US App. 2022/0381876'
   year: 2022
+  month: 12
   status: pending
-- title: 'Transmission Antenna Selection Method and Electronic Device'
-  inventors: 'S. Park, B. L. Ng, J. Mo, and S. Yoon'
-  number: 'US App. 17/738,902'
-  year: 2022
-  status: pending
+- title: 'Method and Apparatus for Beam Management in Multi-Module Devices'
+  inventors: 'Anum Ali, Jianhua Mo, Boon Loong Ng, Vutha Va'
+  number: 'US 11,569,892'
+  year: 2023
+  month: 1
+  status: granted
+- title: 'Method and Apparatus for Beam Management in Antenna Array Sharing Radar and Communication Systems'
+  inventors: 'Anum Ali, Boon Loong Ng, Jianhua Mo, Vutha Va'
+  number: 'US 11,581,936'
+  year: 2023
+  month: 2
+  status: granted
+- title: 'Method and Apparatus for a User Equipment Sub-Chain Beam Codebook Design and Operation'
+  inventors: 'Jianhua Mo, Boon Loong Ng, Anum Ali, Vutha Va, Daehee Park'
+  number: 'US 11,638,281'
+  year: 2023
+  month: 4
+  status: granted
+  first_inventor: true
 - title: 'Method and Apparatus of UE Adaptive Beam Management'
-  inventors: 'J. Mo, Y. Heng, B. L. Ng, D. Zhu, and A. Ali'
+  inventors: 'Jianhua Mo, Yuqiang Heng, Vutha Va, Boon Loong Ng, Dalin Zhu, Anum Ali'
   number: 'US 11,653,224'
   year: 2023
+  month: 5
   status: granted
   first_inventor: true
-- title: 'Temperature Control Management of Electronic Device Based on Number of Heat-Emitting Components in Compartment'
-  inventors: 'P. Huang, J. Mo, B. L. Ng, and R. Kanamangala'
+- title: 'Method and Apparatus for Multi-Objective Beam Management'
+  inventors: 'Anum Ali, Jianhua Mo, Boon Loong Ng, Vutha Va'
+  number: 'US 11,728,849'
+  year: 2023
+  month: 8
+  status: granted
+- title: 'Temperature Control Management of Electronic Device Based on Number of Heat-Emitting Components'
+  inventors: 'Pengda Huang, Jianhua Mo, Boon Loong Ng, Ravindranath Kanamangala'
   number: 'US 11,714,469'
   year: 2023
+  month: 8
   status: granted
-- title: 'Composite Beam Pairing'
-  inventors: 'J. Mo, J. Noh, B. L. Ng, and A. AlAmmouri'
-  number: 'US App. 17/810,246'
-  year: 2023
-  status: pending
-  first_inventor: true
-- title: 'Method and Apparatus for Operating Radar for Radio Frequency Exposure Management'
-  inventors: 'V. Va, A. Ali, J. Mo, and B. L. Ng'
-  number: 'US App. 17/815,544'
-  year: 2023
-  status: pending
 - title: 'Base Station Wide Beam Codebook Design'
-  inventors: 'J. Mo, B. L. Ng, and A. AlAmmouri'
+  inventors: 'Jianhua Mo, Boon Loong Ng, Ahmad AlAmmouri'
   number: 'US 11,863,266'
   year: 2024
-  status: granted
-  first_inventor: true
-- title: 'Method and Apparatus of Beam Selection at Terminal'
-  inventors: 'D. Zhu, B. L. Ng, J. Mo, A. Ali, and D. Park'
-  number: 'US 11,984,961'
-  year: 2024
-  status: granted
-- title: 'Composite Beam Generation Using Machine Learning'
-  inventors: 'J. Mo, B. L. Ng, and A. AlAmmouri'
-  number: 'US 11,996,919'
-  year: 2024
-  status: granted
-  first_inventor: true
-- title: 'System and Method for Throughput-Based Optimization for Target Wake Time Interval Adjustment'
-  inventors: 'G. Chen, J. Mo, and W. Qiu'
-  number: 'US 12,041,542'
-  year: 2024
-  status: granted
-- title: 'Method and Apparatus of Beam Management with Measurement Aging'
-  inventors: 'A. AlAmmouri, J. Mo, and B. L. Ng'
-  number: 'US 12,069,710'
-  year: 2024
-  status: granted
-- title: 'Multi-Band Beam Codebook Design and Operations'
-  inventors: 'J. Mo, B. L. Ng, and M. S. Rahman'
-  number: 'US 12,107,653'
-  year: 2024
+  month: 1
   status: granted
   first_inventor: true
 - title: 'System and Method for Beam Management with Radar Based RF Exposure Estimation in Mobile Devices'
-  inventors: 'A. Ali, J. Mo, and B. L. Ng'
-  number: 'US App. 18/068,515'
+  inventors: 'Anum Ali, Jianhua Mo, Vutha Va, Boon Loong Ng'
+  number: 'US App. 2024/0036163'
   year: 2024
+  month: 2
   status: pending
-- title: 'Method and Apparatus for Estimating Channel State Information in Advanced MIMO Antenna Systems for Cellular Communications'
-  inventors: 'Y. H. Nam, J. Mo, B. Sadiq, and A. AlAmmouri'
-  number: 'US App. 18/468,627'
+- title: 'Method and Apparatus for Site-Specific and Dynamic Base Station Beam Codebook Design'
+  inventors: 'Jianhua Mo, Boon Loong Ng, Vutha Va'
+  number: 'US 11,923,934'
   year: 2024
-  status: pending
-- title: 'Reduced Overhead Beam Tracking'
-  inventors: 'M. F. Ozkoc, J. Mo, and Y. H. Nam'
-  number: 'US App. 18/517,570'
-  year: 2024
-  status: pending
-- title: 'Channel Estimation, Hybrid Precoding, and Scheduling of Multi-User MIMO'
-  inventors: 'A. AlAmmouri, R. K. Mishra, J. Mo, and Y. H. Nam'
-  number: 'US App. 18/610,187'
-  year: 2024
-  status: pending
-- title: 'Scheduling and Beam Design in JPTA'
-  inventors: 'A. AlAmmouri, J. Mo, and Y. H. Nam'
-  number: 'US App. 18/613,049'
-  year: 2024
-  status: pending
-- title: 'Transmission Setting Indication for Switching Operation Zones'
-  inventors: 'Y. H. Nam and J. Mo'
-  number: 'US App. 18/651,532'
-  year: 2024
-  status: pending
-- title: 'SRS-Based Channel Reconstruction in Hybrid Systems'
-  inventors: 'A. AlAmmouri and J. Mo'
-  number: 'US App. 18/737,904'
-  year: 2024
-  status: pending
-- title: 'System and Method for Time-Delay Based Hybrid Beamforming'
-  inventors: 'V. V. Ratnam, S. Abu-Surra, J. Mo, G. Xu, J. Yuan, A. AlAmmouri, and B. L. Ng'
-  number: 'US 12,199,724'
-  year: 2025
-  status: granted
-- title: 'Angle Estimation with Multi-Frame Processing for Radar on Mobile Devices'
-  inventors: 'V. Va, B. L. Ng, A. Ali, and J. Mo'
-  number: 'US 12,241,963'
-  year: 2025
-  status: granted
-- title: 'Radar for Full-Blockage Detection of Radio Frequency Modules in Mobile Devices'
-  inventors: 'V. Va, B. L. Ng, A. Ali, and J. Mo'
-  number: 'US 12,276,747'
-  year: 2025
-  status: granted
-- title: 'Multi-Frame Radar Processing for Robust Body Part Detection for Mobile Devices'
-  inventors: 'V. Va, B. L. Ng, A. Ali, and J. Mo'
-  number: 'US 12,282,083'
-  year: 2025
-  status: granted
-- title: 'Uplink Coverage Using Joint Phase-Time Arrays'
-  inventors: 'J. Mo, A. AlAmmouri, B. L. Ng, V. V. Ratnam, and J. Zhang'
-  number: 'US 12,362,797'
-  year: 2025
+  month: 3
   status: granted
   first_inventor: true
+- title: 'Composite Beam Pairing'
+  inventors: 'Jianhua Mo, Jeehwan Noh, Boon Loong Ng, Ahmad AlAmmouri'
+  number: 'US 11,943,010'
+  year: 2024
+  month: 3
+  status: granted
+  first_inventor: true
+- title: 'System and Method for Beam Directional Nulling'
+  inventors: 'Shiyang Leng, Hao Chen, Jianhua Mo, Namjeong Lee, Sooyoung Hur'
+  number: 'US 11,923,923'
+  year: 2024
+  month: 3
+  status: granted
+- title: 'Method and Apparatus for Estimating Channel State Information in Advanced MIMO Antenna Systems'
+  inventors: 'Young Han Nam, Jianhua Mo, Bilal Sadiq, Ahmad AlAmmouri'
+  number: 'US App. 2024/0113826'
+  year: 2024
+  month: 4
+  status: pending
+- title: 'Method and Apparatus of Beam Selection at Terminal'
+  inventors: 'Dalin Zhu, Boon Loong Ng, Jianhua Mo, Anum Ali, Daehee Park'
+  number: 'US 11,984,961'
+  year: 2024
+  month: 5
+  status: granted
+- title: 'Composite Beam Generation Using Machine Learning'
+  inventors: 'Jianhua Mo, Boon Loong Ng, Vutha Va, Ahmad AlAmmouri'
+  number: 'US 11,996,919'
+  year: 2024
+  month: 5
+  status: granted
+  first_inventor: true
+- title: 'System and Method for Throughput-Based Optimization for Target Wake Time Interval Adjustment'
+  inventors: 'Guanbo Chen, Jianhua Mo, Wenxun Qiu'
+  number: 'US 12,041,542'
+  year: 2024
+  month: 7
+  status: granted
+- title: 'Method and Apparatus of Beam Management with Measurement Aging'
+  inventors: 'Ahmad AlAmmouri, Jianhua Mo, Vutha Va, Boon Loong Ng'
+  number: 'US 12,069,710'
+  year: 2024
+  month: 8
+  status: granted
+- title: 'Multi-Band Beam Codebook Design and Operations [C]'
+  inventors: 'Jianhua Mo, Boon Loong Ng, Md. Saifur Rahman'
+  number: 'US 12,107,653'
+  year: 2024
+  month: 10
+  status: granted
+  first_inventor: true
+- title: 'Reduced Overhead Beam Tracking'
+  inventors: 'Mustafa Furkan Ozkoc, Jianhua Mo, Jeehwan Noh, Young Han Nam'
+  number: 'US App. 2024/0348317'
+  year: 2024
+  month: 10
+  status: pending
+- title: 'Channel Estimation, Hybrid Precoding, and Scheduling of Multi-User MIMO'
+  inventors: 'Ahmad AlAmmouri, Rajesh Kumar Mishra, Jianhua Mo, Young Han Nam'
+  number: 'US App. 18/610,187'
+  year: 2024
+  month: 10
+  status: pending
+- title: 'Transmission Setting Indication for Switching Operation Zones'
+  inventors: 'Young Han Nam, Jianhua Mo'
+  number: 'US App. 2024/0373436'
+  year: 2024
+  month: 11
+  status: pending
+- title: 'SRS-Based Channel Reconstruction in Hybrid Systems'
+  inventors: 'Ahmad AlAmmouri, Jianhua Mo, Young Han Nam'
+  number: 'US App. 2024/0430819'
+  year: 2024
+  month: 12
+  status: pending
+- title: 'Method and Apparatus for Multi Panel Radar Operation'
+  inventors: 'Anum Ali, Jianhua Mo, Boon Loong Ng, Vutha Va'
+  number: 'US 12,199,684'
+  year: 2025
+  month: 1
+  status: granted
+- title: 'System and Method for Time-Delay Based Hybrid Beamforming'
+  inventors: 'Vishnu Vardhan Ratnam, Shadi Abu-Surra, Jianhua Mo, Gang Xu, Jin Yuan, Ahmad AlAmmouri, Boon Loong Ng, Jianzhong Zhang'
+  number: 'US 12,199,724'
+  year: 2025
+  month: 1
+  status: granted
+- title: 'Dual-Polarized Dual-Band User Equipment Antenna Array'
+  inventors: 'Jiantong Li, Sung-Chul Park, Jianhua Mo, Aditya Dave, Young Han Nam, Won Suk Choi, Gang Xu'
+  number: 'US App. 2025/0023257'
+  year: 2025
+  month: 1
+  status: pending
+- title: 'Adaptive Beam Measurement Periodicity'
+  inventors: 'Mustafa Furkan Ozkoc, Jianhua Mo, Jeehwan Noh, Hyejin Kim, Young Han Nam'
+  number: 'US App. 2025/0023623'
+  year: 2025
+  month: 1
+  status: pending
+- title: 'SSB Coverage Enhancements'
+  inventors: 'Mustafa Furkan Ozkoc, Jianhua Mo, Young Han Nam'
+  number: 'US App. 2025/0024389'
+  year: 2025
+  month: 1
+  status: pending
+- title: 'Frequency Selective Beam Management'
+  inventors: 'Dalin Zhu, Emad Nader Farag, Eko Onggosanusi, Jianhua Mo, Young Han Nam'
+  number: 'US App. 2025/0056560'
+  year: 2025
+  month: 2
+  status: pending
+- title: 'Angle Estimation with Multi-Frame Processing for Radar on Mobile Devices'
+  inventors: 'Vutha Va, Boon Loong Ng, Anum Ali, Jianhua Mo'
+  number: 'US 12,241,963'
+  year: 2025
+  month: 3
+  status: granted
+- title: 'Radar for Full-Blockage Detection of Radio Frequency Modules in Mobile Devices'
+  inventors: 'Vutha Va, Boon Loong Ng, Anum Ali, Jianhua Mo'
+  number: 'US 12,276,747'
+  year: 2025
+  month: 4
+  status: granted
+- title: 'Multi-Frame Radar Processing for Robust Body Part Detection for Mobile Devices'
+  inventors: 'Vutha Va, Boon Loong Ng, Anum Ali, Jianhua Mo'
+  number: 'US 12,282,083'
+  year: 2025
+  month: 4
+  status: granted
+- title: 'Transmission Antenna Selection Method and Electronic Device'
+  inventors: 'Sungchul Park, Boon Loong Ng, Jianhua Mo, Suha Yoon'
+  number: 'US 12,323,214'
+  year: 2025
+  month: 6
+  status: granted
+- title: 'Uplink Coverage Using Joint Phase-Time Arrays'
+  inventors: 'Jianhua Mo, Ahmad AlAmmouri, Boon Loong Ng, Vishnu Vardhan Ratnam, Jianzhong Zhang'
+  number: 'US 12,362,797'
+  year: 2025
+  month: 7
+  status: granted
+  first_inventor: true
+- title: 'Customer Premises Equipment Specific Beam Management for Fixed Wireless Access'
+  inventors: 'Ahmad AlAmmouri, Jianhua Mo, Mustafa Furkan Ozkoc, Shouvik Ganguly, Young Han Nam'
+  number: 'US App. 2025/0226873'
+  year: 2025
+  month: 7
+  status: pending
 - title: 'Method and Apparatus for Composite Beam Operation and Overhead Reduction'
-  inventors: 'A. AlAmmouri, J. Mo, M. F. Ozkoc, and B. L. Ng'
+  inventors: 'Ahmad AlAmmouri, Jianhua Mo, Mustafa Furkan Ozkoc, Boon Loong Ng'
   number: 'US 12,401,408'
   year: 2025
+  month: 8
   status: granted
 - title: 'Onboard Sensor Assisted Power Allocation for Radar and Communication on Mobile Devices'
-  inventors: 'A. Ali, V. Va, J. Mo, and B. L. Ng'
+  inventors: 'Anum Ali, Vutha Va, Jianhua Mo, Boon Loong Ng'
   number: 'US 12,425,982'
   year: 2025
+  month: 9
   status: granted
 - title: 'Mobility Robustness Using Joint Phase-Time Arrays'
-  inventors: 'J. Mo, B. L. Ng, J. Zhang, V. V. Ratnam, and A. AlAmmouri'
+  inventors: 'Jianhua Mo, Boon Loong Ng, Jianzhong Zhang, Vishnu Vardhan Ratnam, Ahmad AlAmmouri'
   number: 'US 12,445,863'
   year: 2025
+  month: 10
   status: granted
   first_inventor: true
 - title: 'Radio Frequency Exposure Estimation with Radar for Mobile Devices'
-  inventors: 'V. Va, A. Ali, J. Mo, and B. L. Ng'
+  inventors: 'Vutha Va, Anum Ali, Jianhua Mo, Boon Loong Ng'
   number: 'US 12,463,675'
   year: 2025
+  month: 11
   status: granted
 - title: 'Group Partitioning in a Multi-User MIMO System'
-  inventors: 'J. Mo, Y. H. Nam, and A. AlAmmouri'
+  inventors: 'Jianhua Mo, Young Han Nam, Ahmad AlAmmouri'
   number: 'US 12,476,673'
   year: 2025
+  month: 11
   status: granted
   first_inventor: true
-- title: 'Dual-Polarized Dual-Band User Equipment Antenna Array'
-  inventors: 'J. Li, S. C. Park, J. Mo, A. Dave, Y. H. Nam, W. S. Choi, and G. Xu'
-  number: 'US App. 18/444,439'
-  year: 2025
-  status: pending
-- title: 'Adaptive Beam Measurement Periodicity'
-  inventors: 'M. F. Ozkoc, J. Mo, H. Kim, and Y. H. Nam'
-  number: 'US App. 18/596,568'
-  year: 2025
-  status: pending
-- title: 'SSB Coverage Enhancements'
-  inventors: 'M. F. Ozkoc, J. Mo, and Y. H. Nam'
-  number: 'US App. 18/763,988'
-  year: 2025
-  status: pending
-- title: 'Frequency Selective Beam Management'
-  inventors: 'D. Zhu, E. N. Farag, E. Onggosanusi, J. Mo, and Y. H. Nam'
-  number: 'US App. 18/783,210'
-  year: 2025
-  status: pending
-- title: '3D Beamforming for Joint Phase Time Arrays'
-  inventors: 'O. Yildiz, A. AlAmmouri, J. Mo, and Y. H. Nam'
-  number: 'US App. 18/811,643'
-  year: 2025
-  status: pending
-- title: 'Customer Premises Equipment Specific Beam Management for Fixed Wireless Access'
-  inventors: 'A. AlAmmouri, J. Mo, M. F. Ozkoc, S. Ganguly, and Y. H. Nam'
-  number: 'US App. 18/983,245'
-  year: 2025
-  status: pending
 - title: 'Beam Management, CSI Triggering, and CSI-RS Framework'
-  inventors: 'M. F. Ozkoc, Y. H. Nam, J. Mo, A. AlAmmouri, H. Kim, J. Noh, and T. Kim'
-  number: 'US App. 19/092,985'
+  inventors: 'Mustafa Furkan Ozkoc, Young Han Nam, Jianhua Mo, Ahmad AlAmmouri, Hyejin Kim, Jeehwan Noh, TaeYoung Kim'
+  number: 'US App. 2025/0365721'
   year: 2025
+  month: 11
   status: pending
 - title: 'Adaptive Procedure 3 (P-3) Triggering and Traffic-Based Beam Management Procedure Triggering'
-  inventors: 'M. F. Ozkoc, J. Mo, H. Kim, J. Noh, Y. H. Nam, and T. Kim'
-  number: 'US App. 19/093,005'
+  inventors: 'Mustafa Furkan Ozkoc, Jianhua Mo, Hyejin Kim, Jeehwan Noh, Young Han Nam, TaeYoung Kim'
+  number: 'US App. 2025/0373311'
   year: 2025
+  month: 12
+  status: pending
+- title: 'Analog Beam Nulling for MU-MIMO'
+  inventors: 'Mustafa Furkan Ozkoc, Jianhua Mo, Jeehwan Noh, Young Han Nam'
+  number: 'US App. 2026/0045977'
+  year: 2026
+  month: 2
   status: pending
 - title: 'Reporting Channel State Information in Advanced MIMO Antenna Systems for Cellular Communications'
-  inventors: 'S. Ganguly, Y. H. Nam, and J. Mo'
+  inventors: 'Shouvik Ganguly, Young Han Nam, Jianhua Mo'
   number: 'US 12,574,090'
   year: 2026
+  month: 3
   status: granted
+- title: 'Artificial Intelligence Aided Data Collection in Wireless Systems'
+  inventors: 'Xinliang Zhang, Jianhua Mo, Young Han Nam'
+  number: 'US App. 2026/0073239'
+  year: 2026
+  month: 3
+  status: pending
 - title: 'Beam Tracking with Statistical Learning'
-  inventors: 'M. F. Ozkoc and J. Mo'
+  inventors: 'Mustafa Furkan Ozkoc, Jianhua Mo'
   number: 'US 12,621,037'
   year: 2026
+  month: 5
   status: granted
-- title: 'Analog Beam Nulling for MU-MIMO'
-  inventors: 'M. F. Ozkoc, J. Mo, and Y. H. Nam'
-  number: 'US App. 19/079,101'
-  year: 2026
-  status: pending
-- title: 'Artificial Intelligence Aided Data Collection in Wireless Systems'
-  inventors: 'X. Zhang, J. Mo, and Y. H. Nam'
-  number: 'US App. 19/317,092'
-  year: 2026
-  status: pending
 - title: 'Enhanced Uplink Frequency Division Multiplexing Scheduling Utilizing High Resolution Beam Book'
-  inventors: 'M. S. N. Khan, J. Mo, S. G. Dayananda, S. Kim, and A. M. A. K. Alammouri'
-  number: 'US App. 19/442,835'
+  inventors: 'Mohammed Saquib Noorulhuda Khan, Jianhua Mo, Young Han Nam, Surabhi Garudangiri Dayananda, Sundo Kim, Ahmad Mohammad Abdel-Karim AlAmmouri'
+  number: 'US App. 2026/0197067'
   year: 2026
+  month: 7
   status: pending
+- title: '3D Beamforming for Joint Phase Time Arrays'
+  inventors: 'Ozlem Yildiz, Ahmad AlAmmouri, Jianhua Mo, Young Han Nam'
+  number: 'US 12,719,552'
+  year: 2026
+  month: 8
+  status: granted
+- title: 'Method and Apparatus for Operating Radar for Radio Frequency Exposure Management'
+  inventors: 'Vutha Va, Anum Ali, Jianhua Mo, Boon Loong Ng'
+  number: 'US 12,726,224'
+  year: 2026
+  month: 9
+  status: granted
+- title: 'Scheduling and Beam Design in JPTA'
+  inventors: 'Ahmad AlAmmouri, Jianhua Mo, Young Han Nam'
+  number: 'US 12,756,446'
+  year: 2026
+  month: 10
+  status: granted

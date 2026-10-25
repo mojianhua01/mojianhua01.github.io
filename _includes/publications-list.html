@@ -177,9 +177,9 @@ descending order within each section.
   <h2>{% if page.lang == "zh" %}专利{% else %}Patents{% endif %}</h2>
   <p class="pub-note">
     {% if page.lang == "zh" %}
-      已授权美国专利{{ patent_granted.size }}项（第一发明人{{ patent_granted_first.size }}项），另有{{ patent_pending.size }}项在审（第一发明人{{ patent_pending_first.size }}项）。
+      已授权美国专利{{ patent_granted.size }}项，其中第一发明人{{ patent_granted_first.size }}项；另有{{ patent_pending.size }}项已公开、正在审查。
     {% else %}
-      {{ patent_granted.size }} granted US patents ({{ patent_granted_first.size }} as first inventor), plus {{ patent_pending.size }} pending applications ({{ patent_pending_first.size }} as first inventor).
+      {{ patent_granted.size }} granted US patents ({{ patent_granted_first.size }} as first inventor), plus {{ patent_pending.size }} published applications under examination.
     {% endif %}
   </p>
 
@@ -193,8 +193,8 @@ descending order within each section.
       {% if pat.year == y %}
         <li class="pub-item{% if pat.year == 2026 %} highlight{% endif %}">
           <strong>{{ pat.title }}</strong><br>
-          {{ pat.inventors | replace: "J. Mo", "<strong>J. Mo</strong>" }}{% if pat.first_inventor %}<span class="pub-tag">{% if page.lang == "zh" %}第一发明人{% else %}First inventor{% endif %}</span>{% endif %}<br>
-          <em>{{ pat.number }}</em>, {{ pat.year }}
+          {{ pat.inventors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}{% if pat.first_inventor %}<span class="pub-tag">{% if page.lang == "zh" %}第一发明人{% else %}First inventor{% endif %}</span>{% endif %}<br>
+          <em>{{ pat.number }}</em>, {% if page.lang == "zh" %}{{ pat.year }}年{{ pat.month }}月{% else %}{% assign mi = pat.month | minus: 1 %}{{ months_en[mi] }} {{ pat.year }}{% endif %}
         </li>
       {% endif %}
     {% endfor %}
@@ -212,8 +212,8 @@ descending order within each section.
       {% if pat.year == y %}
         <li class="pub-item{% if pat.year == 2026 %} highlight{% endif %}">
           <strong>{{ pat.title }}</strong><br>
-          {{ pat.inventors | replace: "J. Mo", "<strong>J. Mo</strong>" }}{% if pat.first_inventor %}<span class="pub-tag">{% if page.lang == "zh" %}第一发明人{% else %}First inventor{% endif %}</span>{% endif %}<br>
-          <em>{{ pat.number }}</em>, {{ pat.year }}
+          {{ pat.inventors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}{% if pat.first_inventor %}<span class="pub-tag">{% if page.lang == "zh" %}第一发明人{% else %}First inventor{% endif %}</span>{% endif %}<br>
+          <em>{{ pat.number }}</em>, {% if page.lang == "zh" %}{{ pat.year }}年{{ pat.month }}月{% else %}{% assign mi = pat.month | minus: 1 %}{{ months_en[mi] }} {{ pat.year }}{% endif %}
         </li>
       {% endif %}
     {% endfor %}
