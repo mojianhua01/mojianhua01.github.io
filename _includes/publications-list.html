@@ -1,7 +1,8 @@
 {% comment %}
-Render journal and conference papers in separate sections. Keep manuscripts,
-datasets, and books visible in a third section. Entries are grouped by year in
-descending order within each section.
+Render journal and conference papers as one merged list (dblp style), sorted by
+year descending and, within a year, by month descending. The [J#] / [C#] prefix
+distinguishes journal from conference papers. Preprints, patents, and books keep
+their own sections.
 {% endcomment %}
 
 <style>
@@ -73,12 +74,13 @@ descending order within each section.
 {% assign patent_granted_first = patent_granted | where: "first_inventor", true %}
 {% assign patent_pending_first = patent_pending | where: "first_inventor", true %}
 {% assign other_pubs = manuscript_pubs | concat: dataset_pubs | sort: "year" | reverse %}
+{% assign paper_pubs = journal_pubs | concat: conference_pubs %}
+{% assign paper_years = paper_pubs | map: "year" | sort | reverse | uniq %}
 {% assign months_en = "Jan.|Feb.|Mar.|Apr.|May|Jun.|Jul.|Aug.|Sep.|Oct.|Nov.|Dec." | split: "|" %}
 
 <nav class="pub-nav" aria-label="{% if page.lang == "zh" %}论文分类{% else %}Publication categories{% endif %}">
   <a href="#preprints">{% if page.lang == "zh" %}预印本{% else %}Preprints{% endif %}</a>
-  <a href="#journals">{% if page.lang == "zh" %}期刊论文{% else %}Journals{% endif %}</a>
-  <a href="#conferences">{% if page.lang == "zh" %}会议论文{% else %}Conferences{% endif %}</a>
+  <a href="#papers">{% if page.lang == "zh" %}期刊与会议论文{% else %}Journal &amp; Conference Papers{% endif %}</a>
   <a href="#patents">{% if page.lang == "zh" %}专利{% else %}Patents{% endif %}</a>
   <a href="#books">{% if page.lang == "zh" %}著作{% else %}Books{% endif %}</a>
 </nav>
@@ -114,14 +116,24 @@ descending order within each section.
 </section>
 {% endif %}
 
-<section id="journals" class="pub-section">
-  <h2>{% if page.lang == "zh" %}期刊论文{% else %}Journal Papers{% endif %}</h2>
-  {% assign journal_years = journal_pubs | map: "year" | uniq %}
-  {% for y in journal_years %}
+<a id="journals"></a><a id="conferences"></a>
+<section id="papers" class="pub-section">
+  <h2>{% if page.lang == "zh" %}期刊与会议论文{% else %}Journal &amp; Conference Papers{% endif %}</h2>
+  <p class="pub-note">
+    {% if page.lang == "zh" %}
+      按时间倒序混排，<strong>[J#]</strong> 为期刊论文、<strong>[C#]</strong> 为会议论文。
+    {% else %}
+      Mixed and listed in reverse chronological order; <strong>[J#]</strong> marks a journal paper, <strong>[C#]</strong> a conference paper.
+    {% endif %}
+  </p>
+  {% for y in paper_years %}
     <h3 class="pub-year{% if y == 2026 %} highlight{% endif %}">{{ y }}</h3>
     <ul>
-    {% for pub in journal_pubs %}
-      {% if pub.year == y %}
+    {% for i in (0..12) %}
+      {% assign m = 12 | minus: i %}
+      {% for pub in paper_pubs %}
+        {% assign pm = pub.month | default: 0 %}
+        {% if pub.year == y and pm == m %}
         <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
           <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
@@ -137,36 +149,8 @@ descending order within each section.
             </span>
           {% endif %}
         </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-  {% endfor %}
-</section>
-
-<section id="conferences" class="pub-section">
-  <h2>{% if page.lang == "zh" %}会议论文{% else %}Conference Papers{% endif %}</h2>
-  {% assign conference_years = conference_pubs | map: "year" | uniq %}
-  {% for y in conference_years %}
-    <h3 class="pub-year{% if y == 2026 %} highlight{% endif %}">{{ y }}</h3>
-    <ul>
-    {% for pub in conference_pubs %}
-      {% if pub.year == y %}
-        <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
-          <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
-          {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
-          <em>{{ pub.venue }}</em>, {% if pub.month %}{% if page.lang == "zh" %}{{ pub.year }}年{{ pub.month }}月{% else %}{% assign mi = pub.month | minus: 1 %}{{ months_en[mi] }} {{ pub.year }}{% endif %}{% else %}{{ pub.year }}{% endif %}
-          {% if pub.award %}
-            <br><span class="pub-award">{% if page.lang == "zh" %}获奖：{% else %}Award: {% endif %}{{ pub.award }}</span>
-          {% endif %}
-          {% if pub.links and pub.links.size > 0 %}
-            <br><span class="pub-links">
-            {% for link in pub.links %}
-              <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
-            {% endfor %}
-            </span>
-          {% endif %}
-        </li>
-      {% endif %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
     </ul>
   {% endfor %}
