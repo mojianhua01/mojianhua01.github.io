@@ -61,6 +61,38 @@ their own sections.
     font-size: 0.9rem;
     margin: -0.35rem 0 0.5rem;
   }
+  .pub-tag-j { color: #0b5ca8; background: #eef4fb; border-color: #d5e3f3; }
+  .pub-tag-c { color: #7a5b12; background: #fdf6e6; border-color: #f0e2c2; }
+  .pub-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.1rem 0 0.4rem;
+  }
+  .pub-filter-btn {
+    padding: 0.26rem 0.72rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #444;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .pub-filter-btn:hover { border-color: #b00; color: #b00; }
+  .pub-filter-btn.is-active {
+    color: #b00;
+    background: rgba(176,0,0,0.06);
+    border-color: #b00;
+    font-weight: 600;
+  }
+  .pub-filter-count {
+    margin-left: 0.3rem;
+    color: #999;
+    font-weight: 400;
+    font-size: 0.78rem;
+  }
+  #papers ul[hidden], #papers h3[hidden] { display: none; }
 </style>
 
 {% assign journal_pubs = site.data.publications | where: "category", "journal" | sort: "year" | reverse %}
@@ -121,11 +153,16 @@ their own sections.
   <h2>{% if page.lang == "zh" %}期刊与会议论文{% else %}Journal &amp; Conference Papers{% endif %}</h2>
   <p class="pub-note">
     {% if page.lang == "zh" %}
-      按时间倒序混排，<strong>[J#]</strong> 为期刊论文、<strong>[C#]</strong> 为会议论文。
+      期刊与会议论文按时间倒序交叉排列。
     {% else %}
-      Mixed and listed in reverse chronological order; <strong>[J#]</strong> marks a journal paper, <strong>[C#]</strong> a conference paper.
+      Journal and conference papers interleaved in reverse chronological order.
     {% endif %}
   </p>
+  <div class="pub-filter" role="group" aria-label="{% if page.lang == "zh" %}按论文类型筛选{% else %}Filter by publication type{% endif %}">
+    <button type="button" class="pub-filter-btn is-active" data-pub-filter="all" aria-pressed="true">{% if page.lang == "zh" %}全部{% else %}All{% endif %}<span class="pub-filter-count">{{ paper_pubs.size }}</span></button>
+    <button type="button" class="pub-filter-btn" data-pub-filter="journal" aria-pressed="false">{% if page.lang == "zh" %}期刊{% else %}Journal{% endif %}<span class="pub-filter-count">{{ journal_pubs.size }}</span></button>
+    <button type="button" class="pub-filter-btn" data-pub-filter="conference" aria-pressed="false">{% if page.lang == "zh" %}会议{% else %}Conference{% endif %}<span class="pub-filter-count">{{ conference_pubs.size }}</span></button>
+  </div>
   {% for y in paper_years %}
     <h3 class="pub-year{% if y == 2026 %} highlight{% endif %}">{{ y }}</h3>
     <ul>
@@ -134,10 +171,11 @@ their own sections.
       {% for pub in paper_pubs %}
         {% assign pm = pub.month | default: 0 %}
         {% if pub.year == y and pm == m %}
-        <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}">
+        <li class="pub-item{% if pub.year == 2026 %} highlight{% endif %}" data-pub-type="{{ pub.category }}">
           <strong>{% if pub.number %}[{{ pub.number }}] {% endif %}{{ pub.title }}</strong><br>
           {{ pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
           <em>{{ pub.venue }}</em>, {% if pub.month %}{% if page.lang == "zh" %}{{ pub.year }}年{{ pub.month }}月{% else %}{% assign mi = pub.month | minus: 1 %}{{ months_en[mi] }} {{ pub.year }}{% endif %}{% else %}{{ pub.year }}{% endif %}
+          {% if pub.category == "journal" %}<span class="pub-tag pub-tag-j">{% if page.lang == "zh" %}期刊{% else %}Journal{% endif %}</span>{% else %}<span class="pub-tag pub-tag-c">{% if page.lang == "zh" %}会议{% else %}Conference{% endif %}</span>{% endif %}
           {% if pub.award %}
             <br><span class="pub-award">{% if page.lang == "zh" %}获奖：{% else %}Award: {% endif %}{{ pub.award }}</span>
           {% endif %}
@@ -155,6 +193,46 @@ their own sections.
     </ul>
   {% endfor %}
 </section>
+
+<script>
+(function () {
+  var section = document.getElementById('papers');
+  if (!section) return;
+  var buttons = section.querySelectorAll('.pub-filter-btn');
+  var lists = section.querySelectorAll('ul');
+
+  function apply(kind) {
+    Array.prototype.forEach.call(buttons, function (btn) {
+      var on = btn.getAttribute('data-pub-filter') === kind;
+      btn.classList.toggle('is-active', on);
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+    Array.prototype.forEach.call(lists, function (list) {
+      var any = false;
+      Array.prototype.forEach.call(list.querySelectorAll('li.pub-item'), function (li) {
+        var show = kind === 'all' || li.getAttribute('data-pub-type') === kind;
+        if (show) {
+          li.removeAttribute('hidden');
+          any = true;
+        } else {
+          li.setAttribute('hidden', 'hidden');
+        }
+      });
+      var heading = list.previousElementSibling;
+      if (heading && heading.tagName === 'H3') {
+        if (any) { heading.removeAttribute('hidden'); } else { heading.setAttribute('hidden', 'hidden'); }
+      }
+      if (any) { list.removeAttribute('hidden'); } else { list.setAttribute('hidden', 'hidden'); }
+    });
+  }
+
+  Array.prototype.forEach.call(buttons, function (btn) {
+    btn.addEventListener('click', function () {
+      apply(btn.getAttribute('data-pub-filter'));
+    });
+  });
+})();
+</script>
 
 {% if patent_granted.size > 0 or patent_pending.size > 0 %}
 <section id="patents" class="pub-section">
