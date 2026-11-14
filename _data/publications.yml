@@ -171,7 +171,7 @@
     url: /errata/#J17
   - label: Errata (TXT)
     url: /files/publications/2022-joint-phase-time-arrays-errata.txt
-  - label: Replication Code
+  - label: Code
     url: https://github.com/SJTU-WirelessAI-Lab/JPTA2022
 - title: Learning Site-Specific Probing Beams for Fast mmWave Beam Alignment
   authors: Yuqiang Heng, Jianhua Mo, and Jeffrey G. Andrews
