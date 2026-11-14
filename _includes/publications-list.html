@@ -113,6 +113,7 @@ their own sections.
 <nav class="pub-nav" aria-label="{% if page.lang == "zh" %}论文分类{% else %}Publication categories{% endif %}">
   <a href="#preprints">{% if page.lang == "zh" %}预印本{% else %}Preprints{% endif %}</a>
   <a href="#papers">{% if page.lang == "zh" %}期刊与会议论文{% else %}Journal &amp; Conference Papers{% endif %}</a>
+  <a href="{% if page.lang == "zh" %}/zh/errata/{% else %}/errata/{% endif %}">{% if page.lang == "zh" %}勘误{% else %}Errata{% endif %}</a>
   <a href="#patents">{% if page.lang == "zh" %}专利{% else %}Patents{% endif %}</a>
   <a href="#books">{% if page.lang == "zh" %}著作{% else %}Books{% endif %}</a>
 </nav>

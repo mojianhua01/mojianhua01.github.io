@@ -11,9 +11,6 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Errata"
-    url: /errata/
-
   - title: "Awards"
     url: /awards/
 
@@ -26,9 +23,6 @@ main_zh:
 
   - title: "论文发表"
     url: /zh/publications/
-
-  - title: "勘误"
-    url: /zh/errata/
 
   - title: "荣誉奖项"
     url: /zh/awards/
