@@ -116,9 +116,10 @@
     UAV Localization
   authors: Ming Gao, Jianhua Mo, and Meixia Tao
   year: 2026
-  month: 5
-  venue: arXiv preprint arXiv:2605.04919
-  category: preprint
+  month: 12
+  venue: 2026 IEEE Globecom Workshops (GC Wkshps)
+  category: conference
+  number: C25
   links:
   - label: arXiv
     url: https://arxiv.org/abs/2605.04919
