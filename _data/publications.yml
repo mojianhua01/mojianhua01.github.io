@@ -88,10 +88,13 @@
     for AI-Native 6G'
   authors: Kejia Bian, Meixia Tao, Jianhua Mo, Zhiyong Chen, and Leyan Chen
   year: 2026
-  month: 4
-  venue: arXiv preprint arXiv:2605.00020
-  category: preprint
+  month: 11
+  venue: IEEE Transactions on Network Science and Engineering
+  category: journal
+  number: J25
   links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11780623
   - label: arXiv
     url: https://arxiv.org/abs/2605.00020
 - title: Phase-Time Array Enabled Multistatic Sensing with Multi-Level Fusion for
