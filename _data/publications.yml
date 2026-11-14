@@ -97,6 +97,17 @@
     url: https://ieeexplore.ieee.org/document/11780623
   - label: arXiv
     url: https://arxiv.org/abs/2605.00020
+- title: 'CQI-Assisted Learning for CSI Feedback with Frozen Encoder and Scenario-Specific
+    Adaptive Decoder'
+  authors: Tong Wu, Jianhua Mo, and Meixia Tao
+  year: 2026
+  month: 11
+  venue: IEEE Wireless Communications Letters
+  category: journal
+  number: J26
+  links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11782432
 - title: Phase-Time Array Enabled Multistatic Sensing with Multi-Level Fusion for
     UAV Localization
   authors: Ming Gao, Jianhua Mo, and Meixia Tao
