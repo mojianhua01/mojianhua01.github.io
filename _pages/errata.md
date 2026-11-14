@@ -5,6 +5,7 @@ description: "Corrections to published papers by Jianhua Mo, with the corrected 
 permalink: /errata/
 author_profile: true
 lang: en
+translation_url: /zh/errata/
 math: true
 ---
 

@@ -40,7 +40,7 @@ the local liquidjs used for pre-flight checks.
             <div class="cv-pub-title">{{ cv_pub.title }}</div>
             <div class="cv-pub-meta">
               {{ cv_pub.authors | replace: "Jianhua Mo", "<strong>Jianhua Mo</strong>" }}<br>
-              <em>{{ cv_pub.venue }}</em>, {% if cv_pub.month %}{% if page.lang == "zh" %}{{ cv_pub.year }}年{{ cv_pub.month }}月{% else %}{% assign mi = cv_pub.month | minus: 1 %}{{ months_en[mi] }} {{ cv_pub.year }}{% endif %}{% else %}{{ cv_pub.year }}{% endif %}{% if cv_pub.award %} · <span class="cv-pub-award">{{ cv_pub.award }}</span>{% endif %}{% if cv_pub.links and cv_pub.links.size > 0 %}<span class="cv-pub-links"> · {% for link in cv_pub.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</span>{% endif %}
+              <em>{{ cv_pub.venue }}</em>, {% if cv_pub.month %}{% if page.lang == "zh" %}{{ cv_pub.year }}年{{ cv_pub.month }}月{% else %}{% assign mi = cv_pub.month | minus: 1 %}{{ months_en[mi] }} {{ cv_pub.year }}{% endif %}{% else %}{{ cv_pub.year }}{% endif %}{% if cv_pub.award %} · <span class="cv-pub-award">{{ cv_pub.award }}</span>{% endif %}{% if cv_pub.links and cv_pub.links.size > 0 %}<span class="cv-pub-links"> · {% for link in cv_pub.links %}{% assign link_url = link.url %}{% if page.lang == "zh" and link.url contains "/errata/#" %}{% assign link_url = link.url | replace: "/errata/#", "/zh/errata/#" %}{% endif %}<a href="{{ link_url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</span>{% endif %}
             </div>
           </div>
         </div>

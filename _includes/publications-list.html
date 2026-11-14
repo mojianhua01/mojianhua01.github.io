@@ -135,8 +135,8 @@ their own sections.
           {% endif %}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
-            {% for link in pub.links %}
-              <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
+            {% for link in pub.links %}{% assign link_url = link.url %}{% if page.lang == "zh" and link.url contains "/errata/#" %}{% assign link_url = link.url | replace: "/errata/#", "/zh/errata/#" %}{% endif %}
+              <a href="{{ link_url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
             {% endfor %}
             </span>
           {% endif %}
@@ -181,8 +181,8 @@ their own sections.
           {% endif %}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
-            {% for link in pub.links %}
-              <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
+            {% for link in pub.links %}{% assign link_url = link.url %}{% if page.lang == "zh" and link.url contains "/errata/#" %}{% assign link_url = link.url | replace: "/errata/#", "/zh/errata/#" %}{% endif %}
+              <a href="{{ link_url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
             {% endfor %}
             </span>
           {% endif %}
@@ -303,8 +303,8 @@ their own sections.
           {% endif %}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
-            {% for link in pub.links %}
-              <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
+            {% for link in pub.links %}{% assign link_url = link.url %}{% if page.lang == "zh" and link.url contains "/errata/#" %}{% assign link_url = link.url | replace: "/errata/#", "/zh/errata/#" %}{% endif %}
+              <a href="{{ link_url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
             {% endfor %}
             </span>
           {% endif %}
@@ -334,8 +334,8 @@ _data/publications.yml so this section can be restored later.
           <em>{{ pub.venue }}</em>, {% if pub.month %}{% if page.lang == "zh" %}{{ pub.year }}年{{ pub.month }}月{% else %}{% assign mi = pub.month | minus: 1 %}{{ months_en[mi] }} {{ pub.year }}{% endif %}{% else %}{{ pub.year }}{% endif %}
           {% if pub.links and pub.links.size > 0 %}
             <br><span class="pub-links">
-            {% for link in pub.links %}
-              <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
+            {% for link in pub.links %}{% assign link_url = link.url %}{% if page.lang == "zh" and link.url contains "/errata/#" %}{% assign link_url = link.url | replace: "/errata/#", "/zh/errata/#" %}{% endif %}
+              <a href="{{ link_url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}
             {% endfor %}
             </span>
           {% endif %}
