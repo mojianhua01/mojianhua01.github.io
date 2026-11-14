@@ -17,6 +17,16 @@ Corrections to published papers, listed newest first. Expressions are typeset he
 
 **Table V.** The array gain 1 of the FD architecture should be 63.99 instead of 53.99.
 
+<h2 id="C16">[C16] 3D Beamforming Through Joint Phase-Time Arrays</h2>
+
+*IEEE 100th Vehicular Technology Conference (VTC2024-Fall), Oct. 2024* · [plain text (TXT)](/files/publications/2024-3d-beamforming-jpta-errata.txt)
+
+**Eq. (12)** — the delay expression is missing the normalization factor 12/[M(M+1)(M+2)], which is the second diagonal entry of (A<sup>T</sup>A)<sup>−1</sup>. Without it the delay is off by a factor of M(M+1)(M+2)/12 and carries no unit of time. The correct expression is
+
+<div class="errata-eq">\[ \tau_{y,z} = \frac{12}{M(M+1)(M+2)}\,\frac{1}{2\pi\Delta f}\sum_{i=1}^{N_u}\left(\nu(y,z,i)+2\pi k(y,z,i)\right)M_{\mathrm{sum}}(i,\boldsymbol{\alpha}) \]</div>
+
+Here M<sub>sum</sub>(i, **α**) is a sum over the subcarrier index, so it scales with M<sup>2</sup>; the prefactor therefore cannot be dropped. Equivalently, with BW = (M+1)Δf, it reads 12/[M(M+2)] · 1/(2πBW), which is the form of Eq. (49) in Jain et al., “mmFlexible” (INFOCOM 2023). Eq. (13) is correct as printed. The same omission appears in the arXiv version (arXiv:2401.00819v3).
+
 <h2 id="J19">[J19] Extending Uplink Coverage of mmWave and Terahertz Systems Through Joint Phase-Time Arrays</h2>
 
 *IEEE Access, Aug. 2022* · [plain text (TXT)](/files/publications/2022-extending-uplink-coverage-errata.txt)

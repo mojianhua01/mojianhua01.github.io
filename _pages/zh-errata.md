@@ -17,6 +17,16 @@ math: true
 
 **表V** —— FD架构的阵列增益应为63.99，原文误作53.99。
 
+<h2 id="C16">[C16] 3D Beamforming Through Joint Phase-Time Arrays</h2>
+
+*IEEE第100届车载技术会议（VTC2024-Fall），2024年10月* · [纯文本（TXT）](/files/publications/2024-3d-beamforming-jpta-errata.txt)
+
+**式(12)** —— 时延表达式漏掉了归一化因子12/[M(M+1)(M+2)]，即(A<sup>T</sup>A)<sup>−1</sup>的第二个对角元。缺少该因子时，时延既没有时间量纲，数值上也放大了M(M+1)(M+2)/12倍。正确形式为
+
+<div class="errata-eq">\[ \tau_{y,z} = \frac{12}{M(M+1)(M+2)}\,\frac{1}{2\pi\Delta f}\sum_{i=1}^{N_u}\left(\nu(y,z,i)+2\pi k(y,z,i)\right)M_{\mathrm{sum}}(i,\boldsymbol{\alpha}) \]</div>
+
+其中M<sub>sum</sub>(i, **α**)为子载波下标之累加，量级为M<sup>2</sup>，故该系数不可省略。以BW = (M+1)Δf代入，它等同于12/[M(M+2)]·1/(2πBW)，即Jain等“mmFlexible”（INFOCOM 2023）式(49)的形式。式(13)无误。arXiv版（arXiv:2401.00819v3）存在同样的遗漏。
+
 <h2 id="J19">[J19] Extending Uplink Coverage of mmWave and Terahertz Systems Through Joint Phase-Time Arrays</h2>
 
 *IEEE Access，2022年8月* · [纯文本（TXT）](/files/publications/2022-extending-uplink-coverage-errata.txt)

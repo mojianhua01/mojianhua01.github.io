@@ -1,0 +1,10 @@
+1. Eq. (12) (Section III-A, least squares solution): the delay expression is missing the normalization factor 12/[M(M+1)(M+2)], i.e., the second diagonal entry of (A^T A)^{-1}. As printed, tau_{y,z} is off by a factor of M(M+1)(M+2)/12 and carries no unit of time. The correct expression is
+
+   tau_{y,z} = 12/[M(M+1)(M+2)] * 1/(2*pi*Delta_f)
+               * sum_{i=1}^{N_u} ( nu(y,z,i) + 2*pi*k(y,z,i) ) * M_sum(i, alpha)
+
+   Equivalently, with BW = (M+1)*Delta_f, the prefactor reads 12/[M(M+2)] * 1/(2*pi*BW), which is the form of Eq. (49) in I. K. Jain et al., "mmFlexible" (INFOCOM 2023).
+
+2. Eq. (13): no change needed. M_sum(i, alpha) is correct as printed; it scales with M^2, which is why the factor in Eq. (12) above cannot be dropped.
+
+The same omission appears in the arXiv version, arXiv:2401.00819v3.
