@@ -15,17 +15,17 @@ math: true
 
 *IEEE Transactions on Wireless Communications，2026年3月* · [纯文本（TXT）](/files/publications/2025-hybrid-near-far-field-errata.txt)
 
-**表 V** —— FD 架构的阵列增益应为 63.99，原文误作 53.99。
+**表V** —— FD架构的阵列增益应为63.99，原文误作53.99。
 
 <h2 id="J19">[J19] Extending Uplink Coverage of mmWave and Terahertz Systems Through Joint Phase-Time Arrays</h2>
 
 *IEEE Access，2022年8月* · [纯文本（TXT）](/files/publications/2022-extending-uplink-coverage-errata.txt)
 
-**第 1 处 · 第 88877 页左栏第 1 段倒数第 3 行** —— 原文“proportional to the BS”应为“proportional to the BW”。
+**第1处 · 第88877页左栏第1段倒数第3行** —— 原文“proportional to the BS”应为“proportional to the BW”。
 
-**第 2 处 · 图 10 图注** —— 原文“bright blue region”应为“bright yellow region”。
+**第2处 · 图10图注** —— 原文“bright blue region”应为“bright yellow region”。
 
-**第 3 处 · 第 88879 页右栏第 2 段倒数第 2 行** —— 下标原文为 NT，应为 TR：
+**第3处 · 第88879页右栏第2段倒数第2行** —— 下标原文为NT，应为TR：
 
 <div class="errata-eq">\[ N_{\mathrm{NT}} = 2 \quad\longrightarrow\quad N_{\mathrm{TR}} = 2 \]</div>
 
@@ -33,11 +33,11 @@ math: true
 
 *IEEE Access，2022年7月* · [纯文本（TXT）](/files/publications/2022-joint-phase-time-arrays-errata.txt)
 
-**第 1 处 · 算法 3，第 73369 页右栏** —— 方括号内两项均使用了角度 θ₂，第一项应为 θ₁：
+**第1处 · 算法3，第73369页右栏** —— 方括号内两项均使用了角度θ₂，第一项应为θ₁：
 
 <div class="errata-eq">\[ [\tilde{\mathbf{b}}]_m = \frac{e^{j\pi m\sin\theta_1} + e^{j\pi m\sin\theta_2}}{\sqrt{2M}} \]</div>
 
-**第 2 处 · 第 73370 页右栏讨论图 6 的段落** —— 波束行为 1 下 F<sub>obj</sub> 达到饱和时的 κ 值，原文写作 M sin(Δθ)，应为 M sin(Δθ/2)，与注 2（Remark 2）给出的最大时延 M&#124;sin(Δθ/2)&#124;/W 一致：
+**第2处 · 第73370页右栏讨论图6的段落** —— 波束行为1下F<sub>obj</sub>达到饱和时的κ值，原文写作M sin(Δθ)，应为M sin(Δθ/2)，与注2（Remark 2）给出的最大时延M&#124;sin(Δθ/2)&#124;/W一致：
 
 <div class="errata-eq">\[ \kappa = M\sin\left(\frac{\Delta\theta}{2}\right) \approx 22 \qquad (\theta_0 = \pi/6,\ \Delta\theta = \pi/4,\ M = 64) \]</div>
 
@@ -45,7 +45,7 @@ math: true
 
 *IEEE Transactions on Signal Processing，2015年10月* · [纯文本（TXT）](/files/publications/2015-one-bit-mimo-capacity-errata.txt)
 
-**式 (6)、(9)** —— 相位项 kπ 应为 kπ/2：
+**式(6)、(9)** —— 相位项kπ应为kπ/2：
 
 <div class="errata-eq">\[ k\pi \quad\longrightarrow\quad \frac{k\pi}{2} \]</div>
 
@@ -53,12 +53,12 @@ math: true
 
 *Asilomar Conference on Signals, Systems and Computers，2014年11月* · [纯文本（TXT）](/files/publications/2014-one-bit-channel-estimation-errata.txt)
 
-**全文** —— 严格来说，本文算法并非 EM 算法，而是一种启发式算法：交替优化隐变量 y 与估计量 h，遵循交替优化（alternating optimization，亦称交替最小化）的思想。本文的期刊版已改用 GAMP 算法。感谢引用本文并指出该错误的读者。
+**全文** —— 严格来说，本文算法并非EM算法，而是一种启发式算法：交替优化隐变量y与估计量h，遵循交替优化（alternating optimization，亦称交替最小化）的思想。本文的期刊版已改用GAMP算法。感谢引用本文并指出该错误的读者。
 
 <h2 id="J3">[J3] Relay Placement for Physical Layer Security: A Secure Connection Perspective</h2>
 
 *IEEE Communications Letters，2012年6月* · [纯文本（TXT）](/files/publications/2012-relay-placement-errata.txt)
 
-**命题 1 之前的式子** —— 条件 R<sub>s</sub> &lt; 0 应为 R<sub>s</sub> = 0，因为由式 (3) 可知 R<sub>s</sub> 必然非负：
+**命题1之前的式子** —— 条件R<sub>s</sub> &lt; 0应为R<sub>s</sub> = 0，因为由式(3)可知R<sub>s</sub>必然非负：
 
 <div class="errata-eq">\[ R_s < 0 \quad\longrightarrow\quad R_s = 0 \]</div>
