@@ -329,7 +329,7 @@
   - label: arXiv
     url: https://arxiv.org/abs/1610.02735
   - label: Code
-    url: https://github.com/mojianhua01/Broadband_Fewbit
+    url: https://github.com/SJTU-WirelessAI-Lab/Broadband_Fewbit
 - title: Limited Feedback in Single and Multi-user MIMO Systems with Finite-Bit ADCs
   authors: Jianhua Mo and Robert W. Heath Jr.
   year: 2018
@@ -533,7 +533,7 @@
   - label: arXiv
     url: https://arxiv.org/abs/1410.7353
   - label: Code
-    url: https://github.com/mojianhua01/One-bit-MIMO-Capacity
+    url: https://github.com/SJTU-WirelessAI-Lab/One-bit-MIMO-Capacity
   - label: Errata
     url: /errata/#J8
   - label: Errata (TXT)
@@ -666,7 +666,7 @@
   - label: arXiv
     url: https://arxiv.org/abs/1204.1739
   - label: Code
-    url: https://github.com/mojianhua01/Relay-placement-for-physical-layer-security#english
+    url: https://github.com/SJTU-WirelessAI-Lab/Relay-placement-for-physical-layer-security#english
   - label: Errata
     url: /errata/#J3
   - label: Errata (TXT)
