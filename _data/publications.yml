@@ -83,7 +83,7 @@
   - label: arXiv
     url: https://arxiv.org/abs/2511.06971v3
   - label: Code
-    url: https://github.com/SJTU-WirelessAI-Lab/MARBLE-Net_arxiv
+    url: https://github.com/SJTU-WirelessAI-Lab/MARBLE-Net
 - title: 'AirFM-DDA: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain
     for AI-Native 6G'
   authors: Kejia Bian, Meixia Tao, Jianhua Mo, Zhiyong Chen, and Leyan Chen
